@@ -1,0 +1,85 @@
+=== (a) rows, customers and assets per file ===
+customer_information.csv: rows=32468, customers=29090, assets=NA
+transactions.csv: rows=388048, customers=29090, assets=320
+asset_information.csv: rows=836, customers=NA, assets=806
+markets.csv: rows=38, customers=NA, assets=NA
+close_prices.csv: rows=703303, customers=NA, assets=807
+limit_prices.csv: rows=807, customers=NA, assets=807
+
+=== (b) per-customer transaction counts (all transactions) ===
+customers_with_transactions=29090
+min=1, max=6288, mean=13.3396, median=3.0000
+sum=388048
+customers_with_1_transactions=3298
+customers_with_2_transactions=10697
+customers_with_3-5_transactions=6386
+customers_with_6-20_transactions=5720
+customers_with_>20_transactions=2989
+median_buys_per_customer=2.0000
+
+=== (c) cohort: 1-5 history Buys <= cutoff AND >=1 future Buy (UNOFFICIAL split) ===
+cutoff=2022-05-31, future_window=2022-06-01..2022-11-30, label=Buy
+cohort_users=997
+cohort_1_2_history_buys=526
+cohort_3_5_history_buys=471
+cohort_users_with_at_least_one_sell_in_history=337
+future_buy_users_with_0_history_buys=522
+
+=== (d) sector/industry missingness by assetCategory ===
+Bond: rows=225, sector_missing=11 (4.89%), industry_missing=60 (26.67%)
+MTF: rows=318, sector_missing=318 (100.00%), industry_missing=318 (100.00%)
+Stock: rows=293, sector_missing=59 (20.14%), industry_missing=61 (20.82%)
+
+=== (e) customer_information checks ===
+rows_where_lastQuestionnaireDate_later_than_timestamp=12501
+rows_where_timestamp_le_cutoff_and_lastQuestionnaireDate_gt_cutoff=1292
+riskLevel_Predicted_rows=7274, share=22.40%
+investmentCapacity_Predicted_rows=7454, share=22.96%
+customer_information_rows_total=32468
+
+=== (i) profile rows timestamp<=cutoff with lastQuestionnaireDate>timestamp ===
+profile_rows_timestamp_le_cutoff=30905
+profile_rows_timestamp_le_cutoff_and_lastQuestionnaireDate_gt_timestamp=12469
+share_pct=40.35
+
+=== (f) cohort: profile row on/before cutoff (lenient) + distributions ===
+cohort_with_profile_row_timestamp_le_cutoff=979
+cohort_without_profile_row_timestamp_le_cutoff=18
+riskLevel distribution (cohort, latest profile timestamp<=cutoff):
+  Balanced=409
+  Income=334
+  Aggressive=138
+  Predicted_Income=30
+  Conservative=26
+  Predicted_Conservative=19
+  Predicted_Balanced=15
+  Predicted_Aggressive=5
+  Not_Available=3
+investmentCapacity distribution (cohort, latest profile timestamp<=cutoff):
+  CAP_LT30K=348
+  CAP_80K_300K=257
+  CAP_30K_80K=229
+  CAP_GT300K=72
+  Predicted_CAP_LT30K=44
+  Predicted_CAP_80K_300K=16
+  Predicted_CAP_30K_80K=10
+  Not_Available=3
+
+=== (g) strict vs lenient usable profile rows (cohort) ===
+lenient_usable_rows_users=979
+strict_usable_rows_users=846
+lenient_only_users=133
+
+=== (h) strict rule field classification (cohort) ===
+riskLevel: observed=774, Predicted_=69, Not_Available=3
+investmentCapacity: observed=773, Predicted_=70, Not_Available=3
+users_with_both_fields_observed=773
+
+=== (j) strict cohort: lastQuestionnaireDate==2000-01-01 vs Predicted_ ===
+strict_cohort_n=846
+riskLevel: placeholder_AND_predicted=69, placeholder_AND_not_predicted=0, not_placeholder_AND_predicted=0, not_placeholder_AND_not_predicted=777
+investmentCapacity: placeholder_AND_predicted=69, placeholder_AND_not_predicted=0, not_placeholder_AND_predicted=1, not_placeholder_AND_not_predicted=776
+
+=== (k) strict cohort (n=846): age quantiles at cutoff 2022-05-31 ===
+profile_row_age_days: n=846, q25=246, q50=438, q75=837, q90=1610
+questionnaire_age_days_excluding_placeholders: n=777, q25=308, q50=687, q75=1217, q90=1524

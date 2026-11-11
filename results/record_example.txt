@@ -1,0 +1,38 @@
+=== Selected customer ===
+customerID: 0069D59E30C92A4C1981
+history_Buy_count (<=cutoff): 1
+future_Buy_count (window): 1
+
+=== transactions.csv (verbatim lines) ===
+file: data/FAR-Trans/transactions.csv
+header (line 1): customerID,ISIN,transactionID,transactionType,timestamp,totalValue,units,channel,marketID
+fields: customerID, ISIN, transactionID, transactionType, timestamp, totalValue, units, channel, marketID
+line 198473: 0069D59E30C92A4C1981,GRC2451227D9,11114468,Buy,2022-07-08,400.0,4.0,Branch,EBB
+  raw values: 0069D59E30C92A4C1981,GRC2451227D9,11114468,Buy,2022-07-08,400.0,4.0,Branch,EBB
+line 278000: 0069D59E30C92A4C1981,GRS004013009,7738451,Buy,2020-06-25,11904.8,920.0,Internet Banking,XATH
+  raw values: 0069D59E30C92A4C1981,GRS004013009,7738451,Buy,2020-06-25,11904.8,920.0,Internet Banking,XATH
+
+=== customer_information.csv (latest profile row, strict rule) ===
+file: data/FAR-Trans/customer_information.csv
+header (line 1): customerID,customerType,riskLevel,investmentCapacity,lastQuestionnaireDate,timestamp
+line 16215: 0069D59E30C92A4C1981,Mass,Income,CAP_LT30K,2018-01-04,2020-06-25
+raw values: 0069D59E30C92A4C1981,Mass,Income,CAP_LT30K,2018-01-04,2020-06-25
+profile timestamp: 2020-06-25
+lastQuestionnaireDate: 2018-01-04
+
+Profile field classification (timestamp of profile row = 2020-06-25):
+  customerID: value='0069D59E30C92A4C1981', class=observed, timestamp=2020-06-25
+  customerType: value='Mass', class=observed, timestamp=2020-06-25
+  riskLevel: value='Income', class=observed, timestamp=2020-06-25
+  investmentCapacity: value='CAP_LT30K', class=observed, timestamp=2020-06-25
+  lastQuestionnaireDate: value='2018-01-04', class=observed, timestamp=2020-06-25
+  timestamp: value='2020-06-25', class=observed, timestamp=2020-06-25
+
+=== asset_information.csv (matching rows) ===
+file: data/FAR-Trans/asset_information.csv
+header (line 1): ISIN,assetName,assetShortName,assetCategory,assetSubCategory,marketID,sector,industry,timestamp
+-- ISIN GRC2451227D9 --
+line 163: GRC2451227D9,LAMDA DEVELOPMENT SA,ΛΑΜΔΑΟ2,Bond,Corporate,XATH,Corporate,Miscellaneous Construction,2022-07-13
+line 823: GRC2451227D9,LAMDA DEVELOPMENT SA,ΛΑΜΔΑΟ2,Bond,Corporate,EBB,Corporate,Miscellaneous Construction,2022-07-06
+-- ISIN GRS004013009 --
+line 184: GRS004013009,BANK OF GREECE (CR),ΕΛΛ,Stock,,XATH,Financial Services,Banks - Regional,2018-01-02

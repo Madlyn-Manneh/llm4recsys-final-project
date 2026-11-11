@@ -1,0 +1,94 @@
+TEMPLATE LABEL: PROPOSAL, pending team agreement
+customer_index: 0069D59E30C92A4C1981
+
+=== Arm C input (transaction-only history text) ===
+History as of 2022-05-31:
+2020-06-25 | Buy | Stock / unknown | GRS004013009 | sector: Financial Services | industry: Banks - Regional | value: 11904.8 | units: 920.0
+
+=== Arm D input (same text + profile block) ===
+History as of 2022-05-31:
+2020-06-25 | Buy | Stock / unknown | GRS004013009 | sector: Financial Services | industry: Banks - Regional | value: 11904.8 | units: 920.0
+
+[PROFILE]
+riskLevel: Income (observed)
+investmentCapacity: CAP_LT30K (observed)
+[/PROFILE]
+
+
+=== Arm A input (structured features, no profile) ===
+{
+  "counts_by_category": {
+    "Stock": 1
+  },
+  "counts_by_industry": {
+    "Banks - Regional": 1
+  },
+  "counts_by_sector": {
+    "Financial Services": 1
+  },
+  "counts_by_subcategory": {
+    "unknown": 1
+  },
+  "days_from_last_tx_to_cutoff": 705,
+  "first_transaction_date": "2020-06-25",
+  "held_assets": [
+    "GRS004013009"
+  ],
+  "history_window": "transactions with timestamp <= 2022-05-31",
+  "last_transaction_date": "2020-06-25",
+  "n_buy": 1,
+  "n_sell": 0,
+  "n_transactions": 1,
+  "shares_by_category": {
+    "Stock": 1.0
+  },
+  "shares_by_industry": {
+    "Banks - Regional": 1.0
+  },
+  "shares_by_sector": {
+    "Financial Services": 1.0
+  },
+  "total_units": 920.0,
+  "total_value": 11904.8
+}
+
+=== Arm A+profile input (structured features + profile fields) ===
+{
+  "counts_by_category": {
+    "Stock": 1
+  },
+  "counts_by_industry": {
+    "Banks - Regional": 1
+  },
+  "counts_by_sector": {
+    "Financial Services": 1
+  },
+  "counts_by_subcategory": {
+    "unknown": 1
+  },
+  "days_from_last_tx_to_cutoff": 705,
+  "first_transaction_date": "2020-06-25",
+  "held_assets": [
+    "GRS004013009"
+  ],
+  "history_window": "transactions with timestamp <= 2022-05-31",
+  "investmentCapacity": "CAP_LT30K",
+  "investmentCapacity_status": "observed",
+  "last_transaction_date": "2020-06-25",
+  "n_buy": 1,
+  "n_sell": 0,
+  "n_transactions": 1,
+  "riskLevel": "Income",
+  "riskLevel_status": "observed",
+  "shares_by_category": {
+    "Stock": 1.0
+  },
+  "shares_by_industry": {
+    "Banks - Regional": 1.0
+  },
+  "shares_by_sector": {
+    "Financial Services": 1.0
+  },
+  "total_units": 920.0,
+  "total_value": 11904.8
+}
