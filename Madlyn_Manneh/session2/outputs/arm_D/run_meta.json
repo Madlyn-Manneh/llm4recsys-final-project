@@ -1,0 +1,27 @@
+{
+  "arm": "D",
+  "users": 100,
+  "invalid_outputs": 0,
+  "arm_D_profile_unavailable_users": 13,
+  "protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417",
+  "cutoff": "2021-06-01",
+  "generation": {
+    "do_sample": false,
+    "seed": 0,
+    "summary_max_new_tokens": 120,
+    "rank_max_new_tokens": 60
+  },
+  "wall_seconds_whole_arm": 11205.8,
+  "hardware": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "python": "3.12.10"
+  },
+  "backend": "hf",
+  "model": "Qwen/Qwen3-1.7B",
+  "requested_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "resolved_commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.float32",
+  "torch": "2.11.0+cpu",
+  "transformers": "4.57.6"
+}
