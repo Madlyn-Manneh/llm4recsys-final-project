@@ -1,0 +1,13 @@
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/*.executed.ipynb
+**/*.partial.ipynb
+**/llm4rec_s2_rq2/data/
+**/llm4rec_s2_rq2/inputs/*.zip
+**/llm4rec_s2_rq2/model_snapshot_70d_v1/
+**/llm4rec_s2_rq2/shared_contexts/
+**/llm4rec_s2_rq2/offline_packages_v1/
+**/llm4rec_s2_rq2/baseline*/
+**/llm4rec_s2_rq2/checks/
+**/llm4rec_s2_rq2/evidence/
+**/llm4rec_s2_rq2/recovered_v1/

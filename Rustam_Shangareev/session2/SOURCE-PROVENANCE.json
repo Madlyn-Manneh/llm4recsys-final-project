@@ -1,0 +1,34 @@
+{
+  "inference_notebook_source_sha256": "339442f910a7eb6559398d4a17f1fd15705116241a2f2876620ff8e1a848c47e",
+  "executed_run_id": "094037ced6c94e16817fbaf99921e112",
+  "original_notebook_hashes": {
+    "llm4rec_s2_rq2_prepare_v2.ipynb": {
+      "file_sha256": "4cc013ef172eba3909d8b1cc069d94bd75dce24a8ced30d8d5f0825ebd785869",
+      "code_sha256": "34b73ea9efe7bdc291c4820d04492ba1fa11fa97ad9ef5ea720f11e334bc0699"
+    },
+    "llm4rec_s2_rq2_seeded_baseline_v1.ipynb": {
+      "file_sha256": "99a085baa50b6cf1ac2b5cb1a65440f6df2343c2bf6b7ba7c206109c720b9a03",
+      "code_sha256": "13e5e8f88fdbcae284515e529817d758d828be3b413e0bc42f9f8f4da8dfa761"
+    },
+    "llm4rec_s2_rq2_verify_preparation_v2.ipynb": {
+      "file_sha256": "1127f4d0901fa9d0b83818aa16a7f0ca3801ff52c83ae77c7d18ddcf86a90aa0",
+      "code_sha256": "285b7cbcc64acfa9b002a14b06cc305c6e55bcd59fd86331787499a850d0afc7"
+    },
+    "llm4rec_s2_rq2_offline_inputcheck_v1.ipynb": {
+      "file_sha256": "49b89857bd2d297ab4d16455d7f286d593650f739072fb5c1f932ccc7684942b",
+      "code_sha256": "32aa8933b92ed7b5db8e11c53c24a612dd053a4383d5bf5924cafb268c7cf2dd"
+    },
+    "llm4rec_s2_rq2_inference_v4.ipynb": {
+      "file_sha256": "4471880cb53101939123da5d8ff2ac344aa23e45dfe957a6936a704815833477",
+      "code_sha256": "339442f910a7eb6559398d4a17f1fd15705116241a2f2876620ff8e1a848c47e"
+    },
+    "llm4rec_s2_rq2_evaluate_v2.ipynb": {
+      "file_sha256": "cf48ab7de809663f5491e6de0a6ab192097d7fdd0607ab0498c915bd5c17a76d",
+      "code_sha256": "b0e6c6ad7aafee4370d9888200f05d015c7a8e547b8565210a794358b4cbe03b"
+    }
+  },
+  "course_commit": "f6850861ea20a51e1fb018ee4e5f840c2ac759e0",
+  "shared_input_commit": "31e7a2545f8f156f630d193ae9583828bbbdd7e5",
+  "wrapper_sha256": "d7a34c1f9f715d7437ca5b2cc7989dbff12348602495b8a427cf8e56fa7007ba",
+  "disclosure": "The six archived source notebooks are byte-for-byte copies. setup_inputs_v1 and reproduce_v1 are post-experiment I/O launchers, not claimed as executed result-generating notebooks."
+}

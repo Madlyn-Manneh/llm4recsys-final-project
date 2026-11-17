@@ -1,0 +1,7 @@
+torch==2.9.1+cu128
+transformers==4.57.6
+huggingface-hub==0.36.2
+numpy==2.4.6
+jupyter
+nbconvert
+ipykernel
