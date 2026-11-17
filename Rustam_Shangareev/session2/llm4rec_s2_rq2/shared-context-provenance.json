@@ -1,0 +1,10 @@
+{
+  "source_repository": "https://github.com/Madlyn-Manneh/llm4recsys-final-project",
+  "source_commit": "31e7a2545f8f156f630d193ae9583828bbbdd7e5",
+  "source_path": "Madlyn_Manneh/session2/outputs/baseline",
+  "all_100_contexts_equal_after_normalizing_candidate_order": true,
+  "same_candidate_sets": true,
+  "candidate_order_differs_for_3_users": true,
+  "adopted_for_our_model_inputs": "Shared frozen context snapshot; baseline and scoring remain the unchanged starter with fixed hash seed",
+  "context_sha256": "a505745968316fb96f03a453726878d84501965a12482e81b54b8bf468a1093e"
+}

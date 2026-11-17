@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "snapshot_relative_path": "model_snapshot_70d_v1",
+  "canonical_api_relative_path": "transfer_model/hf-api.json",
+  "canonical_tree_relative_path": "transfer_model/hf-tree.json",
+  "assembly_manifest_relative_path": "model-assembly.json",
+  "frozen_contexts_sha256": "a505745968316fb96f03a453726878d84501965a12482e81b54b8bf468a1093e",
+  "shared_input_commit": "31e7a2545f8f156f630d193ae9583828bbbdd7e5",
+  "torch_actual_authorized": "2.9.1+cu128",
+  "transformers": "4.57.6",
+  "offline_only": true,
+  "one_idle_H100_prefer_physical_index": 3
+}

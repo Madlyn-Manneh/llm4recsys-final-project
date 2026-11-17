@@ -1,0 +1,13 @@
+{
+  "protocol_user_indices_zero_based": [
+    0,
+    1,
+    2,
+    24,
+    49,
+    74,
+    99
+  ],
+  "selection": "fixed before actual B/C generation, no truth selection",
+  "purpose": "inspect factual support and omissions against only shown history; no prompt changes"
+}
