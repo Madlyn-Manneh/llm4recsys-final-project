@@ -1,0 +1,134 @@
+{
+  "status": "full100_executed_and_verified",
+  "protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417",
+  "counts": {
+    "all_users": 100,
+    "nonempty_truth": 11,
+    "empty_truth": 89
+  },
+  "baseline": {
+    "cbf": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.02010001173607857,
+      "ndcg_at_10_nonempty": 0.18272737941889608
+    },
+    "latest_buy": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.027722649787649066,
+      "ndcg_at_10_nonempty": 0.2520240889786279
+    },
+    "latest_buy_or_sell": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.02710704869390403,
+      "ndcg_at_10_nonempty": 0.24642771539912756
+    },
+    "popularity": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.028590012799467636,
+      "ndcg_at_10_nonempty": 0.25990920726788763
+    }
+  },
+  "B": {
+    "users": 100,
+    "nonempty_truth_users": 11,
+    "empty_truth_users": 89,
+    "ndcg_at_10": 0.022838258500968656,
+    "ndcg_at_10_nonempty": 0.20762053182698778
+  },
+  "C": {
+    "users": 100,
+    "nonempty_truth_users": 11,
+    "empty_truth_users": 89,
+    "ndcg_at_10": 0.024827958544328843,
+    "ndcg_at_10_nonempty": 0.2257087140393531
+  },
+  "invalid_outputs": {
+    "B": 0,
+    "C": 0
+  },
+  "paired": {
+    "all_users_mean_C_minus_B": 0.001989700043360188,
+    "nonempty_mean_C_minus_B": 0.018088182212365345,
+    "nonempty_C_wins": 1,
+    "nonempty_C_losses": 0,
+    "nonempty_ties": 10,
+    "inference": "descriptive paired comparison; only 11 nonempty users, no significance claim"
+  },
+  "context_token_stats": {
+    "B": {
+      "rank_generation": {
+        "calls": 100,
+        "input_min": 1513,
+        "input_max": 2492,
+        "input_total": 189449,
+        "output_min": 35,
+        "output_max": 43,
+        "output_total": 3741,
+        "new_token_cap_hits": 0
+      }
+    },
+    "C": {
+      "summary_generation": {
+        "calls": 100,
+        "input_min": 140,
+        "input_max": 996,
+        "input_total": 27992,
+        "output_min": 51,
+        "output_max": 120,
+        "output_total": 7186,
+        "new_token_cap_hits": 3
+      },
+      "rank_generation": {
+        "calls": 100,
+        "input_min": 1527,
+        "input_max": 2292,
+        "input_total": 177748,
+        "output_min": 35,
+        "output_max": 43,
+        "output_total": 3812,
+        "new_token_cap_hits": 0
+      }
+    }
+  },
+  "generation_timings": {
+    "B": {
+      "wall_seconds_whole_arm_excluding_cold_load": 53.7060637883842,
+      "logical_generation_calls": 100,
+      "cache_reused_calls": 27,
+      "fresh_generation_calls": 73,
+      "fresh_gpu_generation_seconds": 52.42899475246668
+    },
+    "C": {
+      "wall_seconds_whole_arm_excluding_cold_load": 140.23462937027216,
+      "logical_generation_calls": 200,
+      "cache_reused_calls": 55,
+      "fresh_generation_calls": 145,
+      "fresh_gpu_generation_seconds": 138.49383985251188
+    }
+  },
+  "model": {
+    "repository": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "dtype": "float32",
+    "seed": 0,
+    "do_sample": false,
+    "enable_thinking": false,
+    "summary_max_new_tokens": 120,
+    "rank_max_new_tokens": 60,
+    "hardware": "one NVIDIA H100 80 GB",
+    "python": "3.11.5",
+    "torch": "2.9.1+cu128",
+    "transformers": "4.57.6",
+    "attention": "sdpa",
+    "tf32": false
+  },
+  "scope": "Public aggregate derivative of the actual saved results. Customer IDs, histories, prompts and per-user outputs are kept in the private local evidence archive."
+}
