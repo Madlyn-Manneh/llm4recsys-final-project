@@ -1,0 +1,163 @@
+{
+  "label": "development results",
+  "window": "main_200",
+  "users": 200,
+  "nonempty_truth_users": 24,
+  "horizon_days": 30,
+  "protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "plan_sha256": "fa99792f07dfdb8b48a63235ba8652a1aeca8a6080ac0cea0343445e69ad1402",
+  "clarification_before_diagnostics": {
+    "scope": "User selected: promote from all 50 candidates",
+    "ties": "C/A top-10 order first; starter candidate order for assets absent from that ranking",
+    "remaining_slots": "Fill from the original C/A ranking, preserving its order",
+    "recency_source": "starter.scan_recent_events pre-cutoff Buy dates; counts from frozen contexts"
+  },
+  "diagnostics": {
+    "nonempty_users_with_repeat_truth": 18,
+    "nonempty_users_with_new_truth": 13,
+    "repeat_and_new_user_counts_can_overlap": true,
+    "users_with_previously_bought_candidate": 198,
+    "mean_previously_bought_candidates_per_user": 2.2,
+    "repeat_truth_users_with_repeated_truth_in_top50": 13
+  },
+  "official_fallbacks": {
+    "A": 1,
+    "C": 0
+  },
+  "methods": {
+    "C": {
+      "ndcg_at_10_all": 0.028229065586623022,
+      "ndcg_at_10_nonempty": 0.23524221322185854
+    },
+    "V1": {
+      "ndcg_at_10_all": 0.03672118170356623,
+      "ndcg_at_10_nonempty": 0.3060098475297186
+    },
+    "V2": {
+      "ndcg_at_10_all": 0.03862633948808866,
+      "ndcg_at_10_nonempty": 0.3218861624007388
+    },
+    "A+R": {
+      "ndcg_at_10_all": 0.0363745644939332,
+      "ndcg_at_10_nonempty": 0.3031213707827766
+    },
+    "A": {
+      "ndcg_at_10_all": 0.0301703741035631,
+      "ndcg_at_10_nonempty": 0.2514197841963592
+    },
+    "CBF": {
+      "ndcg_at_10_all": 0.030466939236571653,
+      "ndcg_at_10_nonempty": 0.2538911603047638
+    },
+    "Latest buy": {
+      "ndcg_at_10_all": 0.047355460909287696,
+      "ndcg_at_10_nonempty": 0.3946288409107308
+    },
+    "Latest buy or sell": {
+      "ndcg_at_10_all": 0.04840065705598689,
+      "ndcg_at_10_nonempty": 0.40333880879989076
+    }
+  },
+  "statistical_conventions": {
+    "bootstrap": "10000 paired resamples of all 200 users; Python random.Random(0) reset for each pair; percentile CI with linear interpolation",
+    "wins_ties_losses": "nonempty-truth users only; exact score equality for ties",
+    "sign_test": "exact two-sided binomial p=0.5 on non-tied users"
+  },
+  "analysis_script_sha256": "e1401a71475dcd50c0db56f01284f0086e76a6d12f1e0d9846c1a088a067c437",
+  "source_sha256": {
+    "outputs/baseline_200/protocol.json": "ae49c85f6484a1b2b5876ad5c28d1fc81c4a0dd299d9ee4b81cb990dd66cd1a4",
+    "outputs/baseline_200/contexts.jsonl": "29300c5ead277865269fffdb44d2765ce1fc61c91c87785b042f046f684e6c04",
+    "outputs/baseline_200/predictions.csv": "51b97e4eca2f8b5ea4d5bf51bd567d13c052f8ca8ad63f071792900f7647330b",
+    "outputs/final_200/A_responses.jsonl": "68301a4815c59c67284dd142f4330c5730759c4fa1568a752292ed4cb2a8deb9",
+    "outputs/arm_C2_200/responses.jsonl": "448c252dd739057e89a6ebb4285af59629056c15f141a42a2f102302660dd652",
+    "starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+    "scripts/hw3_paired_analysis.py": "698c23dada16cf429c2ca2628b19c690ea1378e38b5c516d541dce9ab2967163"
+  },
+  "selection": {
+    "chosen_C_plus_R": "V2",
+    "discarded_variant": "V1",
+    "selection_data": "main_200 only",
+    "criterion": "higher mean nDCG@10 over all 200",
+    "main_V1_ndcg_at_10": 0.03672118170356623,
+    "main_V2_ndcg_at_10": 0.03862633948808866,
+    "sparse_role": "robustness check only"
+  },
+  "pairs": {
+    "V1 - C": {
+      "left_method": "V1",
+      "right_method": "C",
+      "mean_difference_all": 0.00849211611694321,
+      "bootstrap_95_ci": [
+        -0.0022517465054925027,
+        0.020739864865384424
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 8,
+        "ties": 13,
+        "losses": 3,
+        "sign_test_p": 0.2265625
+      }
+    },
+    "V2 - C": {
+      "left_method": "V2",
+      "right_method": "C",
+      "mean_difference_all": 0.010397273901465633,
+      "bootstrap_95_ci": [
+        0.00115820640860757,
+        0.021538331442421052
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 8,
+        "ties": 14,
+        "losses": 2,
+        "sign_test_p": 0.109375
+      }
+    },
+    "C+R - A+R": {
+      "left_method": "V2",
+      "right_method": "A+R",
+      "mean_difference_all": 0.0022517749941554587,
+      "bootstrap_95_ci": [
+        -0.0049754553165962485,
+        0.009939131632030434
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 7,
+        "ties": 15,
+        "losses": 2,
+        "sign_test_p": 0.1796875
+      }
+    },
+    "C+R - Latest buy or sell": {
+      "left_method": "V2",
+      "right_method": "Latest buy or sell",
+      "mean_difference_all": -0.009774317567898228,
+      "bootstrap_95_ci": [
+        -0.029125012635358372,
+        0.008064530432427967
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 9,
+        "ties": 5,
+        "losses": 10,
+        "sign_test_p": 1.0
+      }
+    },
+    "C+R - A": {
+      "left_method": "V2",
+      "right_method": "A",
+      "mean_difference_all": 0.008455965384525558,
+      "bootstrap_95_ci": [
+        0.0004512286984152916,
+        0.017298030882385036
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 9,
+        "ties": 13,
+        "losses": 2,
+        "sign_test_p": 0.0654296875
+      }
+    }
+  },
+  "protected_existing_files_checked_unchanged": 78
+}

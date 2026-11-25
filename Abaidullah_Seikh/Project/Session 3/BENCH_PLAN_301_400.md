@@ -1,0 +1,3 @@
+Written: 2026-11-24T22:47:00+03:00
+
+Benchmark-method selection on a fresh block, defined before any of its counts or scores were seen. Users 301–400 in the starter's warm sha256 order, cutoff 2021-06-01, 30 days, candidate list = all eligible assets (as in HW3_PLAN_C_ALL.md). Model arm: A (llm_rerank.py 85328db5…), chosen for runtime. Variants: B1 = A + repeat-first-all ordered by pre-cutoff Buy count (V2, scripts/hw3_repeat_first.py unchanged); B2 = A + repeat-first-all ordered by most recent pre-cutoff Buy-or-Sell date of previously BOUGHT assets (ties: higher Buy count, then A order, then CBF order). Selection rule: the variant with the higher nDCG@10 over all 100 users; tie → B1. Baselines reported alongside. Not used for HW3 conclusions.

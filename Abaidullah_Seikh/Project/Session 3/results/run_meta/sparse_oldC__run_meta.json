@@ -1,0 +1,27 @@
+{
+  "arm": "C",
+  "users": 120,
+  "invalid_outputs": 0,
+  "arm_D_profile_unavailable_users": null,
+  "protocol_hash": "5f470cfbb37d3985ea0996f564d059429b59fcd5dc747ff07632eb4e11589069",
+  "cutoff": "2021-06-01",
+  "generation": {
+    "do_sample": false,
+    "seed": 0,
+    "summary_max_new_tokens": 120,
+    "rank_max_new_tokens": 60
+  },
+  "wall_seconds_whole_arm": 10682.9,
+  "hardware": {
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "processor": "",
+    "python": "3.14.4"
+  },
+  "backend": "hf",
+  "model": "Qwen/Qwen3-1.7B",
+  "requested_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "resolved_commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.float32",
+  "torch": "2.11.0+cpu",
+  "transformers": "4.57.6"
+}

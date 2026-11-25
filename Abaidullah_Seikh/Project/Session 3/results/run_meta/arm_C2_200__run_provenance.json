@@ -1,0 +1,24 @@
+{
+  "script": "llm_rerank_c2.py",
+  "script_sha256": "0df30c0e913209daa7ce823e0c0f7569f16ca3059a7bfe4a57bd853792f28ada",
+  "contexts_sha256": "29300c5ead277865269fffdb44d2765ce1fc61c91c87785b042f046f684e6c04",
+  "protocol_json_sha256": "ae49c85f6484a1b2b5876ad5c28d1fc81c4a0dd299d9ee4b81cb990dd66cd1a4",
+  "protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "exact_command": "'/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/.venv/bin/python' llm_rerank_c2.py --arm C --run-dir outputs/baseline_200 --out-dir outputs/arm_C2_200 --data-dir '/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 1/FAR-Trans'",
+  "command_argv": [
+    "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/.venv/bin/python",
+    "llm_rerank_c2.py",
+    "--arm",
+    "C",
+    "--run-dir",
+    "outputs/baseline_200",
+    "--out-dir",
+    "outputs/arm_C2_200",
+    "--data-dir",
+    "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 1/FAR-Trans"
+  ],
+  "working_directory": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3",
+  "start_time": "2026-11-22T21:38:44.607162+03:00",
+  "end_time": "2026-11-23T03:28:34.381443+03:00",
+  "exit_code": 0
+}

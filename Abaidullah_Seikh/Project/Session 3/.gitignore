@@ -1,0 +1,5 @@
+outputs/
+cohorts/
+logs/
+__pycache__/
+*.jsonl

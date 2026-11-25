@@ -1,0 +1,3 @@
+Written: 2026-11-24T22:01:19+03:00
+
+One variant, no selection. C+R-all = the existing C rankings with the unchanged V2 repeat-first rule (scripts/hw3_repeat_first.py, e1401a71…), except that previously bought assets are taken from ALL eligible assets instead of the 50 CBF candidates. All methods are evaluated with the starter's --candidate-count set to the number of eligible assets, so every method shares the same candidate list and initial (CBF) order. C's rankings were produced from a 50-candidate prompt and stay unchanged. Evaluated at once on main 200, sparse 120 and block 201–300, reported separately. Purpose: measure how much of the gap to Latest buy or sell comes from the 50-candidate limit.

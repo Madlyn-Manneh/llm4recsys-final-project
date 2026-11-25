@@ -1,0 +1,366 @@
+{
+  "label": "development results; separate windows, no pooling",
+  "variant_count": 1,
+  "selection": "none",
+  "plan_sha256": "f3aace44fa9c19d9ef39b15781a5b0063d1939bcfac9ebaf5b667c0290229caf",
+  "repeat_first_script_sha256": "e1401a71475dcd50c0db56f01284f0086e76a6d12f1e0d9846c1a088a067c437",
+  "analysis_script_sha256": "635d1da78d0efab8e50a508413735dbc2fdf36ad79540a0d13c825f3c0f133c9",
+  "interpretation": "C was generated from 50-candidate prompts and is unchanged. This is a deterministic all-eligible repeat-first post-processing comparison, not a new all-candidate LLM run.",
+  "statistical_conventions": {
+    "bootstrap": "10000 paired user resamples per window; Python random.Random(0) reset per pair; percentile intervals with linear interpolation",
+    "wins_ties_losses": "nonempty-truth users only; exact equality for ties",
+    "sign_test": "exact two-sided binomial p=0.5 on non-tied users",
+    "empty_truth_policy": "zero in primary mean"
+  },
+  "windows": {
+    "main_200": {
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "eligible_assets": 767,
+      "original_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+      "all_candidate_protocol_hash": "bcda5ac104777fe375a5abfa970174e03f8988bfd84d8d452133fa957b7ef697",
+      "same_users_in_order": true,
+      "first50_same_order": true,
+      "baselines_unchanged": true,
+      "methods": {
+        "Latest buy or sell": {
+          "ndcg_at_10_all": 0.04840065705598689,
+          "ndcg_at_10_nonempty": 0.40333880879989076,
+          "fallbacks": 0
+        },
+        "Latest buy": {
+          "ndcg_at_10_all": 0.047355460909287696,
+          "ndcg_at_10_nonempty": 0.3946288409107308,
+          "fallbacks": 0
+        },
+        "Popularity": {
+          "ndcg_at_10_all": 0.03422547732486048,
+          "ndcg_at_10_nonempty": 0.285212311040504,
+          "fallbacks": 0
+        },
+        "CBF": {
+          "ndcg_at_10_all": 0.030466939236571653,
+          "ndcg_at_10_nonempty": 0.2538911603047638,
+          "fallbacks": 0
+        },
+        "A": {
+          "ndcg_at_10_all": 0.0301703741035631,
+          "ndcg_at_10_nonempty": 0.2514197841963592,
+          "fallbacks": 1
+        },
+        "C": {
+          "ndcg_at_10_all": 0.028229065586623022,
+          "ndcg_at_10_nonempty": 0.23524221322185854,
+          "fallbacks": 0
+        },
+        "C+R": {
+          "ndcg_at_10_all": 0.03862633948808866,
+          "ndcg_at_10_nonempty": 0.3218861624007388,
+          "fallbacks": 0
+        },
+        "A+R-all": {
+          "ndcg_at_10_all": 0.05264465190793447,
+          "ndcg_at_10_nonempty": 0.4387054325661206,
+          "fallbacks": 0
+        },
+        "C+R-all": {
+          "ndcg_at_10_all": 0.052991269117567505,
+          "ndcg_at_10_nonempty": 0.4415939093130625,
+          "fallbacks": 0
+        }
+      },
+      "pairs": {
+        "C+R-all - C+R": {
+          "mean_difference_all": 0.01436492962947885,
+          "bootstrap_95_ci": [
+            0.0045386312465148975,
+            0.02660726118432245
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 9,
+            "ties": 14,
+            "losses": 1,
+            "sign_test_p": 0.021484375
+          }
+        },
+        "C+R-all - Latest buy or sell": {
+          "mean_difference_all": 0.004590612061580622,
+          "bootstrap_95_ci": [
+            -0.008847928474695784,
+            0.018923237730916344
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 12,
+            "ties": 4,
+            "losses": 8,
+            "sign_test_p": 0.5034446716308594
+          }
+        },
+        "C+R-all - A+R-all": {
+          "mean_difference_all": 0.0003466172096330347,
+          "bootstrap_95_ci": [
+            0.0,
+            0.001039851628899104
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 1,
+            "ties": 23,
+            "losses": 0,
+            "sign_test_p": 1.0
+          }
+        }
+      },
+      "source_sha256": {
+        "outputs/final_200/A_responses.jsonl": "68301a4815c59c67284dd142f4330c5730759c4fa1568a752292ed4cb2a8deb9",
+        "outputs/arm_C2_200/responses.jsonl": "448c252dd739057e89a6ebb4285af59629056c15f141a42a2f102302660dd652",
+        "outputs/final_200/repeat_first.json": "c0f69705ff03269f1cccd6ba0a7f2c1c9a15bae8c2c0c817bb5ffa8a5fc0c5d1",
+        "outputs/baseline_200/contexts.jsonl": "29300c5ead277865269fffdb44d2765ce1fc61c91c87785b042f046f684e6c04",
+        "outputs/all_cand_main_200/contexts.jsonl": "1dd45deec2564488198ddabc7cfbd78a9398a7b9bbfa29ed639f9ee1d0ccb7b7"
+      },
+      "source_model_invalid_counts": {
+        "A": 1,
+        "C": 0
+      },
+      "scored_response_sha256": {
+        "A": "fedee434b886e8d8e946ad45aadc0626df3957e32856ce7d30d0766b0d29044b",
+        "C": "35eccc04b014f5874171c03aba8ced9cc9d67564643d557e3cea829bc9c4a3d6",
+        "C+R": "75e4def3adbb2cec089ca5db6daa47009c0571b2682fea07b613cdbb50cc9404",
+        "A+R-all": "39576adfae6131ef455fde72bfc1568529a22c702331afd117db8f650b0aaebc",
+        "C+R-all": "8b83942ce1c32d4764ddb9a92406453145483ea3154ecff4164d847c11f029ab"
+      }
+    },
+    "sparse_120": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "eligible_assets": 767,
+      "original_protocol_hash": "5f470cfbb37d3985ea0996f564d059429b59fcd5dc747ff07632eb4e11589069",
+      "all_candidate_protocol_hash": "9de0234128c634dfd0ff93d3f4bc71df81042b1390f6a418ab34ee93e40ad997",
+      "same_users_in_order": true,
+      "first50_same_order": true,
+      "baselines_unchanged": true,
+      "methods": {
+        "Latest buy or sell": {
+          "ndcg_at_10_all": 0.02207260261981214,
+          "ndcg_at_10_nonempty": 0.3310890392971821,
+          "fallbacks": 0
+        },
+        "Latest buy": {
+          "ndcg_at_10_all": 0.02038662191964322,
+          "ndcg_at_10_nonempty": 0.3057993287946483,
+          "fallbacks": 0
+        },
+        "Popularity": {
+          "ndcg_at_10_all": 0.008481521340049992,
+          "ndcg_at_10_nonempty": 0.1272228201007499,
+          "fallbacks": 0
+        },
+        "CBF": {
+          "ndcg_at_10_all": 0.0141044672101359,
+          "ndcg_at_10_nonempty": 0.21156700815203852,
+          "fallbacks": 0
+        },
+        "A": {
+          "ndcg_at_10_all": 0.016088971317278277,
+          "ndcg_at_10_nonempty": 0.24133456975917414,
+          "fallbacks": 1
+        },
+        "C": {
+          "ndcg_at_10_all": 0.017757747946428815,
+          "ndcg_at_10_nonempty": 0.2663662191964322,
+          "fallbacks": 0
+        },
+        "C+R": {
+          "ndcg_at_10_all": 0.020833333333333332,
+          "ndcg_at_10_nonempty": 0.3125,
+          "fallbacks": 0
+        },
+        "A+R-all": {
+          "ndcg_at_10_all": 0.02025563798394494,
+          "ndcg_at_10_nonempty": 0.3038345697591741,
+          "fallbacks": 0
+        },
+        "C+R-all": {
+          "ndcg_at_10_all": 0.020833333333333332,
+          "ndcg_at_10_nonempty": 0.3125,
+          "fallbacks": 0
+        }
+      },
+      "pairs": {
+        "C+R-all - C+R": {
+          "mean_difference_all": 0.0,
+          "bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 0,
+            "ties": 8,
+            "losses": 0,
+            "sign_test_p": 1.0
+          }
+        },
+        "C+R-all - Latest buy or sell": {
+          "mean_difference_all": -0.0012392692864788058,
+          "bootstrap_95_ci": [
+            -0.014830350566240953,
+            0.009226756160713561
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 2,
+            "ties": 5,
+            "losses": 1,
+            "sign_test_p": 1.0
+          }
+        },
+        "C+R-all - A+R-all": {
+          "mean_difference_all": 0.0005776953493883912,
+          "bootstrap_95_ci": [
+            0.0,
+            0.0017330860481651737
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 1,
+            "ties": 7,
+            "losses": 0,
+            "sign_test_p": 1.0
+          }
+        }
+      },
+      "source_sha256": {
+        "outputs/sparse_A/responses.jsonl": "00e22292e658887edff91edc714ee779dad5f0409f8f1dfcafa9e7125eee3642",
+        "outputs/sparse_C/responses.jsonl": "fa9b06ac4a71239852b2e6b6b211672051d3132c065d96d62f0653c8dc39e08b",
+        "outputs/sparse_scores/repeat_first.json": "dc641a32a64fb7ee73bc30aae811b1ed917b6dc6673a2b54867597a2787c1e62",
+        "outputs/sparse_baseline_120/contexts.jsonl": "1a22ea53872055484c2671cbb7300a9707d562b19ca3ef6b6648123e6424a74f",
+        "outputs/all_cand_sparse_120/contexts.jsonl": "bcb9e621a157893cdba11dd7bed25dd0bf4b32d115e5dff7397e0565c1e792f0"
+      },
+      "source_model_invalid_counts": {
+        "A": 1,
+        "C": 0
+      },
+      "scored_response_sha256": {
+        "A": "abfe52bfde9274cf4b71b851fa352acbd84e57d9c67e14e5a392c033fa88f494",
+        "C": "a1cf9b68f9508ae59fecc7c9109f2cb06c66466a01f899e14992a55bb693a99a",
+        "C+R": "9bb13beed1ee81d224b29452d314c964b8eb711e03de64caf1a6dd6d041c8132",
+        "A+R-all": "6ef18b6f49c1fdf13b667bdae81859f711723d184753023d4518ed7de251fd5d",
+        "C+R-all": "60ba2339015aea4d8db7354ed204ff981b8c425588cf0de5358d9d6f9e3dcbf3"
+      }
+    },
+    "block_100": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "eligible_assets": 767,
+      "original_protocol_hash": "e126569ce481716d7039c495e2c7fedbbbe552e308b819b84c4be87b0eb5fe8d",
+      "all_candidate_protocol_hash": "2daa6150e3af341cc3dcc6ed4127dbfd9c624376954aa828eaf84a47aaf78ed0",
+      "same_users_in_order": true,
+      "first50_same_order": true,
+      "baselines_unchanged": true,
+      "methods": {
+        "Latest buy or sell": {
+          "ndcg_at_10_all": 0.05917149884614153,
+          "ndcg_at_10_nonempty": 0.4226535631867252,
+          "fallbacks": 0
+        },
+        "Latest buy": {
+          "ndcg_at_10_all": 0.05459072659092959,
+          "ndcg_at_10_nonempty": 0.38993376136378277,
+          "fallbacks": 0
+        },
+        "Popularity": {
+          "ndcg_at_10_all": 0.01434892122891015,
+          "ndcg_at_10_nonempty": 0.10249229449221535,
+          "fallbacks": 0
+        },
+        "CBF": {
+          "ndcg_at_10_all": 0.04451001235827791,
+          "ndcg_at_10_nonempty": 0.3179286597019851,
+          "fallbacks": 0
+        },
+        "A": {
+          "ndcg_at_10_all": 0.04212860742970705,
+          "ndcg_at_10_nonempty": 0.3009186244979075,
+          "fallbacks": 1
+        },
+        "C": {
+          "ndcg_at_10_all": 0.04451001235827791,
+          "ndcg_at_10_nonempty": 0.3179286597019851,
+          "fallbacks": 0
+        },
+        "C+R": {
+          "ndcg_at_10_all": 0.04674839967538189,
+          "ndcg_at_10_nonempty": 0.3339171405384421,
+          "fallbacks": 0
+        },
+        "A+R-all": {
+          "ndcg_at_10_all": 0.0506580040068926,
+          "ndcg_at_10_nonempty": 0.3618428857635186,
+          "fallbacks": 0
+        },
+        "C+R-all": {
+          "ndcg_at_10_all": 0.0506580040068926,
+          "ndcg_at_10_nonempty": 0.3618428857635186,
+          "fallbacks": 0
+        }
+      },
+      "pairs": {
+        "C+R-all - C+R": {
+          "mean_difference_all": 0.0039096043315107075,
+          "bootstrap_95_ci": [
+            0.0,
+            0.009155688761853015
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 3,
+            "ties": 11,
+            "losses": 0,
+            "sign_test_p": 0.25
+          }
+        },
+        "C+R-all - Latest buy or sell": {
+          "mean_difference_all": -0.008513494839248929,
+          "bootstrap_95_ci": [
+            -0.0252371901428583,
+            0.002736233818035019
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 1,
+            "ties": 10,
+            "losses": 3,
+            "sign_test_p": 0.625
+          }
+        },
+        "C+R-all - A+R-all": {
+          "mean_difference_all": 0.0,
+          "bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "nonempty_wins_ties_losses": {
+            "wins": 0,
+            "ties": 14,
+            "losses": 0,
+            "sign_test_p": 1.0
+          }
+        }
+      },
+      "source_sha256": {
+        "outputs/block_A/responses.jsonl": "9ce26028aa187f5315ed9f2dcb9fc3cdd437fcd7e77e1797b85ed5acbfe6fb90",
+        "outputs/block_C/responses.jsonl": "5db0a867b9f9c04824d51b11f20db1e041c916233bf20b4263c84d4d29e019ed",
+        "outputs/block_scores/scoring_summary.json": "d0a5b08e45daa949b0c4327b5b635e91e27471edf376d0d136356e377ebf0835",
+        "outputs/block_201_300/contexts.jsonl": "f4bff11d1d2b8587114c016fc671898bc1dac0185a956d2b91c9be90063a7493",
+        "outputs/all_cand_block_100/contexts.jsonl": "d79b642dd974444fdd43b5c9fa0ba5046ef83fd7d3493d72267dea481b8ba327"
+      },
+      "source_model_invalid_counts": {
+        "A": 1,
+        "C": 0
+      },
+      "scored_response_sha256": {
+        "A": "e8ba6313e2df6f87ae14c0069929118ff232e7794dcac415a2a29bf39a27c7c0",
+        "C": "59c79b59d33074ea231e6f6e59717cf15d34ea90e1a7e7657c96114595649096",
+        "C+R": "59a8fc42e6f27a4b297043ee224e9c1947b8fc19da882626d373be05a8fd5f11",
+        "A+R-all": "4c34dfd059a394cb24f1ed0414202af4b20e0334db9af9fc0162ed8d18174175",
+        "C+R-all": "d6f1122f693d5d48a183c7819ae0cec9c4d3095ae3251d5b8de870253c23f90b"
+      }
+    }
+  },
+  "protected_existing_files_checked_unchanged": 328
+}

@@ -1,0 +1,267 @@
+{
+  "label": "held-out development block, reported separately and not pooled",
+  "users": 100,
+  "starter_positions": [
+    201,
+    300
+  ],
+  "nonempty_truth_users": 14,
+  "protocol_hash": "e126569ce481716d7039c495e2c7fedbbbe552e308b819b84c4be87b0eb5fe8d",
+  "horizon_days": 30,
+  "registrations_sha256": {
+    "HW3_BLOCK_201_300.md": "a99403c56472dde79a5767c7c85a34826ecbc34e8f9c0d8c1187df91a7d18bb6",
+    "HW3_PLAN_C_IMPROVEMENT.md": "fa99792f07dfdb8b48a63235ba8652a1aeca8a6080ac0cea0343445e69ad1402",
+    "HW3_PLAN_C_IMPROVEMENT_CLARIFICATION.md": "68311cda32e608c805bc0cc1ca3f9b0b50b3c232bb2e1da5d58bf2c7a7fe96ab",
+    "scripts/hw3_repeat_first.py": "e1401a71475dcd50c0db56f01284f0086e76a6d12f1e0d9846c1a088a067c437"
+  },
+  "C_plus_R": "Unchanged V2, selected on main 200; no block selection or tuning",
+  "sanity": {
+    "methods_passed": 7,
+    "methods_failed": 0
+  },
+  "statistical_conventions": {
+    "bootstrap": "10000 paired resamples of all 100 users, Python random.Random(0) reset for each pair; percentile interval with linear interpolation",
+    "wins_ties_losses": "nonempty-truth users only; exact score equality for ties",
+    "sign_test": "exact two-sided binomial p=0.5 over non-tied users",
+    "empty_truth_policy": "zero in primary mean"
+  },
+  "methods": {
+    "Latest buy or sell": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.05917149884614153,
+      "ndcg_at_10_nonempty": 0.4226535631867252,
+      "invalid_rows": 0,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "Latest buy": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.05459072659092959,
+      "ndcg_at_10_nonempty": 0.38993376136378277,
+      "invalid_rows": 0,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "Popularity": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.01434892122891015,
+      "ndcg_at_10_nonempty": 0.10249229449221535,
+      "invalid_rows": 0,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "CBF": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.04451001235827791,
+      "ndcg_at_10_nonempty": 0.3179286597019851,
+      "invalid_rows": 0,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "A": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.04212860742970705,
+      "ndcg_at_10_nonempty": 0.3009186244979075,
+      "invalid_rows": 1,
+      "fallbacks": 1,
+      "seconds_per_user": 63.853,
+      "rule_overhead_unmeasured": false
+    },
+    "C": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.04451001235827791,
+      "ndcg_at_10_nonempty": 0.3179286597019851,
+      "invalid_rows": 0,
+      "fallbacks": 0,
+      "seconds_per_user": 103.14399999999999,
+      "rule_overhead_unmeasured": false
+    },
+    "C+R": {
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "empty_truth_users": 86,
+      "ndcg_at_10": 0.04674839967538189,
+      "ndcg_at_10_nonempty": 0.3339171405384421,
+      "invalid_rows": 0,
+      "fallbacks": 0,
+      "seconds_per_user": 103.14399999999999,
+      "rule_overhead_unmeasured": true
+    }
+  },
+  "pairs": {
+    "C+R - C": {
+      "mean_difference_all_100": 0.0022383873171039903,
+      "bootstrap_95_ci": [
+        -0.01276161268289601,
+        0.01723838731710399
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 11,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "C+R - A": {
+      "mean_difference_all_100": 0.00461979224567484,
+      "bootstrap_95_ci": [
+        -0.0026185950714291504,
+        0.015025656661272235
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 11,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "C - A": {
+      "mean_difference_all_100": 0.0023814049285708493,
+      "bootstrap_95_ci": [
+        -0.003927892607143726,
+        0.011072107392856275
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 1,
+        "ties": 12,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "C+R - Latest buy or sell": {
+      "mean_difference_all_100": -0.012423099170759636,
+      "bootstrap_95_ci": [
+        -0.029809807464138683,
+        0.0
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 1,
+        "ties": 9,
+        "losses": 4,
+        "sign_test_p": 0.375
+      }
+    },
+    "A - CBF": {
+      "mean_difference_all_100": -0.0023814049285708493,
+      "bootstrap_95_ci": [
+        -0.011072107392856275,
+        0.003927892607143726
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 1,
+        "ties": 12,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "C - CBF": {
+      "mean_difference_all_100": 0.0,
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 0,
+        "ties": 14,
+        "losses": 0,
+        "sign_test_p": 1.0
+      }
+    }
+  },
+  "invalid_rows": {
+    "A": {
+      "count": 1,
+      "block_positions": [
+        62
+      ],
+      "nonempty_truth_by_position": [
+        {
+          "block_position": 62,
+          "starter_position": 262,
+          "nonempty_truth": false
+        }
+      ]
+    },
+    "C": {
+      "count": 0,
+      "block_positions": [],
+      "nonempty_truth_by_position": []
+    }
+  },
+  "copying": {
+    "A": {
+      "same_order_users": 59,
+      "same_set_including_same_order_users": 66,
+      "same_set_different_order_users": 7,
+      "mean_overlap_count_out_of_10": 8.81
+    },
+    "C": {
+      "same_order_users": 26,
+      "same_set_including_same_order_users": 34,
+      "same_set_different_order_users": 8,
+      "mean_overlap_count_out_of_10": 6.66
+    }
+  },
+  "diagnostics": {
+    "candidate_ceiling_nonempty_users": 6,
+    "nonempty_users": 14,
+    "repeat_truth_users": 7,
+    "repeat_truth_users_with_repeat_in_top50": 5
+  },
+  "cross_window_summary": {
+    "main_200": {
+      "role": "selection",
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "C_plus_R_minus_C": 0.010397273901465633,
+      "C_plus_R_minus_A": 0.008455965384525558,
+      "source_sha256": "c0f69705ff03269f1cccd6ba0a7f2c1c9a15bae8c2c0c817bb5ffa8a5fc0c5d1"
+    },
+    "sparse_120": {
+      "role": "robustness",
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "C_plus_R_minus_C": 0.0030755853869045206,
+      "C_plus_R_minus_A": 0.004744362016055058,
+      "source_sha256": "dc641a32a64fb7ee73bc30aae811b1ed917b6dc6673a2b54867597a2787c1e62"
+    },
+    "block_100": {
+      "role": "held-out",
+      "users": 100,
+      "nonempty_truth_users": 14,
+      "C_plus_R_minus_C": 0.0022383873171039903,
+      "C_plus_R_minus_A": 0.00461979224567484
+    }
+  },
+  "source_sha256": {
+    "outputs/block_201_300/protocol.json": "e48e7015284d5dadd1ce4106a4c5974958d57a87458cd1006456f6ed66ad0024",
+    "outputs/block_201_300/contexts.jsonl": "f4bff11d1d2b8587114c016fc671898bc1dac0185a956d2b91c9be90063a7493",
+    "outputs/block_201_300/predictions.csv": "86f434227a0475415289655967b97f06e158b66bf68b8034d40ca170d92bf945",
+    "outputs/block_scores/scoring_summary.json": "d0a5b08e45daa949b0c4327b5b635e91e27471edf376d0d136356e377ebf0835",
+    "outputs/block_scores/C_plus_R_responses.jsonl": "f6dfa4b7800e96a6520fc46b606fd59a26b47da04aa4969c0deeaaa812c7de8e",
+    "outputs/block_A/responses.jsonl": "9ce26028aa187f5315ed9f2dcb9fc3cdd437fcd7e77e1797b85ed5acbfe6fb90",
+    "outputs/block_A/run_meta.json": "a05eb38ded0940dab66485183eb3684d7d8b877189a6f3acbaab5b62ab76384a",
+    "outputs/block_A/run_provenance.json": "b573d6562ddf76d9aaf9bae99b90117af9d49d591ea2161f3e010a5ba0182898",
+    "outputs/block_C/responses.jsonl": "5db0a867b9f9c04824d51b11f20db1e041c916233bf20b4263c84d4d29e019ed",
+    "outputs/block_C/run_meta.json": "12b7e0a9b50a668eb637eaacd4064393a1a74b1f364d7fd8db72231650d9c46b",
+    "outputs/block_C/run_provenance.json": "f3c2d2860a11a421d32adb46329a24ca70ef9b84e6b0fa866ec3b2a642c10c5e"
+  },
+  "analysis_script_sha256": "98a87a0be5dfa148b237172f91c0be3f905c6b528922a4ab096a9f46e96fbc84",
+  "protected_existing_files_checked_unchanged": 325
+}
