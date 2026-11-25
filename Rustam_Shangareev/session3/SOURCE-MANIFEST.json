@@ -1,0 +1,25 @@
+{
+  "cohort": 200,
+  "protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "order_sha256": "8047bbccbbe66f0bc420df36b06484c4f0888fe18deb8caf0897f1d4903acb04",
+  "notebook_source_sha256": {
+    "inference": "ae265dcb12781847d899250de556bf9ed11933b91b15be618ef410c0a416b8db",
+    "evaluation": "3df0307e354535de85541cff6240d675f0ab23f5aed5faeff6cf7b82bab90df3"
+  },
+  "files": {
+    "PROTOCOL.md": "72bc5006e1430fa7f7a02a885be95b7159a09bb07726c10c633aa2038458cf94",
+    "README.md": "51e71915a99ea5ad63fc7771d63c2755650a249313978b33af42953d8f1cf580",
+    "course/far-trans-llm/data_adapter.py": "19958c7ae419dce69d475bb0cf39498eab0510a7f147785a4a10ca5ba67d35c2",
+    "course/far-trans-llm/ranker.py": "7c6b81794f7da10aab053074d86525b63d64aef10a08ff54ff5b6b8fa5de9f24",
+    "course/far-trans-llm/runtime.py": "b807167090355b342bcab54bf39fed6c5a40bf7b74ffd7f1027768490333e5fd",
+    "course/far-trans/extensions.py": "c80ddbe27846d2f0ca49ce4a66365f4951db2a226b141f5ce1b3b3fdc94114a9",
+    "course/far-trans/starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+    "course/far-trans/test_starter.py": "a3a86f98d67f2416a99b1ea70e495ab3b82b3a1e5a8f4a908f0a6bae8e53d1c1",
+    "evaluate_rq2_v2.ipynb": "58f4d0efd63493b88c023bbe8be8cefc6118e212a03c1566dc4c1f75a1c30bd4",
+    "personal_check.ipynb": "0161dadfaaadfa9e69cf50842ddbc24914b7865c0fa1b333b8d93ecbe99fadc8",
+    "results/summary.json": "3f7e24d9bccea4e6d648d1a27d244dc96c93ee5596ddd08a8948b4c6b63b132a",
+    "results/summary.md": "c036250c0da25f165f0bf430b782f340c04f671ae640914ed7ace09f45d16f11",
+    "rq2_h100_v2.ipynb": "c4480bcedf190c02b1ac2c345032d315b053ce32c6b437f2afc7542bd8f56d76",
+    "shared_rerank.py": "d7a34c1f9f715d7437ca5b2cc7989dbff12348602495b8a427cf8e56fa7007ba"
+  }
+}
