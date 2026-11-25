@@ -90,3 +90,57 @@ E: rank 2 GRS419003009 0.6309 -> DCG = 0.6309, nDCG = 0.6309 (script 0.6309)
 | U094 | 2 | 2 | 1 | - |
 
 totals: future purchases 18, in eligible 18, repeat 12, among 50 candidates 6, of those in positions 1-10 5
+
+## 11. How the ranker changes the candidate order
+| Method | mean avg candidate position | slots 1-10 | slots 11-20 | slots 21-50 | users with >=1 asset in 11-50 |
+|---|---:|---:|---:|---:|---:|
+| cbf | 5.50 | 1000 | 0 | 0 | 0 |
+| B | 8.24 | 724 | 224 | 52 | 55 |
+| C | 9.39 | 647 | 271 | 82 | 71 |
+| D | 9.35 | 651 | 266 | 83 | 66 |
+| E | 9.76 | 641 | 261 | 98 | 68 |
+
+| Arm | improved | worsened | stayed same | remained outside |
+|---|---:|---:|---:|---:|
+| B | 3 | 0 | 2 | 1 |
+| C | 3 | 0 | 2 | 1 |
+| D | 2 | 1 | 2 | 1 |
+| E | 3 | 1 | 1 | 1 |
+
+## 12. By history size
+Descriptive only; the groups are small.
+### 1 to 5 assets
+users 78, labelled 4
+| Method | nDCG@10 (all) | nDCG@10 (labelled) |
+|---|---:|---:|
+| Popularity | 0.0190 | 0.3710 |
+| Latest buy | 0.0162 | 0.3160 |
+| Latest buy or sell | 0.0155 | 0.3026 |
+| CBF (initial candidate order, matched control) | 0.0116 | 0.2256 |
+| B (raw history, no summary) | 0.0117 | 0.2285 |
+| C (summary only) | 0.0143 | 0.2783 |
+| D (summary + risk level and capacity) | 0.0143 | 0.2783 |
+| E (D with shuffled profiles) | 0.0103 | 0.2016 |
+### 6 or more assets
+users 22, labelled 7
+| Method | nDCG@10 (all) | nDCG@10 (labelled) |
+|---|---:|---:|
+| Popularity | 0.0625 | 0.1965 |
+| Latest buy | 0.0686 | 0.2155 |
+| Latest buy or sell | 0.0682 | 0.2143 |
+| CBF (initial candidate order, matched control) | 0.0504 | 0.1583 |
+| B (raw history, no summary) | 0.0623 | 0.1957 |
+| C (summary only) | 0.0623 | 0.1957 |
+| D (summary + risk level and capacity) | 0.0492 | 0.1546 |
+| E (D with shuffled profiles) | 0.0583 | 0.1832 |
+
+## 13. Bootstrap intervals
+Descriptive intervals only; no significance test is performed.
+D - C, all: n=100 mean=-0.0029 2.5%=-0.0082 97.5%=0.0009 share<0=0.8634
+D - C, labelled: n=11 mean=-0.0262 2.5%=-0.0721 97.5%=0.0079 share<0=0.8890
+E - D, all: n=100 mean=-0.0011 2.5%=-0.0092 97.5%=0.0060 share<0=0.5365
+E - D, labelled: n=11 mean=-0.0097 2.5%=-0.0836 97.5%=0.0546 share<0=0.5518
+C - B, all: n=100 mean=0.0020 2.5%=0.0000 97.5%=0.0060 share<0=0.0000
+C - B, labelled: n=11 mean=0.0181 2.5%=0.0000 97.5%=0.0543 share<0=0.0000
+B - cbf, all: n=100 mean=0.0027 2.5%=0.0000 97.5%=0.0067 share<0=0.0000
+B - cbf, labelled: n=11 mean=0.0249 2.5%=0.0000 97.5%=0.0595 share<0=0.0000

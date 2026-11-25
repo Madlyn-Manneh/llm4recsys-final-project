@@ -1,0 +1,767 @@
+{
+  "protocol_hash": "5bae3e69d666acbc9f80421ffd4a5b6733d197d10a0894822ecd6674cfb413f5",
+  "cutoff": "2021-06-01",
+  "end_exclusive": "2021-07-01",
+  "users": 100,
+  "labelled_users": 13,
+  "sections": {
+    "1_nDCG": [
+      {
+        "method": "popularity",
+        "label": "Popularity",
+        "nDCG_all": 0.0399,
+        "nDCG_labelled": 0.3066
+      },
+      {
+        "method": "latest_buy",
+        "label": "Latest buy",
+        "nDCG_all": 0.067,
+        "nDCG_labelled": 0.5153
+      },
+      {
+        "method": "latest_buy_or_sell",
+        "label": "Latest buy or sell",
+        "nDCG_all": 0.0697,
+        "nDCG_labelled": 0.5361
+      },
+      {
+        "method": "cbf",
+        "label": "CBF (initial candidate order, matched control)",
+        "nDCG_all": 0.0408,
+        "nDCG_labelled": 0.3141
+      },
+      {
+        "method": "B",
+        "label": "B (raw history, no summary)",
+        "nDCG_all": 0.0379,
+        "nDCG_labelled": 0.2916
+      },
+      {
+        "method": "C",
+        "label": "C (summary only)",
+        "nDCG_all": 0.0324,
+        "nDCG_labelled": 0.2494
+      },
+      {
+        "method": "D",
+        "label": "D (summary + risk level and capacity)",
+        "nDCG_all": 0.0308,
+        "nDCG_labelled": 0.2366
+      },
+      {
+        "method": "E",
+        "label": "E (D with shuffled profiles)",
+        "nDCG_all": 0.0308,
+        "nDCG_labelled": 0.2366
+      }
+    ],
+    "2_paired_differences": [
+      {
+        "pair": "D-C",
+        "all": -0.0017,
+        "labelled": -0.0128,
+        "higher": 0,
+        "lower": 2,
+        "equal": 98
+      },
+      {
+        "pair": "E-D",
+        "all": 0.0,
+        "labelled": 0.0,
+        "higher": 0,
+        "lower": 0,
+        "equal": 100
+      },
+      {
+        "pair": "C-B",
+        "all": -0.0055,
+        "labelled": -0.0422,
+        "higher": 0,
+        "lower": 3,
+        "equal": 97
+      },
+      {
+        "pair": "B-cbf",
+        "all": -0.0029,
+        "labelled": -0.0225,
+        "higher": 4,
+        "lower": 2,
+        "equal": 94
+      }
+    ],
+    "3_top10_overlap": [
+      {
+        "pair": "B-cbf",
+        "identical": 43,
+        "mean_overlap": 7.23
+      },
+      {
+        "pair": "C-cbf",
+        "identical": 21,
+        "mean_overlap": 6.32
+      },
+      {
+        "pair": "D-cbf",
+        "identical": 27,
+        "mean_overlap": 6.3
+      },
+      {
+        "pair": "E-cbf",
+        "identical": 21,
+        "mean_overlap": 6.06
+      },
+      {
+        "pair": "D-C",
+        "identical": 36,
+        "mean_overlap": 7.62
+      },
+      {
+        "pair": "E-D",
+        "identical": 54,
+        "mean_overlap": 8.42
+      },
+      {
+        "pair": "C-B",
+        "identical": 31,
+        "mean_overlap": 7.26
+      }
+    ],
+    "4_candidate_coverage": {
+      "labelled_with_no_candidate_purchase": 4,
+      "oracle_all": 0.0671,
+      "oracle_labelled": 0.5162
+    },
+    "5_llm_runs": [
+      {
+        "arm": "B",
+        "users": 100,
+        "invalid_outputs": 0,
+        "wall_seconds_whole_arm": 4985.8,
+        "resolved_commit": "70d244cc86cc",
+        "risk": 0,
+        "capacity": 0
+      },
+      {
+        "arm": "C",
+        "users": 100,
+        "invalid_outputs": 0,
+        "wall_seconds_whole_arm": 8682.8,
+        "resolved_commit": "70d244cc86cc",
+        "risk": 0,
+        "capacity": 0
+      },
+      {
+        "arm": "D",
+        "users": 100,
+        "invalid_outputs": 0,
+        "wall_seconds_whole_arm": 9993.8,
+        "resolved_commit": "70d244cc86cc",
+        "risk": 100,
+        "capacity": 97
+      },
+      {
+        "arm": "E",
+        "users": 100,
+        "invalid_outputs": 0,
+        "wall_seconds_whole_arm": 9939.8,
+        "resolved_commit": "70d244cc86cc",
+        "risk": 99,
+        "capacity": 96
+      }
+    ],
+    "6_profile_availability": {
+      "with_profile": 91,
+      "without_profile": 9,
+      "D_vs_C_top10_differs_with_profile": 59,
+      "D_vs_C_top10_differs_without_profile": 5,
+      "E_prompt_differs": 80,
+      "E_keeps_own_profile": 0,
+      "E_prompt_identical": 20,
+      "E_diff_top10_among_prompt_diff": 46,
+      "E_identical_ranking_among_prompt_same": 20,
+      "E_minus_D_mean_prompt_diff": 0.0
+    },
+    "7_labelled_users": [
+      {
+        "label": "U010",
+        "future_purchases": 3,
+        "in_candidates": 2,
+        "nDCG": {
+          "cbf": 0.3172,
+          "B": 0.2021,
+          "C": 0.1564,
+          "D": 0.1564,
+          "E": 0.1564
+        }
+      },
+      {
+        "label": "U017",
+        "future_purchases": 1,
+        "in_candidates": 1,
+        "nDCG": {
+          "cbf": 0.301,
+          "B": 0.5,
+          "C": 0.3869,
+          "D": 0.301,
+          "E": 0.301
+        }
+      },
+      {
+        "label": "U027",
+        "future_purchases": 2,
+        "in_candidates": 1,
+        "nDCG": {
+          "cbf": 0.3066,
+          "B": 0.3869,
+          "C": 0.3869,
+          "D": 0.3066,
+          "E": 0.3066
+        }
+      },
+      {
+        "label": "U035",
+        "future_purchases": 5,
+        "in_candidates": 0,
+        "nDCG": {
+          "cbf": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0
+        }
+      },
+      {
+        "label": "U040",
+        "future_purchases": 2,
+        "in_candidates": 0,
+        "nDCG": {
+          "cbf": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0
+        }
+      },
+      {
+        "label": "U045",
+        "future_purchases": 1,
+        "in_candidates": 1,
+        "nDCG": {
+          "cbf": 0.6309,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0
+        }
+      },
+      {
+        "label": "U048",
+        "future_purchases": 4,
+        "in_candidates": 1,
+        "nDCG": {
+          "cbf": 0.2463,
+          "B": 0.3904,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0
+        }
+      },
+      {
+        "label": "U064",
+        "future_purchases": 6,
+        "in_candidates": 2,
+        "nDCG": {
+          "cbf": 0.2381,
+          "B": 0.2684,
+          "C": 0.2684,
+          "D": 0.2684,
+          "E": 0.2684
+        }
+      },
+      {
+        "label": "U076",
+        "future_purchases": 5,
+        "in_candidates": 0,
+        "nDCG": {
+          "cbf": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0
+        }
+      },
+      {
+        "label": "U091",
+        "future_purchases": 1,
+        "in_candidates": 1,
+        "nDCG": {
+          "cbf": 0.6309,
+          "B": 0.6309,
+          "C": 0.6309,
+          "D": 0.6309,
+          "E": 0.6309
+        }
+      },
+      {
+        "label": "U094",
+        "future_purchases": 4,
+        "in_candidates": 0,
+        "nDCG": {
+          "cbf": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0
+        }
+      },
+      {
+        "label": "U096",
+        "future_purchases": 1,
+        "in_candidates": 1,
+        "nDCG": {
+          "cbf": 1.0,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 1.0,
+          "E": 1.0
+        }
+      },
+      {
+        "label": "U098",
+        "future_purchases": 7,
+        "in_candidates": 2,
+        "nDCG": {
+          "cbf": 0.4123,
+          "B": 0.4123,
+          "C": 0.4123,
+          "D": 0.4123,
+          "E": 0.4123
+        }
+      }
+    ],
+    "8_hand_check": {
+      "label": "U017",
+      "ideal_dcg": 1.0,
+      "methods": {
+        "cbf": {
+          "positions": [
+            {
+              "rank": 9,
+              "isin": "GRS496003005",
+              "term": 0.301
+            }
+          ],
+          "dcg": 0.301,
+          "nDCG": 0.301,
+          "script_nDCG": 0.301
+        },
+        "B": {
+          "positions": [
+            {
+              "rank": 3,
+              "isin": "GRS496003005",
+              "term": 0.5
+            }
+          ],
+          "dcg": 0.5,
+          "nDCG": 0.5,
+          "script_nDCG": 0.5
+        },
+        "C": {
+          "positions": [
+            {
+              "rank": 5,
+              "isin": "GRS496003005",
+              "term": 0.3869
+            }
+          ],
+          "dcg": 0.3869,
+          "nDCG": 0.3869,
+          "script_nDCG": 0.3869
+        },
+        "D": {
+          "positions": [
+            {
+              "rank": 9,
+              "isin": "GRS496003005",
+              "term": 0.301
+            }
+          ],
+          "dcg": 0.301,
+          "nDCG": 0.301,
+          "script_nDCG": 0.301
+        },
+        "E": {
+          "positions": [
+            {
+              "rank": 9,
+              "isin": "GRS496003005",
+              "term": 0.301
+            }
+          ],
+          "dcg": 0.301,
+          "nDCG": 0.301,
+          "script_nDCG": 0.301
+        }
+      }
+    },
+    "9_purchased_assets": {
+      "users": [
+        {
+          "label": "U010",
+          "future_purchases": 3,
+          "in_eligible": 3,
+          "repeat": 2,
+          "candidate_positions": [
+            5,
+            10
+          ]
+        },
+        {
+          "label": "U017",
+          "future_purchases": 1,
+          "in_eligible": 1,
+          "repeat": 1,
+          "candidate_positions": [
+            9
+          ]
+        },
+        {
+          "label": "U027",
+          "future_purchases": 2,
+          "in_eligible": 2,
+          "repeat": 2,
+          "candidate_positions": [
+            3
+          ]
+        },
+        {
+          "label": "U035",
+          "future_purchases": 5,
+          "in_eligible": 5,
+          "repeat": 2,
+          "candidate_positions": []
+        },
+        {
+          "label": "U040",
+          "future_purchases": 2,
+          "in_eligible": 2,
+          "repeat": 1,
+          "candidate_positions": []
+        },
+        {
+          "label": "U045",
+          "future_purchases": 1,
+          "in_eligible": 1,
+          "repeat": 0,
+          "candidate_positions": [
+            2
+          ]
+        },
+        {
+          "label": "U048",
+          "future_purchases": 4,
+          "in_eligible": 4,
+          "repeat": 4,
+          "candidate_positions": [
+            2
+          ]
+        },
+        {
+          "label": "U064",
+          "future_purchases": 6,
+          "in_eligible": 6,
+          "repeat": 2,
+          "candidate_positions": [
+            4,
+            6
+          ]
+        },
+        {
+          "label": "U076",
+          "future_purchases": 5,
+          "in_eligible": 5,
+          "repeat": 5,
+          "candidate_positions": []
+        },
+        {
+          "label": "U091",
+          "future_purchases": 1,
+          "in_eligible": 1,
+          "repeat": 1,
+          "candidate_positions": [
+            2
+          ]
+        },
+        {
+          "label": "U094",
+          "future_purchases": 4,
+          "in_eligible": 4,
+          "repeat": 3,
+          "candidate_positions": []
+        },
+        {
+          "label": "U096",
+          "future_purchases": 1,
+          "in_eligible": 1,
+          "repeat": 1,
+          "candidate_positions": [
+            1
+          ]
+        },
+        {
+          "label": "U098",
+          "future_purchases": 7,
+          "in_eligible": 7,
+          "repeat": 2,
+          "candidate_positions": [
+            1,
+            3
+          ]
+        }
+      ],
+      "totals": {
+        "future_purchases": 42,
+        "in_eligible": 42,
+        "repeat": 26,
+        "among_candidates": 12,
+        "candidate_positions_1_10": 12
+      }
+    },
+    "11_ranker_candidate_order": {
+      "candidate_position": {
+        "cbf": {
+          "mean_avg_candidate_position": 5.5,
+          "slots_1_10": 1000,
+          "slots_11_20": 0,
+          "slots_21_50": 0,
+          "users_with_asset_in_11_50": 0
+        },
+        "B": {
+          "mean_avg_candidate_position": 8.699,
+          "slots_1_10": 723,
+          "slots_11_20": 202,
+          "slots_21_50": 75,
+          "users_with_asset_in_11_50": 51
+        },
+        "C": {
+          "mean_avg_candidate_position": 9.826,
+          "slots_1_10": 632,
+          "slots_11_20": 270,
+          "slots_21_50": 98,
+          "users_with_asset_in_11_50": 76
+        },
+        "D": {
+          "mean_avg_candidate_position": 9.44,
+          "slots_1_10": 630,
+          "slots_11_20": 286,
+          "slots_21_50": 84,
+          "users_with_asset_in_11_50": 73
+        },
+        "E": {
+          "mean_avg_candidate_position": 9.88,
+          "slots_1_10": 606,
+          "slots_11_20": 294,
+          "slots_21_50": 100,
+          "users_with_asset_in_11_50": 77
+        }
+      },
+      "purchased_moves": {
+        "B": {
+          "improved": 6,
+          "worsened": 2,
+          "stayed": 4,
+          "outside": 0
+        },
+        "C": {
+          "improved": 5,
+          "worsened": 3,
+          "stayed": 4,
+          "outside": 0
+        },
+        "D": {
+          "improved": 3,
+          "worsened": 3,
+          "stayed": 6,
+          "outside": 0
+        },
+        "E": {
+          "improved": 3,
+          "worsened": 3,
+          "stayed": 6,
+          "outside": 0
+        }
+      }
+    },
+    "12_by_history_size": [
+      {
+        "group": "1 to 5 assets",
+        "users": 82,
+        "labelled": 5,
+        "methods": {
+          "popularity": {
+            "label": "Popularity",
+            "nDCG_all": 0.023,
+            "nDCG_labelled": 0.3767
+          },
+          "latest_buy": {
+            "label": "Latest buy",
+            "nDCG_all": 0.0338,
+            "nDCG_labelled": 0.5544
+          },
+          "latest_buy_or_sell": {
+            "label": "Latest buy or sell",
+            "nDCG_all": 0.0324,
+            "nDCG_labelled": 0.5316
+          },
+          "cbf": {
+            "label": "CBF (initial candidate order, matched control)",
+            "nDCG_all": 0.0325,
+            "nDCG_labelled": 0.5323
+          },
+          "B": {
+            "label": "B (raw history, no summary)",
+            "nDCG_all": 0.0258,
+            "nDCG_labelled": 0.4229
+          },
+          "C": {
+            "label": "C (summary only)",
+            "nDCG_all": 0.0238,
+            "nDCG_labelled": 0.3911
+          },
+          "D": {
+            "label": "D (summary + risk level and capacity)",
+            "nDCG_all": 0.0228,
+            "nDCG_labelled": 0.374
+          },
+          "E": {
+            "label": "E (D with shuffled profiles)",
+            "nDCG_all": 0.0228,
+            "nDCG_labelled": 0.374
+          }
+        }
+      },
+      {
+        "group": "6 or more assets",
+        "users": 18,
+        "labelled": 8,
+        "methods": {
+          "popularity": {
+            "label": "Popularity",
+            "nDCG_all": 0.1168,
+            "nDCG_labelled": 0.2628
+          },
+          "latest_buy": {
+            "label": "Latest buy",
+            "nDCG_all": 0.2182,
+            "nDCG_labelled": 0.4909
+          },
+          "latest_buy_or_sell": {
+            "label": "Latest buy or sell",
+            "nDCG_all": 0.2395,
+            "nDCG_labelled": 0.5389
+          },
+          "cbf": {
+            "label": "CBF (initial candidate order, matched control)",
+            "nDCG_all": 0.079,
+            "nDCG_labelled": 0.1777
+          },
+          "B": {
+            "label": "B (raw history, no summary)",
+            "nDCG_all": 0.0931,
+            "nDCG_labelled": 0.2096
+          },
+          "C": {
+            "label": "C (summary only)",
+            "nDCG_all": 0.0715,
+            "nDCG_labelled": 0.1608
+          },
+          "D": {
+            "label": "D (summary + risk level and capacity)",
+            "nDCG_all": 0.067,
+            "nDCG_labelled": 0.1507
+          },
+          "E": {
+            "label": "E (D with shuffled profiles)",
+            "nDCG_all": 0.067,
+            "nDCG_labelled": 0.1507
+          }
+        }
+      }
+    ],
+    "13_bootstrap": [
+      {
+        "pair": "D-C",
+        "subset": "all",
+        "n": 100,
+        "mean": -0.0017,
+        "q025": -0.0042,
+        "q975": 0.0,
+        "share_negative": 0.8696
+      },
+      {
+        "pair": "D-C",
+        "subset": "labelled",
+        "n": 13,
+        "mean": -0.0128,
+        "q025": -0.0317,
+        "q975": 0.0,
+        "share_negative": 0.8897
+      },
+      {
+        "pair": "E-D",
+        "subset": "all",
+        "n": 100,
+        "mean": 0.0,
+        "q025": 0.0,
+        "q975": 0.0,
+        "share_negative": 0.0
+      },
+      {
+        "pair": "E-D",
+        "subset": "labelled",
+        "n": 13,
+        "mean": 0.0,
+        "q025": 0.0,
+        "q975": 0.0,
+        "share_negative": 0.0
+      },
+      {
+        "pair": "C-B",
+        "subset": "all",
+        "n": 100,
+        "mean": -0.0055,
+        "q025": -0.0149,
+        "q975": 0.0,
+        "share_negative": 0.951
+      },
+      {
+        "pair": "C-B",
+        "subset": "labelled",
+        "n": 13,
+        "mean": -0.0422,
+        "q025": -0.1075,
+        "q975": 0.0,
+        "share_negative": 0.9644
+      },
+      {
+        "pair": "B-cbf",
+        "subset": "all",
+        "n": 100,
+        "mean": -0.0029,
+        "q025": -0.0186,
+        "q975": 0.008,
+        "share_negative": 0.6202
+      },
+      {
+        "pair": "B-cbf",
+        "subset": "labelled",
+        "n": 13,
+        "mean": -0.0225,
+        "q025": -0.1421,
+        "q975": 0.0593,
+        "share_negative": 0.6297
+      }
+    ]
+  }
+}

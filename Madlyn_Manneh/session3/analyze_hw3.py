@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Read-only HW3 analysis.
+"""Read-only HW3 analysis, with optional pooled multi-sample analysis.
 
 Reads saved starter / llm_rerank outputs and the course data. Never calls a
 model, and never prints or writes a customer ID: users are shown as labels
-U001, U002, ... in the order of <baseline-dir>/contexts.jsonl.
+U001, U002, ... in the concatenated order of the baseline contexts.jsonl files.
 """
 import argparse
 import csv
 import json
 import math
+import random
 import sys
 from datetime import date
 from pathlib import Path
@@ -74,75 +75,125 @@ def fmt4(x):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--baseline-dir', required=True)
+    ap.add_argument('--baseline-dir', action='append', required=True)
     ap.add_argument('--data-dir', default='data/FAR-Trans')
-    ap.add_argument('--arm', action='append', default=[], metavar='NAME=EVAL_DIR')
-    ap.add_argument('--run', action='append', default=[], metavar='NAME=RUN_DIR')
+    ap.add_argument('--arm', action='append', default=[], metavar='NAME=EVAL_DIR[,EVAL_DIR...]')
+    ap.add_argument('--run', action='append', default=[], metavar='NAME=RUN_DIR[,RUN_DIR...]')
     ap.add_argument('--out-dir', default='outputs/hw3_analysis')
     ap.add_argument('--hand-check')
     args = ap.parse_args()
 
-    base = Path(args.baseline_dir)
-    protocol = read_json(base / 'protocol.json')
-    cutoff = protocol['cutoff']
-    end_exclusive = protocol['end_exclusive']
-    base_hash = protocol['protocol_hash']
+    base_dirs = [Path(b) for b in args.baseline_dir]
+    n_samples = len(base_dirs)
+    pooled = n_samples > 1
+
+    protocols = [read_json(b / 'protocol.json') for b in base_dirs]
+    cutoff = protocols[0]['cutoff']
+    end_exclusive = protocols[0]['end_exclusive']
+    for i, p in enumerate(protocols):
+        if p['cutoff'] != cutoff or p['end_exclusive'] != end_exclusive:
+            sys.exit('baseline %d: cutoff/end_exclusive differs from first baseline' % (i + 1))
     horizon = (date.fromisoformat(end_exclusive) - date.fromisoformat(cutoff)).days
 
     truth = starter.load_data(Path(args.data_dir), cutoff, horizon)[3]
 
-    contexts = read_jsonl(base / 'contexts.jsonl')
-    user_ids = [c['user_id'] for c in contexts]
-    labels = {uid: 'U%03d' % (i + 1) for i, uid in enumerate(user_ids)}
-    uid_to_ctx = {c['user_id']: c for c in contexts}
+    all_contexts = [read_jsonl(b / 'contexts.jsonl') for b in base_dirs]
+    sample_user_ids = [[c['user_id'] for c in ctxs] for ctxs in all_contexts]
 
-    base_pred = read_predictions(base / 'predictions.csv')
-    base_pu = read_per_user(base / 'per_user.csv')
+    seen = set()
+    for i, uids in enumerate(sample_user_ids):
+        s = set(uids)
+        if s & seen:
+            sys.exit('baseline %d: user set overlaps an earlier baseline' % (i + 1))
+        seen |= s
+
+    user_ids = [uid for uids in sample_user_ids for uid in uids]
+    labels = {uid: 'U%03d' % (i + 1) for i, uid in enumerate(user_ids)}
+    uid_to_ctx = {c['user_id']: c for ctxs in all_contexts for c in ctxs}
+    uid_to_sample = {}
+    for si, uids in enumerate(sample_user_ids):
+        for uid in uids:
+            uid_to_sample[uid] = si
+
+    base_pred = [read_predictions(b / 'predictions.csv') for b in base_dirs]
+    base_pu = [read_per_user(b / 'per_user.csv') for b in base_dirs]
 
     arms = {}
     for item in args.arm:
-        name, d = item.split('=', 1)
-        arms[name] = Path(d)
+        name, val = item.split('=', 1)
+        arms[name] = [Path(x) for x in val.split(',')]
     runs = {}
     for item in args.run:
-        name, d = item.split('=', 1)
-        runs[name] = Path(d)
+        name, val = item.split('=', 1)
+        runs[name] = [Path(x) for x in val.split(',')]
 
-    rankings = {m: base_pred.get(m, {}) for m in BASELINE_ORDER}
+    arm_rankings = {}
     arm_pu = {}
-    for name, d in arms.items():
-        ap_ = read_json(d / 'protocol.json')
-        if ap_.get('protocol_hash') != base_hash:
-            sys.exit('arm %s: protocol_hash differs from baseline' % name)
-        pu = read_per_user(d / 'per_user.csv')
-        arm_pu[name] = pu
-        arm_users = {uid for (uid, m) in pu if m == 'custom'}
-        if arm_users != set(user_ids):
-            sys.exit('arm %s: user set differs from baseline' % name)
-        rankings[name] = read_predictions(d / 'predictions.csv').get('custom', {})
+    for name, dirs in arms.items():
+        if len(dirs) != n_samples:
+            sys.exit('arm %s: expected %d eval dirs, got %d' % (name, n_samples, len(dirs)))
+        pu_list, rk_list = [], []
+        for i, d in enumerate(dirs):
+            ap_ = read_json(d / 'protocol.json')
+            if ap_.get('protocol_hash') != protocols[i]['protocol_hash']:
+                sys.exit('arm %s sample %d: protocol_hash differs from baseline %d'
+                         % (name, i + 1, i + 1))
+            pu = read_per_user(d / 'per_user.csv')
+            arm_users = {uid for (uid, m) in pu if m == 'custom'}
+            if arm_users != set(sample_user_ids[i]):
+                sys.exit('arm %s sample %d: user set differs from baseline %d'
+                         % (name, i + 1, i + 1))
+            pu_list.append(pu)
+            rk_list.append(read_predictions(d / 'predictions.csv').get('custom', {}))
+        arm_pu[name] = pu_list
+        arm_rankings[name] = rk_list
+
+    for name, dirs in runs.items():
+        if len(dirs) != n_samples:
+            sys.exit('run %s: expected %d run dirs, got %d' % (name, n_samples, len(dirs)))
+    if pooled:
+        for name, dirs in runs.items():
+            for i, d in enumerate(dirs):
+                rm = read_json(d / 'run_meta.json')
+                if rm.get('protocol_hash') != protocols[i]['protocol_hash']:
+                    sys.exit('run %s sample %d: protocol_hash differs from baseline %d'
+                             % (name, i + 1, i + 1))
+
+    rankings = {}
+    for m in BASELINE_ORDER:
+        r = {}
+        for si in range(n_samples):
+            r.update(base_pred[si].get(m, {}))
+        rankings[m] = r
+    for name in arms:
+        r = {}
+        for si in range(n_samples):
+            r.update(arm_rankings[name][si])
+        rankings[name] = r
 
     method_names = list(BASELINE_ORDER) + [n for n in ARM_ORDER if n in arms]
     scores = {m: {} for m in method_names}
     rel = {}
-    for uid in user_ids:
-        relevant = truth.get(uid, set()) & set(uid_to_ctx[uid]['eligible_asset_ids'])
-        rel[uid] = len(relevant)
-        for m in BASELINE_ORDER:
-            v = starter.ndcg10(rankings[m].get(uid), relevant)
-            scores[m][uid] = v
-            row = base_pu.get((uid, m))
-            if row is None:
-                sys.exit('baseline per_user.csv missing %s %s' % (m, labels[uid]))
-            if abs(v - row['ndcg_at_10']) > 1e-9 or rel[uid] != row['relevant_count']:
-                sys.exit('baseline %s %s recompute mismatch' % (m, labels[uid]))
-        for name in arms:
-            v = starter.ndcg10(rankings[name].get(uid), relevant)
-            scores[name][uid] = v
-            row = arm_pu[name].get((uid, 'custom'))
-            if row is None:
-                sys.exit('arm %s per_user.csv missing %s' % (name, labels[uid]))
-            if abs(v - row['ndcg_at_10']) > 1e-9 or rel[uid] != row['relevant_count']:
-                sys.exit('arm %s %s recompute mismatch' % (name, labels[uid]))
+    for si in range(n_samples):
+        for uid in sample_user_ids[si]:
+            relevant = truth.get(uid, set()) & set(uid_to_ctx[uid]['eligible_asset_ids'])
+            rel[uid] = len(relevant)
+            for m in BASELINE_ORDER:
+                v = starter.ndcg10(base_pred[si].get(m, {}).get(uid), relevant)
+                scores[m][uid] = v
+                row = base_pu[si].get((uid, m))
+                if row is None:
+                    sys.exit('baseline per_user.csv missing %s %s' % (m, labels[uid]))
+                if abs(v - row['ndcg_at_10']) > 1e-9 or rel[uid] != row['relevant_count']:
+                    sys.exit('baseline %s %s recompute mismatch' % (m, labels[uid]))
+            for name in arms:
+                v = starter.ndcg10(arm_rankings[name][si].get(uid), relevant)
+                scores[name][uid] = v
+                row = arm_pu[name][si].get((uid, 'custom'))
+                if row is None:
+                    sys.exit('arm %s per_user.csv missing %s' % (name, labels[uid]))
+                if abs(v - row['ndcg_at_10']) > 1e-9 or rel[uid] != row['relevant_count']:
+                    sys.exit('arm %s %s recompute mismatch' % (name, labels[uid]))
 
     labelled = [uid for uid in user_ids if rel[uid] > 0]
     n_labelled = len(labelled)
@@ -150,13 +201,32 @@ def main():
 
     md = ['# HW3 analysis']
     result = {
-        'protocol_hash': base_hash,
+        'protocol_hash': protocols[0]['protocol_hash'],
         'cutoff': cutoff,
         'end_exclusive': end_exclusive,
         'users': n_users,
         'labelled_users': n_labelled,
         'sections': {},
     }
+    if pooled:
+        result['n_samples'] = n_samples
+        result['protocol_hashes'] = [p['protocol_hash'] for p in protocols]
+
+    # ---- section 0 (pooled only)
+    if pooled:
+        md.append('')
+        md.append('## 0. Samples')
+        md.append('| Sample | users | labelled | protocol_hash |')
+        md.append('|---|---:|---:|---|')
+        sec0 = []
+        for si in range(n_samples):
+            n_s = len(sample_user_ids[si])
+            n_l = sum(1 for uid in sample_user_ids[si] if rel[uid] > 0)
+            md.append('| %d | %d | %d | %s |'
+                      % (si + 1, n_s, n_l, protocols[si]['protocol_hash'][:12]))
+            sec0.append({'sample': si + 1, 'users': n_s, 'labelled': n_l,
+                         'protocol_hash_12': protocols[si]['protocol_hash'][:12]})
+        result['sections']['0_samples'] = sec0
 
     # ---- section 1
     md.append('')
@@ -246,33 +316,75 @@ def main():
     # ---- section 5
     md.append('')
     md.append('## 5. LLM runs')
-    md.append('| Arm | users | invalid_outputs | wall_seconds_whole_arm | resolved_commit | risk | capacity |')
-    md.append('|---|---:|---:|---:|---|---:|---:|')
-    sec5 = []
-    for name in ARM_ORDER:
-        if name not in runs:
-            continue
-        meta = read_json(runs[name] / 'run_meta.json')
-        raw = read_jsonl(runs[name] / 'raw_log.jsonl')
-        commit = meta.get('resolved_commit')
-        commit_short = (commit[:12] if commit else 'n/a')
-        risk = sum(1 for r in raw if 'risk' in (r.get('summary') or '').lower())
-        cap = sum(1 for r in raw if 'capacity' in (r.get('summary') or '').lower())
-        md.append('| %s | %s | %s | %s | %s | %d | %d |'
-                  % (name, meta.get('users'), meta.get('invalid_outputs'),
-                     meta.get('wall_seconds_whole_arm'), commit_short, risk, cap))
-        sec5.append({'arm': name, 'users': meta.get('users'),
-                     'invalid_outputs': meta.get('invalid_outputs'),
-                     'wall_seconds_whole_arm': meta.get('wall_seconds_whole_arm'),
-                     'resolved_commit': commit_short, 'risk': risk, 'capacity': cap})
-    result['sections']['5_llm_runs'] = sec5
+    if pooled:
+        md.append('| Arm | sample | users | invalid_outputs | wall_seconds_whole_arm | resolved_commit | risk | capacity |')
+        md.append('|---|---:|---:|---:|---:|---|---:|---:|')
+        sec5 = {}
+        for name in ARM_ORDER:
+            if name not in runs:
+                continue
+            per = []
+            sums = {'users': 0, 'invalid_outputs': 0, 'wall_seconds_whole_arm': 0.0,
+                    'risk': 0, 'capacity': 0}
+            for si in range(n_samples):
+                meta = read_json(runs[name][si] / 'run_meta.json')
+                raw = read_jsonl(runs[name][si] / 'raw_log.jsonl')
+                commit = meta.get('resolved_commit')
+                commit_short = (commit[:12] if commit else 'n/a')
+                risk = sum(1 for r in raw if 'risk' in (r.get('summary') or '').lower())
+                cap = sum(1 for r in raw if 'capacity' in (r.get('summary') or '').lower())
+                md.append('| %s | %d | %s | %s | %s | %s | %d | %d |'
+                          % (name, si + 1, meta.get('users'), meta.get('invalid_outputs'),
+                             meta.get('wall_seconds_whole_arm'), commit_short, risk, cap))
+                per.append({'sample': si + 1, 'users': meta.get('users'),
+                            'invalid_outputs': meta.get('invalid_outputs'),
+                            'wall_seconds_whole_arm': meta.get('wall_seconds_whole_arm'),
+                            'resolved_commit': commit_short, 'risk': risk, 'capacity': cap})
+                sums['users'] += meta.get('users') or 0
+                sums['invalid_outputs'] += meta.get('invalid_outputs') or 0
+                sums['wall_seconds_whole_arm'] += meta.get('wall_seconds_whole_arm') or 0.0
+                sums['risk'] += risk
+                sums['capacity'] += cap
+            md.append('| %s | sum | %d | %d | %s | | %d | %d |'
+                      % (name, sums['users'], sums['invalid_outputs'],
+                         round(sums['wall_seconds_whole_arm'], 1), sums['risk'], sums['capacity']))
+            sec5[name] = {'per_sample': per,
+                          'sum': {'users': sums['users'],
+                                  'invalid_outputs': sums['invalid_outputs'],
+                                  'wall_seconds_whole_arm': round(sums['wall_seconds_whole_arm'], 1),
+                                  'risk': sums['risk'], 'capacity': sums['capacity']}}
+        result['sections']['5_llm_runs'] = sec5
+    else:
+        md.append('| Arm | users | invalid_outputs | wall_seconds_whole_arm | resolved_commit | risk | capacity |')
+        md.append('|---|---:|---:|---:|---|---:|---:|')
+        sec5 = []
+        for name in ARM_ORDER:
+            if name not in runs:
+                continue
+            meta = read_json(runs[name][0] / 'run_meta.json')
+            raw = read_jsonl(runs[name][0] / 'raw_log.jsonl')
+            commit = meta.get('resolved_commit')
+            commit_short = (commit[:12] if commit else 'n/a')
+            risk = sum(1 for r in raw if 'risk' in (r.get('summary') or '').lower())
+            cap = sum(1 for r in raw if 'capacity' in (r.get('summary') or '').lower())
+            md.append('| %s | %s | %s | %s | %s | %d | %d |'
+                      % (name, meta.get('users'), meta.get('invalid_outputs'),
+                         meta.get('wall_seconds_whole_arm'), commit_short, risk, cap))
+            sec5.append({'arm': name, 'users': meta.get('users'),
+                         'invalid_outputs': meta.get('invalid_outputs'),
+                         'wall_seconds_whole_arm': meta.get('wall_seconds_whole_arm'),
+                         'resolved_commit': commit_short, 'risk': risk, 'capacity': cap})
+        result['sections']['5_llm_runs'] = sec5
 
     # ---- section 6
     md.append('')
     md.append('## 6. Profile availability')
     sec6 = {}
     if 'D' in runs:
-        rawD = {r['user_id']: r for r in read_jsonl(runs['D'] / 'raw_log.jsonl')}
+        rawD = {}
+        for si in range(n_samples):
+            for r in read_jsonl(runs['D'][si] / 'raw_log.jsonl'):
+                rawD[r['user_id']] = r
         with_prof = sum(1 for u in user_ids if rawD[u].get('questionnaire_before_cutoff'))
         without_prof = n_users - with_prof
         md.append('users with a profile: %d, without: %d' % (with_prof, without_prof))
@@ -288,7 +400,10 @@ def main():
             sec6['D_vs_C_top10_differs_with_profile'] = d_diff_w
             sec6['D_vs_C_top10_differs_without_profile'] = d_diff_wo
     if 'E' in runs and 'D' in runs and 'E' in rankings and 'D' in rankings:
-        rawE = {r['user_id']: r for r in read_jsonl(runs['E'] / 'raw_log.jsonl')}
+        rawE = {}
+        for si in range(n_samples):
+            for r in read_jsonl(runs['E'][si] / 'raw_log.jsonl'):
+                rawE[r['user_id']] = r
         prompt_diff = [u for u in user_ids
                        if rawE[u].get('summary_prompt') != rawD[u].get('summary_prompt')]
         prompt_same = [u for u in user_ids
@@ -312,6 +427,15 @@ def main():
         sec6['E_diff_top10_among_prompt_diff'] = diff_rank
         sec6['E_identical_ranking_among_prompt_same'] = same_rank
         sec6['E_minus_D_mean_prompt_diff'] = round(mean_ed, 4)
+        if pooled:
+            cross_sample = 0
+            for u in user_ids:
+                donor = rawE[u].get('profile_donor')
+                if donor is not None and donor in uid_to_sample \
+                        and uid_to_sample[donor] != uid_to_sample[u]:
+                    cross_sample += 1
+            md.append('cross-sample profile donors in E: %d' % cross_sample)
+            sec6['E_cross_sample_donors'] = cross_sample
     result['sections']['6_profile_availability'] = sec6
 
     # ---- section 7
@@ -415,6 +539,155 @@ def main():
                       'repeat': t_repeat, 'among_candidates': t_cand,
                       'candidate_positions_1_10': t_top10}
     result['sections']['9_purchased_assets'] = sec9
+
+    # ---- section 10 (pooled only)
+    if pooled:
+        md.append('')
+        md.append('## 10. Per-sample and pooled nDCG@10')
+        col = ['Method']
+        for si in range(n_samples):
+            col.append('sample %d all' % (si + 1))
+            col.append('sample %d labelled' % (si + 1))
+        col.append('pooled all')
+        col.append('pooled labelled')
+        md.append('| ' + ' | '.join(col) + ' |')
+        md.append('|' + '---|' * (len(col) - 1) + '---:|')
+        sec10 = []
+        for m in method_names:
+            row = [BASELINE_LABELS.get(m, ARM_LABELS.get(m, m))]
+            entry = {'method': m}
+            for si in range(n_samples):
+                s_users = sample_user_ids[si]
+                s_lab = [u for u in s_users if rel[u] > 0]
+                a = mean([scores[m][u] for u in s_users])
+                l = mean([scores[m][u] for u in s_lab])
+                row.append(fmt4(a))
+                row.append(fmt4(l))
+                entry['sample%d_all' % (si + 1)] = round(a, 4)
+                entry['sample%d_labelled' % (si + 1)] = round(l, 4)
+            pa = mean([scores[m][u] for u in user_ids])
+            pl = mean([scores[m][u] for u in labelled])
+            row.append(fmt4(pa))
+            row.append(fmt4(pl))
+            entry['pooled_all'] = round(pa, 4)
+            entry['pooled_labelled'] = round(pl, 4)
+            md.append('| ' + ' | '.join(row) + ' |')
+            sec10.append(entry)
+        result['sections']['10_per_sample_nDCG'] = sec10
+
+    # ---- section 11
+    md.append('')
+    md.append('## 11. How the ranker changes the candidate order')
+    sec11 = {'candidate_position': {}, 'purchased_moves': {}}
+    rank_methods = ['cbf'] + [n for n in ARM_ORDER if n in arms]
+    cand_pos = {uid: {a['id']: i + 1 for i, a in enumerate(uid_to_ctx[uid]['candidate_assets'])}
+                for uid in user_ids}
+    md.append('| Method | mean avg candidate position | slots 1-10 | slots 11-20 | slots 21-50 | users with >=1 asset in 11-50 |')
+    md.append('|---|---:|---:|---:|---:|---:|')
+    for m in rank_methods:
+        avgs = []
+        band = [0, 0, 0]
+        n_1150 = 0
+        for uid in user_ids:
+            pos = [cand_pos[uid].get(i, 51) for i in rankings[m].get(uid, [])]
+            avgs.append(sum(pos) / len(pos))
+            for p in pos:
+                if p <= 10:
+                    band[0] += 1
+                elif p <= 20:
+                    band[1] += 1
+                else:
+                    band[2] += 1
+            if any(p > 10 for p in pos):
+                n_1150 += 1
+        md.append('| %s | %.2f | %d | %d | %d | %d |'
+                  % (m, mean(avgs), band[0], band[1], band[2], n_1150))
+        sec11['candidate_position'][m] = {
+            'mean_avg_candidate_position': round(mean(avgs), 4),
+            'slots_1_10': band[0], 'slots_11_20': band[1], 'slots_21_50': band[2],
+            'users_with_asset_in_11_50': n_1150,
+        }
+    md.append('')
+    md.append('| Arm | improved | worsened | stayed same | remained outside |')
+    md.append('|---|---:|---:|---:|---:|')
+    for m in [n for n in ARM_ORDER if n in arms]:
+        counts = {'improved': 0, 'worsened': 0, 'stayed': 0, 'outside': 0}
+        for uid in user_ids:
+            for isin in truth.get(uid, set()):
+                p = cand_pos[uid].get(isin)
+                if p is None:
+                    continue
+                cbf_rank = p if p <= 10 else 'outside'
+                arm_top = rankings[m].get(uid, [])
+                arm_rank = arm_top.index(isin) + 1 if isin in arm_top else 'outside'
+                if cbf_rank == 'outside':
+                    cat = 'improved' if arm_rank != 'outside' else 'outside'
+                elif arm_rank == 'outside':
+                    cat = 'worsened'
+                elif arm_rank < cbf_rank:
+                    cat = 'improved'
+                elif arm_rank > cbf_rank:
+                    cat = 'worsened'
+                else:
+                    cat = 'stayed'
+                counts[cat] += 1
+        md.append('| %s | %d | %d | %d | %d |'
+                  % (m, counts['improved'], counts['worsened'], counts['stayed'], counts['outside']))
+        sec11['purchased_moves'][m] = counts
+    result['sections']['11_ranker_candidate_order'] = sec11
+
+    # ---- section 12
+    md.append('')
+    md.append('## 12. By history size')
+    md.append('Descriptive only; the groups are small.')
+    sec12 = []
+    groups = [('1 to 5 assets', lambda n: n <= 5), ('6 or more assets', lambda n: n >= 6)]
+    for gname, pred in groups:
+        g_users = [uid for uid in user_ids if pred(len(uid_to_ctx[uid]['history']))]
+        g_lab = [uid for uid in g_users if rel[uid] > 0]
+        md.append('### %s' % gname)
+        md.append('users %d, labelled %d' % (len(g_users), len(g_lab)))
+        md.append('| Method | nDCG@10 (all) | nDCG@10 (labelled) |')
+        md.append('|---|---:|---:|')
+        rows = {}
+        for m in method_names:
+            a = mean([scores[m][uid] for uid in g_users])
+            l = mean([scores[m][uid] for uid in g_lab])
+            label = BASELINE_LABELS.get(m, ARM_LABELS.get(m, m))
+            md.append('| %s | %s | %s |' % (label, fmt4(a), fmt4(l)))
+            rows[m] = {'label': label, 'nDCG_all': round(a, 4), 'nDCG_labelled': round(l, 4)}
+        sec12.append({'group': gname, 'users': len(g_users), 'labelled': len(g_lab), 'methods': rows})
+    result['sections']['12_by_history_size'] = sec12
+
+    # ---- section 13
+    md.append('')
+    md.append('## 13. Bootstrap intervals')
+    md.append('Descriptive intervals only; no significance test is performed.')
+    sec13 = []
+    pairs = [('D', 'C'), ('E', 'D'), ('C', 'B'), ('B', 'cbf')]
+    for a, b in pairs:
+        if a not in scores or b not in scores:
+            continue
+        for subset, uids in (('all', user_ids), ('labelled', labelled)):
+            vals = [scores[a][u] - scores[b][u] for u in uids]
+            n = len(vals)
+            rng = random.Random(0)
+            B = 10000
+            means = []
+            for _ in range(B):
+                s = [vals[rng.randrange(n)] for _ in range(n)]
+                means.append(sum(s) / n)
+            means.sort()
+            q025 = means[int(0.025 * B)]
+            q975 = means[int(0.975 * B)]
+            share_neg = sum(1 for x in means if x < 0) / B
+            md.append('%s - %s, %s: n=%d mean=%s 2.5%%=%s 97.5%%=%s share<0=%.4f'
+                      % (a, b, subset, n, fmt4(mean(vals)), fmt4(q025), fmt4(q975), share_neg))
+            sec13.append({'pair': '%s-%s' % (a, b), 'subset': subset, 'n': n,
+                          'mean': round(mean(vals), 4),
+                          'q025': round(q025, 4), 'q975': round(q975, 4),
+                          'share_negative': round(share_neg, 4)})
+    result['sections']['13_bootstrap'] = sec13
 
     body = '\n'.join(md) + '\n'
     out_dir = Path(args.out_dir)

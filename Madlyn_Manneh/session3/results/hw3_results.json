@@ -480,6 +480,241 @@
         "among_candidates": 6,
         "candidate_positions_1_10": 5
       }
-    }
+    },
+    "11_ranker_candidate_order": {
+      "candidate_position": {
+        "cbf": {
+          "mean_avg_candidate_position": 5.5,
+          "slots_1_10": 1000,
+          "slots_11_20": 0,
+          "slots_21_50": 0,
+          "users_with_asset_in_11_50": 0
+        },
+        "B": {
+          "mean_avg_candidate_position": 8.238,
+          "slots_1_10": 724,
+          "slots_11_20": 224,
+          "slots_21_50": 52,
+          "users_with_asset_in_11_50": 55
+        },
+        "C": {
+          "mean_avg_candidate_position": 9.394,
+          "slots_1_10": 647,
+          "slots_11_20": 271,
+          "slots_21_50": 82,
+          "users_with_asset_in_11_50": 71
+        },
+        "D": {
+          "mean_avg_candidate_position": 9.351,
+          "slots_1_10": 651,
+          "slots_11_20": 266,
+          "slots_21_50": 83,
+          "users_with_asset_in_11_50": 66
+        },
+        "E": {
+          "mean_avg_candidate_position": 9.76,
+          "slots_1_10": 641,
+          "slots_11_20": 261,
+          "slots_21_50": 98,
+          "users_with_asset_in_11_50": 68
+        }
+      },
+      "purchased_moves": {
+        "B": {
+          "improved": 3,
+          "worsened": 0,
+          "stayed": 2,
+          "outside": 1
+        },
+        "C": {
+          "improved": 3,
+          "worsened": 0,
+          "stayed": 2,
+          "outside": 1
+        },
+        "D": {
+          "improved": 2,
+          "worsened": 1,
+          "stayed": 2,
+          "outside": 1
+        },
+        "E": {
+          "improved": 3,
+          "worsened": 1,
+          "stayed": 1,
+          "outside": 1
+        }
+      }
+    },
+    "12_by_history_size": [
+      {
+        "group": "1 to 5 assets",
+        "users": 78,
+        "labelled": 4,
+        "methods": {
+          "popularity": {
+            "label": "Popularity",
+            "nDCG_all": 0.019,
+            "nDCG_labelled": 0.371
+          },
+          "latest_buy": {
+            "label": "Latest buy",
+            "nDCG_all": 0.0162,
+            "nDCG_labelled": 0.316
+          },
+          "latest_buy_or_sell": {
+            "label": "Latest buy or sell",
+            "nDCG_all": 0.0155,
+            "nDCG_labelled": 0.3026
+          },
+          "cbf": {
+            "label": "CBF (initial candidate order, matched control)",
+            "nDCG_all": 0.0116,
+            "nDCG_labelled": 0.2256
+          },
+          "B": {
+            "label": "B (raw history, no summary)",
+            "nDCG_all": 0.0117,
+            "nDCG_labelled": 0.2285
+          },
+          "C": {
+            "label": "C (summary only)",
+            "nDCG_all": 0.0143,
+            "nDCG_labelled": 0.2783
+          },
+          "D": {
+            "label": "D (summary + risk level and capacity)",
+            "nDCG_all": 0.0143,
+            "nDCG_labelled": 0.2783
+          },
+          "E": {
+            "label": "E (D with shuffled profiles)",
+            "nDCG_all": 0.0103,
+            "nDCG_labelled": 0.2016
+          }
+        }
+      },
+      {
+        "group": "6 or more assets",
+        "users": 22,
+        "labelled": 7,
+        "methods": {
+          "popularity": {
+            "label": "Popularity",
+            "nDCG_all": 0.0625,
+            "nDCG_labelled": 0.1965
+          },
+          "latest_buy": {
+            "label": "Latest buy",
+            "nDCG_all": 0.0686,
+            "nDCG_labelled": 0.2155
+          },
+          "latest_buy_or_sell": {
+            "label": "Latest buy or sell",
+            "nDCG_all": 0.0682,
+            "nDCG_labelled": 0.2143
+          },
+          "cbf": {
+            "label": "CBF (initial candidate order, matched control)",
+            "nDCG_all": 0.0504,
+            "nDCG_labelled": 0.1583
+          },
+          "B": {
+            "label": "B (raw history, no summary)",
+            "nDCG_all": 0.0623,
+            "nDCG_labelled": 0.1957
+          },
+          "C": {
+            "label": "C (summary only)",
+            "nDCG_all": 0.0623,
+            "nDCG_labelled": 0.1957
+          },
+          "D": {
+            "label": "D (summary + risk level and capacity)",
+            "nDCG_all": 0.0492,
+            "nDCG_labelled": 0.1546
+          },
+          "E": {
+            "label": "E (D with shuffled profiles)",
+            "nDCG_all": 0.0583,
+            "nDCG_labelled": 0.1832
+          }
+        }
+      }
+    ],
+    "13_bootstrap": [
+      {
+        "pair": "D-C",
+        "subset": "all",
+        "n": 100,
+        "mean": -0.0029,
+        "q025": -0.0082,
+        "q975": 0.0009,
+        "share_negative": 0.8634
+      },
+      {
+        "pair": "D-C",
+        "subset": "labelled",
+        "n": 11,
+        "mean": -0.0262,
+        "q025": -0.0721,
+        "q975": 0.0079,
+        "share_negative": 0.889
+      },
+      {
+        "pair": "E-D",
+        "subset": "all",
+        "n": 100,
+        "mean": -0.0011,
+        "q025": -0.0092,
+        "q975": 0.006,
+        "share_negative": 0.5365
+      },
+      {
+        "pair": "E-D",
+        "subset": "labelled",
+        "n": 11,
+        "mean": -0.0097,
+        "q025": -0.0836,
+        "q975": 0.0546,
+        "share_negative": 0.5518
+      },
+      {
+        "pair": "C-B",
+        "subset": "all",
+        "n": 100,
+        "mean": 0.002,
+        "q025": 0.0,
+        "q975": 0.006,
+        "share_negative": 0.0
+      },
+      {
+        "pair": "C-B",
+        "subset": "labelled",
+        "n": 11,
+        "mean": 0.0181,
+        "q025": 0.0,
+        "q975": 0.0543,
+        "share_negative": 0.0
+      },
+      {
+        "pair": "B-cbf",
+        "subset": "all",
+        "n": 100,
+        "mean": 0.0027,
+        "q025": 0.0,
+        "q975": 0.0067,
+        "share_negative": 0.0
+      },
+      {
+        "pair": "B-cbf",
+        "subset": "labelled",
+        "n": 11,
+        "mean": 0.0249,
+        "q025": 0.0,
+        "q975": 0.0595,
+        "share_negative": 0.0
+      }
+    ]
   }
 }
