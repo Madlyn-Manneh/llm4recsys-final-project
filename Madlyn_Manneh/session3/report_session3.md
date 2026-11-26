@@ -115,13 +115,13 @@ Next step: I would test whether the ranker uses the summary at all, with a posit
 
 ## AI Usage Disclosure
 
-AI tools used. opencode v2.0.27, an AI coding agent, with DeepSeek V4.1 Flash for 18 assistant messages and DeepSeek V4 Pro for 248, according to the model fields of the export (266 in total
+AI tools used. opencode v2.0.27, an AI coding agent, with DeepSeek V4.1 Flash for 18 assistant messages and DeepSeek V4 Pro for 329, according to the model fields of the export (347 in total). Qwen/Qwen3-1.7B is the model under study and was not used to write anything.
 
 How AI was used. opencode created the files from my prompts, ran all commands and the model runs as background processes, wrote analyze_hw3.py from my specification, and committed the results with explicit file lists. It first drafted the text of this report from facts that I verified and I then edited. When opencode was given only a summary instead of the text, it wrote its own version of make_hw3.py; it reported that its hash differed from the reference, and I then gave it the exact text.
 
 What I verified is listed in Individual Contribution. What I trusted without verification: the analysis script beyond its built-in checks (the bootstrap, history-size and ranker-behaviour sections), the starter’s truth construction, the provided ranker’s internals and my teammate’s ranker run, the contents of the FAR-Trans data itself, and the model outputs beyond the ones I read.
 
-Session log. The submitted AI-session export is opencode’s native export, made after the last opencode step (madlyn_manneh_session3.json). It records one dropped connection and two interrupted responses, after which opencode continued, and a first attempt at arm E that failed at start-up. It contained customer identifiers that opencode printed, so the submitted file is a documented derivative in which a script replaces each identifier by CUSTOMER-ID-001 and so on and changes nothing else.
+Session log. The submitted AI-session export is opencode’s native export, made after the last opencode step (madlyn_manneh_session3.json). It records two responses interrupted by a lost connection (ECONNRESET), after each of which opencode continued, and a first attempt at arm E that failed at start-up. It contained customer identifiers that opencode printed, so the submitted file is a documented derivative in which a script replaces each identifier by CUSTOMER-ID-001 and so on and changes nothing else.
 
 ## References
 
