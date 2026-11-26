@@ -1,0 +1,11 @@
+Run summary (console values rounded to 4 decimals; metrics.json keeps full precision)
+method              users  nonempty truth  empty truth  nDCG@10 (all)  nDCG@10 (nonempty)
+------------------  -----  --------------  -----------  -------------  ------------------
+cbf                 100                14           86         0.0445              0.3179
+latest_buy          100                14           86         0.0546              0.3899
+latest_buy_or_sell  100                14           86         0.0592              0.4227
+popularity          100                14           86         0.0143              0.1025
+protocol_hash e126569ce481 (prefix; full value in protocol.json and metrics.json)
+excluded_rows {"reconstructed_initial_position_rows": 38019}
+custom_failures 0
+Offline purchase relevance, not profitability or asset suitability.

@@ -1,0 +1,163 @@
+{
+  "label": "development results",
+  "window": "sparse_120",
+  "users": 120,
+  "nonempty_truth_users": 8,
+  "horizon_days": 90,
+  "protocol_hash": "5f470cfbb37d3985ea0996f564d059429b59fcd5dc747ff07632eb4e11589069",
+  "plan_sha256": "fa99792f07dfdb8b48a63235ba8652a1aeca8a6080ac0cea0343445e69ad1402",
+  "clarification_before_diagnostics": {
+    "scope": "User selected: promote from all 50 candidates",
+    "ties": "C/A top-10 order first; starter candidate order for assets absent from that ranking",
+    "remaining_slots": "Fill from the original C/A ranking, preserving its order",
+    "recency_source": "starter.scan_recent_events pre-cutoff Buy dates; counts from frozen contexts"
+  },
+  "diagnostics": {
+    "nonempty_users_with_repeat_truth": 2,
+    "nonempty_users_with_new_truth": 6,
+    "repeat_and_new_user_counts_can_overlap": true,
+    "users_with_previously_bought_candidate": 119,
+    "mean_previously_bought_candidates_per_user": 1.5166666666666666,
+    "repeat_truth_users_with_repeated_truth_in_top50": 2
+  },
+  "official_fallbacks": {
+    "A": 1,
+    "C": 0
+  },
+  "methods": {
+    "C": {
+      "ndcg_at_10_all": 0.017757747946428815,
+      "ndcg_at_10_nonempty": 0.2663662191964322
+    },
+    "V1": {
+      "ndcg_at_10_all": 0.017757747946428815,
+      "ndcg_at_10_nonempty": 0.2663662191964322
+    },
+    "V2": {
+      "ndcg_at_10_all": 0.020833333333333332,
+      "ndcg_at_10_nonempty": 0.3125
+    },
+    "A+R": {
+      "ndcg_at_10_all": 0.017180052597040422,
+      "ndcg_at_10_nonempty": 0.25770078895560633
+    },
+    "A": {
+      "ndcg_at_10_all": 0.016088971317278277,
+      "ndcg_at_10_nonempty": 0.24133456975917414
+    },
+    "CBF": {
+      "ndcg_at_10_all": 0.0141044672101359,
+      "ndcg_at_10_nonempty": 0.21156700815203852
+    },
+    "Latest buy": {
+      "ndcg_at_10_all": 0.02038662191964322,
+      "ndcg_at_10_nonempty": 0.3057993287946483
+    },
+    "Latest buy or sell": {
+      "ndcg_at_10_all": 0.02207260261981214,
+      "ndcg_at_10_nonempty": 0.3310890392971821
+    }
+  },
+  "statistical_conventions": {
+    "bootstrap": "10000 paired resamples of all 120 users; Python random.Random(0) reset for each pair; percentile CI with linear interpolation",
+    "wins_ties_losses": "nonempty-truth users only; exact score equality for ties",
+    "sign_test": "exact two-sided binomial p=0.5 on non-tied users"
+  },
+  "analysis_script_sha256": "e1401a71475dcd50c0db56f01284f0086e76a6d12f1e0d9846c1a088a067c437",
+  "source_sha256": {
+    "outputs/sparse_baseline_120/protocol.json": "a3f49de3c334e32939247f63bf297a4d49e707c38e2f099717cc6698faa57f77",
+    "outputs/sparse_baseline_120/contexts.jsonl": "1a22ea53872055484c2671cbb7300a9707d562b19ca3ef6b6648123e6424a74f",
+    "outputs/sparse_baseline_120/predictions.csv": "05ac65960504a1946e9bab3522ec6df139d1a3698028411d883c0dcf4548d297",
+    "outputs/sparse_A/responses.jsonl": "00e22292e658887edff91edc714ee779dad5f0409f8f1dfcafa9e7125eee3642",
+    "outputs/sparse_C/responses.jsonl": "fa9b06ac4a71239852b2e6b6b211672051d3132c065d96d62f0653c8dc39e08b",
+    "starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+    "scripts/hw3_paired_analysis.py": "698c23dada16cf429c2ca2628b19c690ea1378e38b5c516d541dce9ab2967163"
+  },
+  "selection": {
+    "chosen_C_plus_R": "V2",
+    "discarded_variant": "V1",
+    "selection_data": "main_200 only",
+    "criterion": "higher mean nDCG@10 over all 200",
+    "main_V1_ndcg_at_10": 0.03672118170356623,
+    "main_V2_ndcg_at_10": 0.03862633948808866,
+    "sparse_role": "robustness check only"
+  },
+  "pairs": {
+    "V1 - C": {
+      "left_method": "V1",
+      "right_method": "C",
+      "mean_difference_all": 0.0,
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 0,
+        "ties": 8,
+        "losses": 0,
+        "sign_test_p": 1.0
+      }
+    },
+    "V2 - C": {
+      "left_method": "V2",
+      "right_method": "C",
+      "mean_difference_all": 0.0030755853869045206,
+      "bootstrap_95_ci": [
+        0.0,
+        0.009226756160713561
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 1,
+        "ties": 7,
+        "losses": 0,
+        "sign_test_p": 1.0
+      }
+    },
+    "C+R - A+R": {
+      "left_method": "V2",
+      "right_method": "A+R",
+      "mean_difference_all": 0.0036532807362929117,
+      "bootstrap_95_ci": [
+        0.0,
+        0.010382146859490345
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 6,
+        "losses": 0,
+        "sign_test_p": 0.5
+      }
+    },
+    "C+R - Latest buy or sell": {
+      "left_method": "V2",
+      "right_method": "Latest buy or sell",
+      "mean_difference_all": -0.0012392692864788058,
+      "bootstrap_95_ci": [
+        -0.014830350566240953,
+        0.009226756160713561
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 5,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "C+R - A": {
+      "left_method": "V2",
+      "right_method": "A",
+      "mean_difference_all": 0.004744362016055058,
+      "bootstrap_95_ci": [
+        0.0,
+        0.013655390698776781
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 6,
+        "losses": 0,
+        "sign_test_p": 0.5
+      }
+    }
+  },
+  "protected_existing_files_checked_unchanged": 78
+}

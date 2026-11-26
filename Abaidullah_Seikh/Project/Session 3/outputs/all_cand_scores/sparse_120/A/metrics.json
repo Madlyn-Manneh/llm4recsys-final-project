@@ -1,0 +1,50 @@
+{
+  "protocol_hash": "9de0234128c634dfd0ff93d3f4bc71df81042b1390f6a418ab34ee93e40ad997",
+  "methods": {
+    "cbf": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.0141044672101359,
+      "ndcg_at_10_nonempty": 0.21156700815203852
+    },
+    "custom": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.016088971317278277,
+      "ndcg_at_10_nonempty": 0.24133456975917414
+    },
+    "latest_buy": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.02038662191964322,
+      "ndcg_at_10_nonempty": 0.3057993287946483
+    },
+    "latest_buy_or_sell": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.02207260261981214,
+      "ndcg_at_10_nonempty": 0.3310890392971821
+    },
+    "popularity": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.008481521340049992,
+      "ndcg_at_10_nonempty": 0.1272228201007499
+    }
+  },
+  "custom_failures": [
+    {
+      "user_id": "31E0BEEF3460677D8B47",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    }
+  ],
+  "excluded_rows": {
+    "reconstructed_initial_position_rows": 38019
+  },
+  "note": "Offline purchase relevance, not profitability or asset suitability."
+}

@@ -1,0 +1,86 @@
+{
+  "protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "base_protocol_document_sha256": "427e05eea001910c4c1f02169915ee5efbc27b5b5463fa0fdceb824ecd3c2146",
+  "amendment1_sha256": "33f0f5c126f0e38efcc661b2b4518fc3664419852cc9c1938a29d0853b515a06",
+  "baseline_contexts_sha256": "29300c5ead277865269fffdb44d2765ce1fc61c91c87785b042f046f684e6c04",
+  "baseline_protocol_json_sha256": "ae49c85f6484a1b2b5876ad5c28d1fc81c4a0dd299d9ee4b81cb990dd66cd1a4",
+  "invalid_rows": {
+    "A": {
+      "count": 1,
+      "positions": [
+        181
+      ]
+    },
+    "C": 0
+  },
+  "scoring_rule": "starter --on-invalid fallback (team rule, Session 2)",
+  "checks": {
+    "A": {
+      "rows": 200,
+      "unique_users": 200,
+      "ranked_ids_identical_to_source": 200
+    },
+    "C": {
+      "rows": 200,
+      "unique_users": 200,
+      "ranked_ids_identical_to_source": 200
+    }
+  },
+  "files": {
+    "A_responses.jsonl": {
+      "sha256": "68301a4815c59c67284dd142f4330c5730759c4fa1568a752292ed4cb2a8deb9",
+      "script": "llm_rerank.py",
+      "script_sha256": "85328db5d618b03a19287a59a853444f7a2e60885247c0d495a46f47a23667da",
+      "sources": [
+        {
+          "path": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/outputs/arm_A/responses.jsonl",
+          "sha256": "32ac1c86f3aa231f6ebf42c678bb2545759845fc5c682f2e85a3a69a77c87660",
+          "baseline_order_positions": [
+            1,
+            100
+          ],
+          "rows": 100,
+          "original_protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417"
+        },
+        {
+          "path": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3/outputs/arm_A_101_200/responses.jsonl",
+          "sha256": "b71ae488958ee1aac766bdb1d0580c5b20dd7e55dfb78ba47fd858a9f918cfd2",
+          "baseline_order_positions": [
+            101,
+            200
+          ],
+          "rows": 100,
+          "original_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697"
+        }
+      ],
+      "rebound_rows": {
+        "baseline_order_positions": [
+          1,
+          100
+        ],
+        "count": 100,
+        "from_protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417",
+        "to_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697"
+      },
+      "construction": "All 200 rows in baseline context order; protocol_hash set to the 200-user hash on all rows; ranked_ids and other fields unchanged.",
+      "hw2_script_attribution": "Accepted documentary provenance in HW3_PROTOCOL.md; the archived HW2 script did not record its own hash."
+    },
+    "C_responses.jsonl": {
+      "sha256": "448c252dd739057e89a6ebb4285af59629056c15f141a42a2f102302660dd652",
+      "script": "llm_rerank_c2.py",
+      "script_sha256": "0df30c0e913209daa7ce823e0c0f7569f16ca3059a7bfe4a57bd853792f28ada",
+      "sources": [
+        {
+          "path": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3/outputs/arm_C2_200/responses.jsonl",
+          "sha256": "448c252dd739057e89a6ebb4285af59629056c15f141a42a2f102302660dd652",
+          "rows": 200,
+          "original_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697"
+        }
+      ],
+      "rebound_rows": {
+        "count": 0
+      },
+      "construction": "Byte-identical copy."
+    }
+  }
+}

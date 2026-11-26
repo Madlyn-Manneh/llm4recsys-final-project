@@ -1,0 +1,1 @@
+P: nDCG_all_200=0.0306 nDCG_nonempty=0.2551 invalid_rows=46 fallbacks=46

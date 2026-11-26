@@ -1,0 +1,1 @@
+C: nDCG@10_all_200=0.0282 nDCG@10_nonempty_truth=0.2352 invalid_rows=0 fallbacks_used=0

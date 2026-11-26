@@ -1,0 +1,18 @@
+{
+  "users": 200,
+  "same_users_in_order": true,
+  "same_candidate_order": true,
+  "same_candidate_sets": true,
+  "protocol_hash_recorded": false,
+  "baseline_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "launch_reason": "Authorized under step 9b: prepare-only users and candidate sets match frozen baseline; provided prepare-only format does not record protocol hash.",
+  "defaults": {
+    "shuffle_seed": null,
+    "history_events": 15
+  },
+  "sha256": {
+    "outputs/provided_llm_200_prepare/ranker_prompts.jsonl": "b9d2a7d8d6f6991e5d2a60b86a1241657c894d22b57509908633fff7f7ae0807",
+    "outputs/baseline_200/contexts.jsonl": "29300c5ead277865269fffdb44d2765ce1fc61c91c87785b042f046f684e6c04",
+    "outputs/baseline_200/protocol.json": "ae49c85f6484a1b2b5876ad5c28d1fc81c4a0dd299d9ee4b81cb990dd66cd1a4"
+  }
+}

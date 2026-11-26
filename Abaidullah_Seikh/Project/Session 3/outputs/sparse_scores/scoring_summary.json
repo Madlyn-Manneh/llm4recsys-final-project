@@ -1,0 +1,84 @@
+{
+  "label": "sparse development results",
+  "users": 120,
+  "nonempty_truth_users": 8,
+  "protocol_hash": "5f470cfbb37d3985ea0996f564d059429b59fcd5dc747ff07632eb4e11589069",
+  "scoring_rule": "starter --on-invalid fallback",
+  "methods": {
+    "CBF": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.0141044672101359,
+      "ndcg_at_10_nonempty": 0.21156700815203852,
+      "invalid_rows": 0,
+      "fallbacks": 0
+    },
+    "Latest buy": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.02038662191964322,
+      "ndcg_at_10_nonempty": 0.3057993287946483,
+      "invalid_rows": 0,
+      "fallbacks": 0
+    },
+    "Latest buy or sell": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.02207260261981214,
+      "ndcg_at_10_nonempty": 0.3310890392971821,
+      "invalid_rows": 0,
+      "fallbacks": 0
+    },
+    "Popularity": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.008481521340049992,
+      "ndcg_at_10_nonempty": 0.1272228201007499,
+      "invalid_rows": 0,
+      "fallbacks": 0
+    },
+    "A": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.016088971317278277,
+      "ndcg_at_10_nonempty": 0.24133456975917414,
+      "invalid_rows": 1,
+      "fallbacks": 1
+    },
+    "C": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.017757747946428815,
+      "ndcg_at_10_nonempty": 0.2663662191964322,
+      "invalid_rows": 0,
+      "fallbacks": 0
+    },
+    "oldC": {
+      "users": 120,
+      "nonempty_truth_users": 8,
+      "empty_truth_users": 112,
+      "ndcg_at_10": 0.0035889713172782755,
+      "ndcg_at_10_nonempty": 0.05383456975917413,
+      "invalid_rows": 0,
+      "fallbacks": 0
+    }
+  },
+  "sources_sha256": {
+    "outputs/sparse_baseline_120/protocol.json": "a3f49de3c334e32939247f63bf297a4d49e707c38e2f099717cc6698faa57f77",
+    "outputs/sparse_baseline_120/contexts.jsonl": "1a22ea53872055484c2671cbb7300a9707d562b19ca3ef6b6648123e6424a74f",
+    "outputs/sparse_baseline_120/metrics.json": "db4dd31f9f889d48619f72d30999af6f75bec403fd1904e824be22442e61011f",
+    "outputs/sparse_A/responses.jsonl": "00e22292e658887edff91edc714ee779dad5f0409f8f1dfcafa9e7125eee3642",
+    "outputs/sparse_C/responses.jsonl": "fa9b06ac4a71239852b2e6b6b211672051d3132c065d96d62f0653c8dc39e08b",
+    "outputs/sparse_oldC/responses.jsonl": "e00453688046c7a5b608eab153bf074e1b23b2dec7f05cba00e95fc907929374",
+    "cohorts/sparse_window_users.txt": "fb5ef42d04bafcd0e91621ec51e2843ae8a5fe1ae5af694bfd544abed517a85c",
+    "HW3_PROTOCOL.md": "427e05eea001910c4c1f02169915ee5efbc27b5b5463fa0fdceb824ecd3c2146",
+    "HW3_PROTOCOL_AMENDMENT1.md": "33f0f5c126f0e38efcc661b2b4518fc3664419852cc9c1938a29d0853b515a06"
+  },
+  "scoring_script_sha256": "950284ecaaf2737c6cc7e098656803fcb48e61d4d6c5d21c1ed4876332aab034"
+}

@@ -1,0 +1,71 @@
+{
+  "script": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/far-trans-llm/ranker.py",
+  "script_sha256": "7c6b81794f7da10aab053074d86525b63d64aef10a08ff54ff5b6b8fa5de9f24",
+  "starter": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3/starter.py",
+  "starter_sha256": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+  "support_sources_sha256": {
+    "data_adapter.py": "19958c7ae419dce69d475bb0cf39498eab0510a7f147785a4a10ca5ba67d35c2",
+    "runtime.py": "b807167090355b342bcab54bf39fed6c5a40bf7b74ffd7f1027768490333e5fd"
+  },
+  "exact_command": "'/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/.venv/bin/python' '/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/far-trans-llm/ranker.py' --starter-dir '/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3' --data-dir '../Session 1/FAR-Trans' --cutoff 2021-06-01 --horizon-days 30 --max-users 200 --candidate-count 50 --model Qwen/Qwen3-1.7B --revision 70d244cc86ccca08cf5af4e1e306ecf908b1ad5e --device cpu --on-invalid fallback --output-dir outputs/provided_llm_200",
+  "command_argv": [
+    "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/.venv/bin/python",
+    "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 2/far-trans-llm/ranker.py",
+    "--starter-dir",
+    "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3",
+    "--data-dir",
+    "../Session 1/FAR-Trans",
+    "--cutoff",
+    "2021-06-01",
+    "--horizon-days",
+    "30",
+    "--max-users",
+    "200",
+    "--candidate-count",
+    "50",
+    "--model",
+    "Qwen/Qwen3-1.7B",
+    "--revision",
+    "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "--device",
+    "cpu",
+    "--on-invalid",
+    "fallback",
+    "--output-dir",
+    "outputs/provided_llm_200"
+  ],
+  "working_directory": "/home/dastan/Recommender Systems/Abaidullah_Seikh/Project/Session 3",
+  "start_time": "2026-11-24T00:57:00.966065+03:00",
+  "baseline_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "input_verification_sha256": "d61847f99eda8302e96c5a738a3df38be57b06794a5a6cbcef547ce288cda77e",
+  "input_verification": {
+    "users": 200,
+    "same_users_in_order": true,
+    "same_candidate_order": true,
+    "same_candidate_sets": true,
+    "protocol_hash_recorded": false,
+    "baseline_protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+    "launch_reason": "Authorized under step 9b: prepare-only users and candidate sets match frozen baseline; provided prepare-only format does not record protocol hash.",
+    "defaults": {
+      "shuffle_seed": null,
+      "history_events": 15
+    },
+    "sha256": {
+      "outputs/provided_llm_200_prepare/ranker_prompts.jsonl": "b9d2a7d8d6f6991e5d2a60b86a1241657c894d22b57509908633fff7f7ae0807",
+      "outputs/baseline_200/contexts.jsonl": "29300c5ead277865269fffdb44d2765ce1fc61c91c87785b042f046f684e6c04",
+      "outputs/baseline_200/protocol.json": "ae49c85f6484a1b2b5876ad5c28d1fc81c4a0dd299d9ee4b81cb990dd66cd1a4"
+    }
+  },
+  "protocol_hash_compatibility_reason": "Authorized under step 9b: prepare-only users and candidate sets match frozen baseline; provided prepare-only format does not record protocol hash.",
+  "defaults": {
+    "shuffle_seed": null,
+    "history_events": 15,
+    "allow_download": false
+  },
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "mem_available_gib_at_start": 7.449779510498047,
+  "end_time": "2026-11-24T13:58:18.530539+03:00",
+  "exit_code": 0
+}

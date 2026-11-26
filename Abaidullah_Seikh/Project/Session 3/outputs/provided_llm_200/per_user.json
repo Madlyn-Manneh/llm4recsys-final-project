@@ -1,0 +1,7202 @@
+[
+  {
+    "user_id": "7F4C738BC9D4A144C518",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7F4C738BC9D4A144C518",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7F4C738BC9D4A144C518",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7F4C738BC9D4A144C518",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7F4C738BC9D4A144C518",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7F4C738BC9D4A144C518",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B6E50192F1453975F157",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B6E50192F1453975F157",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B6E50192F1453975F157",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B6E50192F1453975F157",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B6E50192F1453975F157",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B6E50192F1453975F157",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A30590EA4AE29504AEE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A30590EA4AE29504AEE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A30590EA4AE29504AEE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A30590EA4AE29504AEE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A30590EA4AE29504AEE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A30590EA4AE29504AEE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F92A51D29569DCB1C868",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F92A51D29569DCB1C868",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F92A51D29569DCB1C868",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F92A51D29569DCB1C868",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F92A51D29569DCB1C868",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F92A51D29569DCB1C868",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8DD4DC4C90951E67598E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8DD4DC4C90951E67598E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8DD4DC4C90951E67598E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8DD4DC4C90951E67598E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8DD4DC4C90951E67598E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8DD4DC4C90951E67598E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6E7D25490A67935A1141",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6E7D25490A67935A1141",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6E7D25490A67935A1141",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6E7D25490A67935A1141",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6E7D25490A67935A1141",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6E7D25490A67935A1141",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DC4C31CB268182AD9D64",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DC4C31CB268182AD9D64",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DC4C31CB268182AD9D64",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DC4C31CB268182AD9D64",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DC4C31CB268182AD9D64",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DC4C31CB268182AD9D64",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "715E18373D280628037E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "715E18373D280628037E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "715E18373D280628037E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "715E18373D280628037E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "715E18373D280628037E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "715E18373D280628037E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "956E17732E5CBE2ADBFF",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "956E17732E5CBE2ADBFF",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "956E17732E5CBE2ADBFF",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "956E17732E5CBE2ADBFF",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "956E17732E5CBE2ADBFF",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "956E17732E5CBE2ADBFF",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "46D9095DA703AE1289F8",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "46D9095DA703AE1289F8",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "46D9095DA703AE1289F8",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "46D9095DA703AE1289F8",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "46D9095DA703AE1289F8",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "46D9095DA703AE1289F8",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42F6BE19121FF2A1E470",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42F6BE19121FF2A1E470",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42F6BE19121FF2A1E470",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42F6BE19121FF2A1E470",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42F6BE19121FF2A1E470",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42F6BE19121FF2A1E470",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D59A1DA79EF05DB35BBC",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D59A1DA79EF05DB35BBC",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D59A1DA79EF05DB35BBC",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D59A1DA79EF05DB35BBC",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D59A1DA79EF05DB35BBC",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D59A1DA79EF05DB35BBC",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "55F5F212E8755BD7E6A6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "55F5F212E8755BD7E6A6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "55F5F212E8755BD7E6A6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "55F5F212E8755BD7E6A6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "55F5F212E8755BD7E6A6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "55F5F212E8755BD7E6A6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "421B8C42D925AE7D3498",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "421B8C42D925AE7D3498",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "421B8C42D925AE7D3498",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "421B8C42D925AE7D3498",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "421B8C42D925AE7D3498",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "421B8C42D925AE7D3498",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F54AF314CC31B6E5B275",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F54AF314CC31B6E5B275",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F54AF314CC31B6E5B275",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F54AF314CC31B6E5B275",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F54AF314CC31B6E5B275",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F54AF314CC31B6E5B275",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C5BDA04B85A0902240FD",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C5BDA04B85A0902240FD",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C5BDA04B85A0902240FD",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C5BDA04B85A0902240FD",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C5BDA04B85A0902240FD",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C5BDA04B85A0902240FD",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "43CCCF77256D4694EE93",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "43CCCF77256D4694EE93",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "43CCCF77256D4694EE93",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "43CCCF77256D4694EE93",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "43CCCF77256D4694EE93",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "43CCCF77256D4694EE93",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BFFD9C891A98BAD971B",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BFFD9C891A98BAD971B",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BFFD9C891A98BAD971B",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BFFD9C891A98BAD971B",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BFFD9C891A98BAD971B",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BFFD9C891A98BAD971B",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "60AF55BB7945CD4B2301",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "60AF55BB7945CD4B2301",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "60AF55BB7945CD4B2301",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "60AF55BB7945CD4B2301",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "60AF55BB7945CD4B2301",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "60AF55BB7945CD4B2301",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9DC25A765E6F7E43A19F",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9DC25A765E6F7E43A19F",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9DC25A765E6F7E43A19F",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9DC25A765E6F7E43A19F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9DC25A765E6F7E43A19F",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9DC25A765E6F7E43A19F",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1DEC54DA40D00EADE5C2",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1DEC54DA40D00EADE5C2",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1DEC54DA40D00EADE5C2",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1DEC54DA40D00EADE5C2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1DEC54DA40D00EADE5C2",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1DEC54DA40D00EADE5C2",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "09AB056EA05F565155FD",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "09AB056EA05F565155FD",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "09AB056EA05F565155FD",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "09AB056EA05F565155FD",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "09AB056EA05F565155FD",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "09AB056EA05F565155FD",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7A49933DF36A6581F05A",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7A49933DF36A6581F05A",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7A49933DF36A6581F05A",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7A49933DF36A6581F05A",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7A49933DF36A6581F05A",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7A49933DF36A6581F05A",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "23CDA77FE14F6D804F38",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "23CDA77FE14F6D804F38",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "23CDA77FE14F6D804F38",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "23CDA77FE14F6D804F38",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "23CDA77FE14F6D804F38",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "23CDA77FE14F6D804F38",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE6EC721FDFA73BCD199",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE6EC721FDFA73BCD199",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE6EC721FDFA73BCD199",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE6EC721FDFA73BCD199",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE6EC721FDFA73BCD199",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE6EC721FDFA73BCD199",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1407ABC343A0BEE454",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1407ABC343A0BEE454",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1407ABC343A0BEE454",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1407ABC343A0BEE454",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1407ABC343A0BEE454",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1407ABC343A0BEE454",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0873F77367B3FA596946",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0873F77367B3FA596946",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0873F77367B3FA596946",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0873F77367B3FA596946",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0873F77367B3FA596946",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0873F77367B3FA596946",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "53D48CFD208E2F2E626B",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "53D48CFD208E2F2E626B",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "53D48CFD208E2F2E626B",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "53D48CFD208E2F2E626B",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "53D48CFD208E2F2E626B",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "53D48CFD208E2F2E626B",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F3B6B4C7E1F815C1FFE6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F3B6B4C7E1F815C1FFE6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F3B6B4C7E1F815C1FFE6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F3B6B4C7E1F815C1FFE6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F3B6B4C7E1F815C1FFE6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F3B6B4C7E1F815C1FFE6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "870E814DB274CFA95600",
+    "method": "popularity",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.48381288316677695
+  },
+  {
+    "user_id": "870E814DB274CFA95600",
+    "method": "cbf",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.6131471927654584
+  },
+  {
+    "user_id": "870E814DB274CFA95600",
+    "method": "latest_buy",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.8772153153380493
+  },
+  {
+    "user_id": "870E814DB274CFA95600",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.8772153153380493
+  },
+  {
+    "user_id": "870E814DB274CFA95600",
+    "method": "llmrank",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.6131471927654584
+  },
+  {
+    "user_id": "870E814DB274CFA95600",
+    "method": "candidate_order_first10",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.6131471927654584
+  },
+  {
+    "user_id": "6BAA2D5FBCCEAB57C473",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.31546487678572877
+  },
+  {
+    "user_id": "6BAA2D5FBCCEAB57C473",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "6BAA2D5FBCCEAB57C473",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.38685280723454163
+  },
+  {
+    "user_id": "6BAA2D5FBCCEAB57C473",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3562071871080222
+  },
+  {
+    "user_id": "6BAA2D5FBCCEAB57C473",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "6BAA2D5FBCCEAB57C473",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "508B4F986C71CD2B8136",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "508B4F986C71CD2B8136",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "508B4F986C71CD2B8136",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "508B4F986C71CD2B8136",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "508B4F986C71CD2B8136",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "508B4F986C71CD2B8136",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "974766F059895A1F7243",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "974766F059895A1F7243",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "974766F059895A1F7243",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "974766F059895A1F7243",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "974766F059895A1F7243",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "974766F059895A1F7243",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E76C6ACC6AC837819C76",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E76C6ACC6AC837819C76",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E76C6ACC6AC837819C76",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E76C6ACC6AC837819C76",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E76C6ACC6AC837819C76",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E76C6ACC6AC837819C76",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9259D188B1951A448F62",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9259D188B1951A448F62",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9259D188B1951A448F62",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9259D188B1951A448F62",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9259D188B1951A448F62",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9259D188B1951A448F62",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EF36A0A4BF8B80601DA2",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EF36A0A4BF8B80601DA2",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EF36A0A4BF8B80601DA2",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EF36A0A4BF8B80601DA2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EF36A0A4BF8B80601DA2",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EF36A0A4BF8B80601DA2",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "50401C6D431DA58DC1A8",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "50401C6D431DA58DC1A8",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "50401C6D431DA58DC1A8",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "50401C6D431DA58DC1A8",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "50401C6D431DA58DC1A8",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "50401C6D431DA58DC1A8",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4F149D9CD3B59F348554",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4F149D9CD3B59F348554",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4F149D9CD3B59F348554",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4F149D9CD3B59F348554",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4F149D9CD3B59F348554",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4F149D9CD3B59F348554",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94A16DE0F59F24BB77C2",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3333333333333333
+  },
+  {
+    "user_id": "94A16DE0F59F24BB77C2",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "94A16DE0F59F24BB77C2",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.31546487678572877
+  },
+  {
+    "user_id": "94A16DE0F59F24BB77C2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3010299956639812
+  },
+  {
+    "user_id": "94A16DE0F59F24BB77C2",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "94A16DE0F59F24BB77C2",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "07791D6EE6A9AB0C2DBE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "07791D6EE6A9AB0C2DBE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "07791D6EE6A9AB0C2DBE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "07791D6EE6A9AB0C2DBE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "07791D6EE6A9AB0C2DBE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "07791D6EE6A9AB0C2DBE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "67FDB6843535F5AC6E74",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "67FDB6843535F5AC6E74",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "67FDB6843535F5AC6E74",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "67FDB6843535F5AC6E74",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "67FDB6843535F5AC6E74",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "67FDB6843535F5AC6E74",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D4A9D0F1E3847197FBD7",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D4A9D0F1E3847197FBD7",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D4A9D0F1E3847197FBD7",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D4A9D0F1E3847197FBD7",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D4A9D0F1E3847197FBD7",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D4A9D0F1E3847197FBD7",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6C8439819A164756DA5",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6C8439819A164756DA5",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6C8439819A164756DA5",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6C8439819A164756DA5",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6C8439819A164756DA5",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6C8439819A164756DA5",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AD0D12E898599A4A386D",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AD0D12E898599A4A386D",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AD0D12E898599A4A386D",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AD0D12E898599A4A386D",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AD0D12E898599A4A386D",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AD0D12E898599A4A386D",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6FA5BF73C309CE8E9ED5",
+    "method": "popularity",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.09546043308946735
+  },
+  {
+    "user_id": "6FA5BF73C309CE8E9ED5",
+    "method": "cbf",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.10778915452451095
+  },
+  {
+    "user_id": "6FA5BF73C309CE8E9ED5",
+    "method": "latest_buy",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.4725458388387121
+  },
+  {
+    "user_id": "6FA5BF73C309CE8E9ED5",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.527454161161288
+  },
+  {
+    "user_id": "6FA5BF73C309CE8E9ED5",
+    "method": "llmrank",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.10778915452451095
+  },
+  {
+    "user_id": "6FA5BF73C309CE8E9ED5",
+    "method": "candidate_order_first10",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.10778915452451095
+  },
+  {
+    "user_id": "D6A4C42209EB65C2C0BF",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6A4C42209EB65C2C0BF",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6A4C42209EB65C2C0BF",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6A4C42209EB65C2C0BF",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6A4C42209EB65C2C0BF",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6A4C42209EB65C2C0BF",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6B15913A38A56CB253E0",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6B15913A38A56CB253E0",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6B15913A38A56CB253E0",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6B15913A38A56CB253E0",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6B15913A38A56CB253E0",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6B15913A38A56CB253E0",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "29C0592F254DB2430C00",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "29C0592F254DB2430C00",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "29C0592F254DB2430C00",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "29C0592F254DB2430C00",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "29C0592F254DB2430C00",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "29C0592F254DB2430C00",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E72D1BF99E858EEE1AA",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E72D1BF99E858EEE1AA",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E72D1BF99E858EEE1AA",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E72D1BF99E858EEE1AA",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E72D1BF99E858EEE1AA",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E72D1BF99E858EEE1AA",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "45AA27170792CBC9E45E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "45AA27170792CBC9E45E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "45AA27170792CBC9E45E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "45AA27170792CBC9E45E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "45AA27170792CBC9E45E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "45AA27170792CBC9E45E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3DBEA786CAEB9F1A3552",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3DBEA786CAEB9F1A3552",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3DBEA786CAEB9F1A3552",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3DBEA786CAEB9F1A3552",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3DBEA786CAEB9F1A3552",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3DBEA786CAEB9F1A3552",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AC72017F6FD8592E219C",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AC72017F6FD8592E219C",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AC72017F6FD8592E219C",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AC72017F6FD8592E219C",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AC72017F6FD8592E219C",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "AC72017F6FD8592E219C",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04345543E0F51BEE4607",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04345543E0F51BEE4607",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04345543E0F51BEE4607",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04345543E0F51BEE4607",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04345543E0F51BEE4607",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04345543E0F51BEE4607",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8FD0310C1D384F54A616",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8FD0310C1D384F54A616",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8FD0310C1D384F54A616",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8FD0310C1D384F54A616",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8FD0310C1D384F54A616",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8FD0310C1D384F54A616",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6BE11F6B76985C51E34",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6BE11F6B76985C51E34",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6BE11F6B76985C51E34",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6BE11F6B76985C51E34",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6BE11F6B76985C51E34",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E6BE11F6B76985C51E34",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D63DFAE7E53493A5ADD5",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "D63DFAE7E53493A5ADD5",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D63DFAE7E53493A5ADD5",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3333333333333333
+  },
+  {
+    "user_id": "D63DFAE7E53493A5ADD5",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.31546487678572877
+  },
+  {
+    "user_id": "D63DFAE7E53493A5ADD5",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D63DFAE7E53493A5ADD5",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BC466D8F02AEAE3E188A",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BC466D8F02AEAE3E188A",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BC466D8F02AEAE3E188A",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BC466D8F02AEAE3E188A",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BC466D8F02AEAE3E188A",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BC466D8F02AEAE3E188A",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0C758932172B6FCDFD87",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0C758932172B6FCDFD87",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0C758932172B6FCDFD87",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0C758932172B6FCDFD87",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0C758932172B6FCDFD87",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0C758932172B6FCDFD87",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6E68642832B0AECB8C5",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6E68642832B0AECB8C5",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6E68642832B0AECB8C5",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6E68642832B0AECB8C5",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6E68642832B0AECB8C5",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D6E68642832B0AECB8C5",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "79AC454BE8861E62FBC9",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "79AC454BE8861E62FBC9",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "79AC454BE8861E62FBC9",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "79AC454BE8861E62FBC9",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "79AC454BE8861E62FBC9",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "79AC454BE8861E62FBC9",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "972F29378E5CA46859D4",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "972F29378E5CA46859D4",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "972F29378E5CA46859D4",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "972F29378E5CA46859D4",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "972F29378E5CA46859D4",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "972F29378E5CA46859D4",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B43AB4599DACB30E18AE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B43AB4599DACB30E18AE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B43AB4599DACB30E18AE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B43AB4599DACB30E18AE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B43AB4599DACB30E18AE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B43AB4599DACB30E18AE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4DB2384C6767E333F63A",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4DB2384C6767E333F63A",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4DB2384C6767E333F63A",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4DB2384C6767E333F63A",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4DB2384C6767E333F63A",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4DB2384C6767E333F63A",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D693A7CE3175C0785E0F",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D693A7CE3175C0785E0F",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D693A7CE3175C0785E0F",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D693A7CE3175C0785E0F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D693A7CE3175C0785E0F",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D693A7CE3175C0785E0F",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A291D08319009188599",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A291D08319009188599",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A291D08319009188599",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A291D08319009188599",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A291D08319009188599",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A291D08319009188599",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C481179F90B9CEA19D7A",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C481179F90B9CEA19D7A",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C481179F90B9CEA19D7A",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C481179F90B9CEA19D7A",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C481179F90B9CEA19D7A",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C481179F90B9CEA19D7A",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "705FD472FE54EDA4C3BE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "705FD472FE54EDA4C3BE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "705FD472FE54EDA4C3BE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "705FD472FE54EDA4C3BE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "705FD472FE54EDA4C3BE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "705FD472FE54EDA4C3BE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B95B5CB1DA92034CB60B",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B95B5CB1DA92034CB60B",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B95B5CB1DA92034CB60B",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B95B5CB1DA92034CB60B",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B95B5CB1DA92034CB60B",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B95B5CB1DA92034CB60B",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5087D23F907F90F3DDD1",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 1.0
+  },
+  {
+    "user_id": "5087D23F907F90F3DDD1",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.2890648263178879
+  },
+  {
+    "user_id": "5087D23F907F90F3DDD1",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.38685280723454163
+  },
+  {
+    "user_id": "5087D23F907F90F3DDD1",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3333333333333333
+  },
+  {
+    "user_id": "5087D23F907F90F3DDD1",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.2890648263178879
+  },
+  {
+    "user_id": "5087D23F907F90F3DDD1",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.2890648263178879
+  },
+  {
+    "user_id": "D55495B39FE52F57F966",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D55495B39FE52F57F966",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D55495B39FE52F57F966",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D55495B39FE52F57F966",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D55495B39FE52F57F966",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D55495B39FE52F57F966",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "41B818F03A1E1673E78E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "41B818F03A1E1673E78E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "41B818F03A1E1673E78E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "41B818F03A1E1673E78E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "41B818F03A1E1673E78E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "41B818F03A1E1673E78E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A220D47B1644E4FD349",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A220D47B1644E4FD349",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A220D47B1644E4FD349",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A220D47B1644E4FD349",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A220D47B1644E4FD349",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8A220D47B1644E4FD349",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0B6584C369F3EA6893F7",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0B6584C369F3EA6893F7",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0B6584C369F3EA6893F7",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0B6584C369F3EA6893F7",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0B6584C369F3EA6893F7",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0B6584C369F3EA6893F7",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "066ECEB67C061D84286C",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "066ECEB67C061D84286C",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "066ECEB67C061D84286C",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "066ECEB67C061D84286C",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "066ECEB67C061D84286C",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "066ECEB67C061D84286C",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D169F8F0FA1A122ED442",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D169F8F0FA1A122ED442",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D169F8F0FA1A122ED442",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D169F8F0FA1A122ED442",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D169F8F0FA1A122ED442",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D169F8F0FA1A122ED442",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FDBFCF2DE9B2F38ACCBC",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FDBFCF2DE9B2F38ACCBC",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FDBFCF2DE9B2F38ACCBC",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FDBFCF2DE9B2F38ACCBC",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FDBFCF2DE9B2F38ACCBC",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FDBFCF2DE9B2F38ACCBC",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E29675CF0B9825FBDD28",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E29675CF0B9825FBDD28",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E29675CF0B9825FBDD28",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E29675CF0B9825FBDD28",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E29675CF0B9825FBDD28",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E29675CF0B9825FBDD28",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F56D207B97FA15BFBBD",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F56D207B97FA15BFBBD",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F56D207B97FA15BFBBD",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F56D207B97FA15BFBBD",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F56D207B97FA15BFBBD",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F56D207B97FA15BFBBD",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04671739FA21EB112C07",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04671739FA21EB112C07",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04671739FA21EB112C07",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04671739FA21EB112C07",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04671739FA21EB112C07",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04671739FA21EB112C07",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3AF20767EAECCADD3B43",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3AF20767EAECCADD3B43",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3AF20767EAECCADD3B43",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3AF20767EAECCADD3B43",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3AF20767EAECCADD3B43",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3AF20767EAECCADD3B43",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2A02C1C6215C3E76ED40",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2A02C1C6215C3E76ED40",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2A02C1C6215C3E76ED40",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2A02C1C6215C3E76ED40",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2A02C1C6215C3E76ED40",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2A02C1C6215C3E76ED40",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5F48B46AE99C0343270D",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5F48B46AE99C0343270D",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5F48B46AE99C0343270D",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5F48B46AE99C0343270D",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5F48B46AE99C0343270D",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5F48B46AE99C0343270D",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F9F863E14273C528E0CD",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F9F863E14273C528E0CD",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F9F863E14273C528E0CD",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F9F863E14273C528E0CD",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F9F863E14273C528E0CD",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F9F863E14273C528E0CD",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "54FAD3E1CA1E6589F663",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "54FAD3E1CA1E6589F663",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "54FAD3E1CA1E6589F663",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "54FAD3E1CA1E6589F663",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "54FAD3E1CA1E6589F663",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "54FAD3E1CA1E6589F663",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F59441FE2E56CDB372E0",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F59441FE2E56CDB372E0",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F59441FE2E56CDB372E0",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F59441FE2E56CDB372E0",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F59441FE2E56CDB372E0",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F59441FE2E56CDB372E0",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A54AF329D16318DF3DDC",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A54AF329D16318DF3DDC",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A54AF329D16318DF3DDC",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A54AF329D16318DF3DDC",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A54AF329D16318DF3DDC",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A54AF329D16318DF3DDC",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "06AE8AC72FD5B2D0FC6D",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "06AE8AC72FD5B2D0FC6D",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "06AE8AC72FD5B2D0FC6D",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "06AE8AC72FD5B2D0FC6D",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "06AE8AC72FD5B2D0FC6D",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "06AE8AC72FD5B2D0FC6D",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0860DF0D12BDF600D9A5",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0860DF0D12BDF600D9A5",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0860DF0D12BDF600D9A5",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0860DF0D12BDF600D9A5",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0860DF0D12BDF600D9A5",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0860DF0D12BDF600D9A5",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1A6264E25EADB81AD7F7",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1A6264E25EADB81AD7F7",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1A6264E25EADB81AD7F7",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1A6264E25EADB81AD7F7",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1A6264E25EADB81AD7F7",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1A6264E25EADB81AD7F7",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D8D610B7032BCFE7692E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D8D610B7032BCFE7692E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D8D610B7032BCFE7692E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D8D610B7032BCFE7692E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D8D610B7032BCFE7692E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D8D610B7032BCFE7692E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "688CAFDBC409602876B0",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "688CAFDBC409602876B0",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "688CAFDBC409602876B0",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "688CAFDBC409602876B0",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "688CAFDBC409602876B0",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "688CAFDBC409602876B0",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B66AE6864EBCAF2A7B12",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B66AE6864EBCAF2A7B12",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B66AE6864EBCAF2A7B12",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B66AE6864EBCAF2A7B12",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B66AE6864EBCAF2A7B12",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B66AE6864EBCAF2A7B12",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "17A4C02B98093891DDE2",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "17A4C02B98093891DDE2",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "17A4C02B98093891DDE2",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "17A4C02B98093891DDE2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "17A4C02B98093891DDE2",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "17A4C02B98093891DDE2",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5180B50A10AAD1C7D0F8",
+    "method": "popularity",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5180B50A10AAD1C7D0F8",
+    "method": "cbf",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5180B50A10AAD1C7D0F8",
+    "method": "latest_buy",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5180B50A10AAD1C7D0F8",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5180B50A10AAD1C7D0F8",
+    "method": "llmrank",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5180B50A10AAD1C7D0F8",
+    "method": "candidate_order_first10",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0F275A69F2B1B6FE8F04",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0F275A69F2B1B6FE8F04",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0F275A69F2B1B6FE8F04",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0F275A69F2B1B6FE8F04",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0F275A69F2B1B6FE8F04",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0F275A69F2B1B6FE8F04",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E7C5D1C706266FB72119",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E7C5D1C706266FB72119",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E7C5D1C706266FB72119",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E7C5D1C706266FB72119",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E7C5D1C706266FB72119",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E7C5D1C706266FB72119",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D040911678A4D0E56E9F",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D040911678A4D0E56E9F",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D040911678A4D0E56E9F",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D040911678A4D0E56E9F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D040911678A4D0E56E9F",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D040911678A4D0E56E9F",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A85F4EA2CB898F63EA15",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A85F4EA2CB898F63EA15",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A85F4EA2CB898F63EA15",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A85F4EA2CB898F63EA15",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A85F4EA2CB898F63EA15",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A85F4EA2CB898F63EA15",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CDAEC909A89BB0CD6EFE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CDAEC909A89BB0CD6EFE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CDAEC909A89BB0CD6EFE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CDAEC909A89BB0CD6EFE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CDAEC909A89BB0CD6EFE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CDAEC909A89BB0CD6EFE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD334A40C83713CCBA40",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD334A40C83713CCBA40",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD334A40C83713CCBA40",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD334A40C83713CCBA40",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD334A40C83713CCBA40",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD334A40C83713CCBA40",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E5B690C5D4124FEAAA89",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E5B690C5D4124FEAAA89",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E5B690C5D4124FEAAA89",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E5B690C5D4124FEAAA89",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E5B690C5D4124FEAAA89",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E5B690C5D4124FEAAA89",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1940F1D7022F19B7361",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1940F1D7022F19B7361",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1940F1D7022F19B7361",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1940F1D7022F19B7361",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1940F1D7022F19B7361",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1940F1D7022F19B7361",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BD4934C56C015644D5F6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BD4934C56C015644D5F6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BD4934C56C015644D5F6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BD4934C56C015644D5F6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BD4934C56C015644D5F6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BD4934C56C015644D5F6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1202729DA5BCA70D131",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1202729DA5BCA70D131",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1202729DA5BCA70D131",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1202729DA5BCA70D131",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1202729DA5BCA70D131",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A1202729DA5BCA70D131",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EA156870FFA60F042C42",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EA156870FFA60F042C42",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EA156870FFA60F042C42",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EA156870FFA60F042C42",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EA156870FFA60F042C42",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "EA156870FFA60F042C42",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "76EFFEF96E6188407990",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "76EFFEF96E6188407990",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "76EFFEF96E6188407990",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "76EFFEF96E6188407990",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "76EFFEF96E6188407990",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "76EFFEF96E6188407990",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BB13CF54D30F93075EFF",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BB13CF54D30F93075EFF",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BB13CF54D30F93075EFF",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BB13CF54D30F93075EFF",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BB13CF54D30F93075EFF",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "BB13CF54D30F93075EFF",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7E4C9DCAF32750BD6D2D",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7E4C9DCAF32750BD6D2D",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7E4C9DCAF32750BD6D2D",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7E4C9DCAF32750BD6D2D",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7E4C9DCAF32750BD6D2D",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7E4C9DCAF32750BD6D2D",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A66CAFEA62BF0746A2F8",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A66CAFEA62BF0746A2F8",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A66CAFEA62BF0746A2F8",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A66CAFEA62BF0746A2F8",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A66CAFEA62BF0746A2F8",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A66CAFEA62BF0746A2F8",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "44A90E446962637F0AC0",
+    "method": "popularity",
+    "relevant_count": 3,
+    "ndcg_at_10": 0.6105456988825855
+  },
+  {
+    "user_id": "44A90E446962637F0AC0",
+    "method": "cbf",
+    "relevant_count": 3,
+    "ndcg_at_10": 0.3171937659698004
+  },
+  {
+    "user_id": "44A90E446962637F0AC0",
+    "method": "latest_buy",
+    "relevant_count": 3,
+    "ndcg_at_10": 0.4367467095119258
+  },
+  {
+    "user_id": "44A90E446962637F0AC0",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 3,
+    "ndcg_at_10": 0.6713860725233041
+  },
+  {
+    "user_id": "44A90E446962637F0AC0",
+    "method": "llmrank",
+    "relevant_count": 3,
+    "ndcg_at_10": 0.4776237035032179
+  },
+  {
+    "user_id": "44A90E446962637F0AC0",
+    "method": "candidate_order_first10",
+    "relevant_count": 3,
+    "ndcg_at_10": 0.3171937659698004
+  },
+  {
+    "user_id": "CE95C1E8039F8FCEA556",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE95C1E8039F8FCEA556",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE95C1E8039F8FCEA556",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE95C1E8039F8FCEA556",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE95C1E8039F8FCEA556",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CE95C1E8039F8FCEA556",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E2BAA0C684A884928A87",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E2BAA0C684A884928A87",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E2BAA0C684A884928A87",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E2BAA0C684A884928A87",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E2BAA0C684A884928A87",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E2BAA0C684A884928A87",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "32B18987E020AD6F8E6D",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "32B18987E020AD6F8E6D",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "32B18987E020AD6F8E6D",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "32B18987E020AD6F8E6D",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "32B18987E020AD6F8E6D",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "32B18987E020AD6F8E6D",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B38AD5E2A899AABDD167",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B38AD5E2A899AABDD167",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B38AD5E2A899AABDD167",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B38AD5E2A899AABDD167",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B38AD5E2A899AABDD167",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B38AD5E2A899AABDD167",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C3430EEF21AA54DED854",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C3430EEF21AA54DED854",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C3430EEF21AA54DED854",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C3430EEF21AA54DED854",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C3430EEF21AA54DED854",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C3430EEF21AA54DED854",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9C2F5DC17A883E65FA64",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9C2F5DC17A883E65FA64",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9C2F5DC17A883E65FA64",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9C2F5DC17A883E65FA64",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9C2F5DC17A883E65FA64",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9C2F5DC17A883E65FA64",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7C47A9688FCAF09968BA",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "7C47A9688FCAF09968BA",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3010299956639812
+  },
+  {
+    "user_id": "7C47A9688FCAF09968BA",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 1.0
+  },
+  {
+    "user_id": "7C47A9688FCAF09968BA",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 1.0
+  },
+  {
+    "user_id": "7C47A9688FCAF09968BA",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3010299956639812
+  },
+  {
+    "user_id": "7C47A9688FCAF09968BA",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3010299956639812
+  },
+  {
+    "user_id": "CBAD8365951107ED8E10",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CBAD8365951107ED8E10",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CBAD8365951107ED8E10",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CBAD8365951107ED8E10",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CBAD8365951107ED8E10",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CBAD8365951107ED8E10",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8D7618985F28CD11DA45",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8D7618985F28CD11DA45",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8D7618985F28CD11DA45",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8D7618985F28CD11DA45",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8D7618985F28CD11DA45",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8D7618985F28CD11DA45",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "909B0284C236D7D97BF3",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "909B0284C236D7D97BF3",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "909B0284C236D7D97BF3",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "909B0284C236D7D97BF3",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "909B0284C236D7D97BF3",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "909B0284C236D7D97BF3",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "84275A7D55B0E7013F52",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "84275A7D55B0E7013F52",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "84275A7D55B0E7013F52",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "84275A7D55B0E7013F52",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "84275A7D55B0E7013F52",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "84275A7D55B0E7013F52",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "75B8F8C9B83BA098EEB8",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "75B8F8C9B83BA098EEB8",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "75B8F8C9B83BA098EEB8",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "75B8F8C9B83BA098EEB8",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "75B8F8C9B83BA098EEB8",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "75B8F8C9B83BA098EEB8",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A558F4F32433ECFF9217",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A558F4F32433ECFF9217",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A558F4F32433ECFF9217",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A558F4F32433ECFF9217",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A558F4F32433ECFF9217",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A558F4F32433ECFF9217",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D7F70632B147FCABFC3F",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D7F70632B147FCABFC3F",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D7F70632B147FCABFC3F",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D7F70632B147FCABFC3F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D7F70632B147FCABFC3F",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D7F70632B147FCABFC3F",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B64B59E214075147C800",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B64B59E214075147C800",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B64B59E214075147C800",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B64B59E214075147C800",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B64B59E214075147C800",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B64B59E214075147C800",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A03A3F497FE83B6BB650",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A03A3F497FE83B6BB650",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A03A3F497FE83B6BB650",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A03A3F497FE83B6BB650",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A03A3F497FE83B6BB650",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A03A3F497FE83B6BB650",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D69BC7F3B5CBB4945982",
+    "method": "popularity",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.3065735963827292
+  },
+  {
+    "user_id": "D69BC7F3B5CBB4945982",
+    "method": "cbf",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.3065735963827292
+  },
+  {
+    "user_id": "D69BC7F3B5CBB4945982",
+    "method": "latest_buy",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.5249810332008933
+  },
+  {
+    "user_id": "D69BC7F3B5CBB4945982",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.6052602440527057
+  },
+  {
+    "user_id": "D69BC7F3B5CBB4945982",
+    "method": "llmrank",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.3065735963827292
+  },
+  {
+    "user_id": "D69BC7F3B5CBB4945982",
+    "method": "candidate_order_first10",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.3065735963827292
+  },
+  {
+    "user_id": "F0F16B23268F4100E1F2",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F0F16B23268F4100E1F2",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F0F16B23268F4100E1F2",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F0F16B23268F4100E1F2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F0F16B23268F4100E1F2",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F0F16B23268F4100E1F2",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0941743EB21E7203E198",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0941743EB21E7203E198",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0941743EB21E7203E198",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0941743EB21E7203E198",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0941743EB21E7203E198",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0941743EB21E7203E198",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C74B98A995DEF6B76396",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C74B98A995DEF6B76396",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C74B98A995DEF6B76396",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C74B98A995DEF6B76396",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C74B98A995DEF6B76396",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "C74B98A995DEF6B76396",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "89C74C38D978B49A9D49",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "89C74C38D978B49A9D49",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "89C74C38D978B49A9D49",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "89C74C38D978B49A9D49",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "89C74C38D978B49A9D49",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "89C74C38D978B49A9D49",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42DD1D76D74555926931",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42DD1D76D74555926931",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42DD1D76D74555926931",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42DD1D76D74555926931",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42DD1D76D74555926931",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "42DD1D76D74555926931",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4621B721B126CF8AB003",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4621B721B126CF8AB003",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4621B721B126CF8AB003",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4621B721B126CF8AB003",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4621B721B126CF8AB003",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4621B721B126CF8AB003",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "981770BCEA87676EED15",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "981770BCEA87676EED15",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "981770BCEA87676EED15",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "981770BCEA87676EED15",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "981770BCEA87676EED15",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "981770BCEA87676EED15",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3D572B4F6A4E9682A51F",
+    "method": "popularity",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3D572B4F6A4E9682A51F",
+    "method": "cbf",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3D572B4F6A4E9682A51F",
+    "method": "latest_buy",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.5087403079104241
+  },
+  {
+    "user_id": "3D572B4F6A4E9682A51F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.5087403079104241
+  },
+  {
+    "user_id": "3D572B4F6A4E9682A51F",
+    "method": "llmrank",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3D572B4F6A4E9682A51F",
+    "method": "candidate_order_first10",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1511017B5B27FAA78FD9",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1511017B5B27FAA78FD9",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1511017B5B27FAA78FD9",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1511017B5B27FAA78FD9",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1511017B5B27FAA78FD9",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1511017B5B27FAA78FD9",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B793DE1772E4DE8A1F9",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B793DE1772E4DE8A1F9",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B793DE1772E4DE8A1F9",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B793DE1772E4DE8A1F9",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B793DE1772E4DE8A1F9",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B793DE1772E4DE8A1F9",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1CB4AA34C86C1B45AA",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1CB4AA34C86C1B45AA",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1CB4AA34C86C1B45AA",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1CB4AA34C86C1B45AA",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1CB4AA34C86C1B45AA",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9A1CB4AA34C86C1B45AA",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DA1BD2FDFFAF8831D7F6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DA1BD2FDFFAF8831D7F6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DA1BD2FDFFAF8831D7F6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DA1BD2FDFFAF8831D7F6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DA1BD2FDFFAF8831D7F6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DA1BD2FDFFAF8831D7F6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CCC31AAC91FBFD8D36F7",
+    "method": "popularity",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.20438239758848611
+  },
+  {
+    "user_id": "CCC31AAC91FBFD8D36F7",
+    "method": "cbf",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CCC31AAC91FBFD8D36F7",
+    "method": "latest_buy",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.38685280723454163
+  },
+  {
+    "user_id": "CCC31AAC91FBFD8D36F7",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.6934264036172708
+  },
+  {
+    "user_id": "CCC31AAC91FBFD8D36F7",
+    "method": "llmrank",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CCC31AAC91FBFD8D36F7",
+    "method": "candidate_order_first10",
+    "relevant_count": 2,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D1DF5066D6AC0F030750",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D1DF5066D6AC0F030750",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D1DF5066D6AC0F030750",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D1DF5066D6AC0F030750",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D1DF5066D6AC0F030750",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D1DF5066D6AC0F030750",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0A2B1CD0C5D2D83D79E9",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0A2B1CD0C5D2D83D79E9",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0A2B1CD0C5D2D83D79E9",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0A2B1CD0C5D2D83D79E9",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0A2B1CD0C5D2D83D79E9",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0A2B1CD0C5D2D83D79E9",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A71A5C7B0B610C7842B3",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A71A5C7B0B610C7842B3",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A71A5C7B0B610C7842B3",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A71A5C7B0B610C7842B3",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A71A5C7B0B610C7842B3",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A71A5C7B0B610C7842B3",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECCF804FC877898D4046",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECCF804FC877898D4046",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECCF804FC877898D4046",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECCF804FC877898D4046",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECCF804FC877898D4046",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECCF804FC877898D4046",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "3FAB1216645DBF9FC391",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "3FAB1216645DBF9FC391",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "3FAB1216645DBF9FC391",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "3FAB1216645DBF9FC391",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.38685280723454163
+  },
+  {
+    "user_id": "3FAB1216645DBF9FC391",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "3FAB1216645DBF9FC391",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "14B2011026A4B893E0F4",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "14B2011026A4B893E0F4",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "14B2011026A4B893E0F4",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "14B2011026A4B893E0F4",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "14B2011026A4B893E0F4",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "14B2011026A4B893E0F4",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "87360058874F77225EAC",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "87360058874F77225EAC",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "87360058874F77225EAC",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "87360058874F77225EAC",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "87360058874F77225EAC",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "87360058874F77225EAC",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E85E009E538F05FD9C73",
+    "method": "popularity",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.6333518746717375
+  },
+  {
+    "user_id": "E85E009E538F05FD9C73",
+    "method": "cbf",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.24630238874073
+  },
+  {
+    "user_id": "E85E009E538F05FD9C73",
+    "method": "latest_buy",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.625524935148309
+  },
+  {
+    "user_id": "E85E009E538F05FD9C73",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.625524935148309
+  },
+  {
+    "user_id": "E85E009E538F05FD9C73",
+    "method": "llmrank",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.24630238874073
+  },
+  {
+    "user_id": "E85E009E538F05FD9C73",
+    "method": "candidate_order_first10",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.24630238874073
+  },
+  {
+    "user_id": "675B8749048ABF532743",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "675B8749048ABF532743",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "675B8749048ABF532743",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "675B8749048ABF532743",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "675B8749048ABF532743",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "675B8749048ABF532743",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0DE673C0BBFDEE51FABB",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0DE673C0BBFDEE51FABB",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0DE673C0BBFDEE51FABB",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0DE673C0BBFDEE51FABB",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0DE673C0BBFDEE51FABB",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0DE673C0BBFDEE51FABB",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5FE6E83FC71E59A8FF81",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5FE6E83FC71E59A8FF81",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5FE6E83FC71E59A8FF81",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5FE6E83FC71E59A8FF81",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5FE6E83FC71E59A8FF81",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "5FE6E83FC71E59A8FF81",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D2A309C938F0A8A9DE5A",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D2A309C938F0A8A9DE5A",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D2A309C938F0A8A9DE5A",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D2A309C938F0A8A9DE5A",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D2A309C938F0A8A9DE5A",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "D2A309C938F0A8A9DE5A",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "24F79E6F9D1207EFDC8D",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "24F79E6F9D1207EFDC8D",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "24F79E6F9D1207EFDC8D",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "24F79E6F9D1207EFDC8D",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "24F79E6F9D1207EFDC8D",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "24F79E6F9D1207EFDC8D",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E9BDF8FA36FE2A52AC84",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E9BDF8FA36FE2A52AC84",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E9BDF8FA36FE2A52AC84",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E9BDF8FA36FE2A52AC84",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E9BDF8FA36FE2A52AC84",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E9BDF8FA36FE2A52AC84",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "838B5B28D89935943817",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "838B5B28D89935943817",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "838B5B28D89935943817",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "838B5B28D89935943817",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "838B5B28D89935943817",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "838B5B28D89935943817",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F6A2846229D8C6DB3B2E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F6A2846229D8C6DB3B2E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F6A2846229D8C6DB3B2E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F6A2846229D8C6DB3B2E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F6A2846229D8C6DB3B2E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F6A2846229D8C6DB3B2E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FF44B3E2D6C6F6062A80",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FF44B3E2D6C6F6062A80",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FF44B3E2D6C6F6062A80",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FF44B3E2D6C6F6062A80",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FF44B3E2D6C6F6062A80",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FF44B3E2D6C6F6062A80",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8989EC04B7AE99E3AFD6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8989EC04B7AE99E3AFD6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8989EC04B7AE99E3AFD6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8989EC04B7AE99E3AFD6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8989EC04B7AE99E3AFD6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8989EC04B7AE99E3AFD6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "571ECC99E54EE2B04CA0",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "571ECC99E54EE2B04CA0",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "571ECC99E54EE2B04CA0",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "571ECC99E54EE2B04CA0",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "571ECC99E54EE2B04CA0",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "571ECC99E54EE2B04CA0",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F8048CC2BF30D2994E31",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F8048CC2BF30D2994E31",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F8048CC2BF30D2994E31",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F8048CC2BF30D2994E31",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F8048CC2BF30D2994E31",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F8048CC2BF30D2994E31",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A04A2C94D65508F4717B",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A04A2C94D65508F4717B",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A04A2C94D65508F4717B",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A04A2C94D65508F4717B",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A04A2C94D65508F4717B",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A04A2C94D65508F4717B",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "441192A29AB375DD6C0C",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "441192A29AB375DD6C0C",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "441192A29AB375DD6C0C",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "441192A29AB375DD6C0C",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "441192A29AB375DD6C0C",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "441192A29AB375DD6C0C",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD86A7425EED874CB749",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD86A7425EED874CB749",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD86A7425EED874CB749",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD86A7425EED874CB749",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD86A7425EED874CB749",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "CD86A7425EED874CB749",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "597FB1D8B276ECE017C9",
+    "method": "popularity",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.18833918526767934
+  },
+  {
+    "user_id": "597FB1D8B276ECE017C9",
+    "method": "cbf",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.2381129204348816
+  },
+  {
+    "user_id": "597FB1D8B276ECE017C9",
+    "method": "latest_buy",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.28162497265977743
+  },
+  {
+    "user_id": "597FB1D8B276ECE017C9",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.24738635904833423
+  },
+  {
+    "user_id": "597FB1D8B276ECE017C9",
+    "method": "llmrank",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.2381129204348816
+  },
+  {
+    "user_id": "597FB1D8B276ECE017C9",
+    "method": "candidate_order_first10",
+    "relevant_count": 6,
+    "ndcg_at_10": 0.2381129204348816
+  },
+  {
+    "user_id": "ECE94F2BBBBD3B24D659",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECE94F2BBBBD3B24D659",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECE94F2BBBBD3B24D659",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECE94F2BBBBD3B24D659",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECE94F2BBBBD3B24D659",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "ECE94F2BBBBD3B24D659",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "117EFCAA99BCE3FDFCEF",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "117EFCAA99BCE3FDFCEF",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "117EFCAA99BCE3FDFCEF",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "117EFCAA99BCE3FDFCEF",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "117EFCAA99BCE3FDFCEF",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "117EFCAA99BCE3FDFCEF",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B47A5D03315A5DD9D5F",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B47A5D03315A5DD9D5F",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B47A5D03315A5DD9D5F",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B47A5D03315A5DD9D5F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B47A5D03315A5DD9D5F",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "4B47A5D03315A5DD9D5F",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9CAE9CD302EC96723EAC",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9CAE9CD302EC96723EAC",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9CAE9CD302EC96723EAC",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9CAE9CD302EC96723EAC",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9CAE9CD302EC96723EAC",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9CAE9CD302EC96723EAC",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "485DBB6BD5C905BDA1C2",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "485DBB6BD5C905BDA1C2",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "485DBB6BD5C905BDA1C2",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "485DBB6BD5C905BDA1C2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "485DBB6BD5C905BDA1C2",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "485DBB6BD5C905BDA1C2",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BD3D1899559D1217055",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BD3D1899559D1217055",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BD3D1899559D1217055",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BD3D1899559D1217055",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BD3D1899559D1217055",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0BD3D1899559D1217055",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A8DBD72D0E41F460D8CE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A8DBD72D0E41F460D8CE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A8DBD72D0E41F460D8CE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A8DBD72D0E41F460D8CE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A8DBD72D0E41F460D8CE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A8DBD72D0E41F460D8CE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94C197E036237535655E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94C197E036237535655E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94C197E036237535655E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94C197E036237535655E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94C197E036237535655E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "94C197E036237535655E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F52437673CFBFCEA4FC",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F52437673CFBFCEA4FC",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F52437673CFBFCEA4FC",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F52437673CFBFCEA4FC",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F52437673CFBFCEA4FC",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1F52437673CFBFCEA4FC",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B74F976F96D558161EC0",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B74F976F96D558161EC0",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B74F976F96D558161EC0",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B74F976F96D558161EC0",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B74F976F96D558161EC0",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B74F976F96D558161EC0",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FE698989EBCDFDE74189",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FE698989EBCDFDE74189",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FE698989EBCDFDE74189",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FE698989EBCDFDE74189",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FE698989EBCDFDE74189",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "FE698989EBCDFDE74189",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "40AEFC373A627B62F035",
+    "method": "popularity",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "40AEFC373A627B62F035",
+    "method": "cbf",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "40AEFC373A627B62F035",
+    "method": "latest_buy",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.8062079522181139
+  },
+  {
+    "user_id": "40AEFC373A627B62F035",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.8122682216087221
+  },
+  {
+    "user_id": "40AEFC373A627B62F035",
+    "method": "llmrank",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "40AEFC373A627B62F035",
+    "method": "candidate_order_first10",
+    "relevant_count": 5,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1046B209AE142454CE9E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1046B209AE142454CE9E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1046B209AE142454CE9E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1046B209AE142454CE9E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1046B209AE142454CE9E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "1046B209AE142454CE9E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6F40D59DBDA402B2DFFA",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6F40D59DBDA402B2DFFA",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6F40D59DBDA402B2DFFA",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6F40D59DBDA402B2DFFA",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6F40D59DBDA402B2DFFA",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "6F40D59DBDA402B2DFFA",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8BB326CC75F1C73B5721",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8BB326CC75F1C73B5721",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8BB326CC75F1C73B5721",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8BB326CC75F1C73B5721",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8BB326CC75F1C73B5721",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "8BB326CC75F1C73B5721",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B077B5799B31AC88C565",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B077B5799B31AC88C565",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B077B5799B31AC88C565",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B077B5799B31AC88C565",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B077B5799B31AC88C565",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B077B5799B31AC88C565",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "31E0BEEF3460677D8B47",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "31E0BEEF3460677D8B47",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "31E0BEEF3460677D8B47",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "31E0BEEF3460677D8B47",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "31E0BEEF3460677D8B47",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "31E0BEEF3460677D8B47",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04E8B773296BCCF36F00",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04E8B773296BCCF36F00",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04E8B773296BCCF36F00",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04E8B773296BCCF36F00",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04E8B773296BCCF36F00",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "04E8B773296BCCF36F00",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F7808DED60483AC6565E",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F7808DED60483AC6565E",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F7808DED60483AC6565E",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F7808DED60483AC6565E",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F7808DED60483AC6565E",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F7808DED60483AC6565E",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2D7541BBC8F17760C07",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2D7541BBC8F17760C07",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2D7541BBC8F17760C07",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2D7541BBC8F17760C07",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2D7541BBC8F17760C07",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2D7541BBC8F17760C07",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E12863BEFBD3CFCE7E6C",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E12863BEFBD3CFCE7E6C",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E12863BEFBD3CFCE7E6C",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E12863BEFBD3CFCE7E6C",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E12863BEFBD3CFCE7E6C",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E12863BEFBD3CFCE7E6C",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "147103A29F329FBCF97F",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "147103A29F329FBCF97F",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "147103A29F329FBCF97F",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "147103A29F329FBCF97F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "147103A29F329FBCF97F",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "147103A29F329FBCF97F",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "47A5F4FBA531A07A0F85",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "47A5F4FBA531A07A0F85",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "47A5F4FBA531A07A0F85",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "47A5F4FBA531A07A0F85",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "47A5F4FBA531A07A0F85",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "47A5F4FBA531A07A0F85",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6D51AA34534A6760C66",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6D51AA34534A6760C66",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6D51AA34534A6760C66",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6D51AA34534A6760C66",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6D51AA34534A6760C66",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6D51AA34534A6760C66",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "557A1EA57C2A440A55AA",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "557A1EA57C2A440A55AA",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "557A1EA57C2A440A55AA",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "557A1EA57C2A440A55AA",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "557A1EA57C2A440A55AA",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "557A1EA57C2A440A55AA",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2394D210936BA05DA0C",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2394D210936BA05DA0C",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2394D210936BA05DA0C",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2394D210936BA05DA0C",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2394D210936BA05DA0C",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "F2394D210936BA05DA0C",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "2AF9B05FB2E1E1305F54",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "2AF9B05FB2E1E1305F54",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "2AF9B05FB2E1E1305F54",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3562071871080222
+  },
+  {
+    "user_id": "2AF9B05FB2E1E1305F54",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3333333333333333
+  },
+  {
+    "user_id": "2AF9B05FB2E1E1305F54",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "2AF9B05FB2E1E1305F54",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.6309297535714575
+  },
+  {
+    "user_id": "DD47ADAFBBF169DC8DBE",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DD47ADAFBBF169DC8DBE",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DD47ADAFBBF169DC8DBE",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DD47ADAFBBF169DC8DBE",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DD47ADAFBBF169DC8DBE",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "DD47ADAFBBF169DC8DBE",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E658E557D2F7647D6F3",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E658E557D2F7647D6F3",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E658E557D2F7647D6F3",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E658E557D2F7647D6F3",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E658E557D2F7647D6F3",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "0E658E557D2F7647D6F3",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6E12D78674F0A731C4F",
+    "method": "popularity",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.13905617951077562
+  },
+  {
+    "user_id": "A6E12D78674F0A731C4F",
+    "method": "cbf",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6E12D78674F0A731C4F",
+    "method": "latest_buy",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.43666325925534977
+  },
+  {
+    "user_id": "A6E12D78674F0A731C4F",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.4852658227346317
+  },
+  {
+    "user_id": "A6E12D78674F0A731C4F",
+    "method": "llmrank",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A6E12D78674F0A731C4F",
+    "method": "candidate_order_first10",
+    "relevant_count": 4,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9131B7666DCF1191A6F6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9131B7666DCF1191A6F6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9131B7666DCF1191A6F6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9131B7666DCF1191A6F6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9131B7666DCF1191A6F6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "9131B7666DCF1191A6F6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "36FA28EC7D39080C73A2",
+    "method": "popularity",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.31546487678572877
+  },
+  {
+    "user_id": "36FA28EC7D39080C73A2",
+    "method": "cbf",
+    "relevant_count": 1,
+    "ndcg_at_10": 1.0
+  },
+  {
+    "user_id": "36FA28EC7D39080C73A2",
+    "method": "latest_buy",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.5
+  },
+  {
+    "user_id": "36FA28EC7D39080C73A2",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 1,
+    "ndcg_at_10": 0.3562071871080222
+  },
+  {
+    "user_id": "36FA28EC7D39080C73A2",
+    "method": "llmrank",
+    "relevant_count": 1,
+    "ndcg_at_10": 1.0
+  },
+  {
+    "user_id": "36FA28EC7D39080C73A2",
+    "method": "candidate_order_first10",
+    "relevant_count": 1,
+    "ndcg_at_10": 1.0
+  },
+  {
+    "user_id": "B5E5AE410481FBA84DB6",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B5E5AE410481FBA84DB6",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B5E5AE410481FBA84DB6",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B5E5AE410481FBA84DB6",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B5E5AE410481FBA84DB6",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "B5E5AE410481FBA84DB6",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "A89930E3D8B8076E5456",
+    "method": "popularity",
+    "relevant_count": 7,
+    "ndcg_at_10": 0.3265208687926954
+  },
+  {
+    "user_id": "A89930E3D8B8076E5456",
+    "method": "cbf",
+    "relevant_count": 7,
+    "ndcg_at_10": 0.4123144993714363
+  },
+  {
+    "user_id": "A89930E3D8B8076E5456",
+    "method": "latest_buy",
+    "relevant_count": 7,
+    "ndcg_at_10": 0.3352780388452758
+  },
+  {
+    "user_id": "A89930E3D8B8076E5456",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 7,
+    "ndcg_at_10": 0.2437748474873753
+  },
+  {
+    "user_id": "A89930E3D8B8076E5456",
+    "method": "llmrank",
+    "relevant_count": 7,
+    "ndcg_at_10": 0.4123144993714363
+  },
+  {
+    "user_id": "A89930E3D8B8076E5456",
+    "method": "candidate_order_first10",
+    "relevant_count": 7,
+    "ndcg_at_10": 0.4123144993714363
+  },
+  {
+    "user_id": "E90CA011303EF857980B",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E90CA011303EF857980B",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E90CA011303EF857980B",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E90CA011303EF857980B",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E90CA011303EF857980B",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "E90CA011303EF857980B",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "08FA063AC3EFF075A471",
+    "method": "popularity",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "08FA063AC3EFF075A471",
+    "method": "cbf",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "08FA063AC3EFF075A471",
+    "method": "latest_buy",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "08FA063AC3EFF075A471",
+    "method": "latest_buy_or_sell",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "08FA063AC3EFF075A471",
+    "method": "llmrank",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  },
+  {
+    "user_id": "08FA063AC3EFF075A471",
+    "method": "candidate_order_first10",
+    "relevant_count": 0,
+    "ndcg_at_10": 0.0
+  }
+]

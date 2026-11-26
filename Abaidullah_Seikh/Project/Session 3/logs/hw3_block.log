@@ -1,0 +1,624 @@
+HW3_PROGRESS 2026-11-24T16:47:15.492160+03:00 START outputs/block_A expected_users=100
+HW3_PROGRESS 2026-11-24T16:47:15.492683+03:00 RUNNING outputs/block_A model_pid=123236
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:16<00:16, 16.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  7.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.37s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+HW3_PROGRESS 2026-11-24T16:47:45.518454+03:00 RUNNING outputs/block_A elapsed_seconds=30 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:48:15.522976+03:00 RUNNING outputs/block_A elapsed_seconds=60 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:48:45.523953+03:00 RUNNING outputs/block_A elapsed_seconds=90 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:49:15.524437+03:00 RUNNING outputs/block_A elapsed_seconds=120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:49:45.525122+03:00 RUNNING outputs/block_A elapsed_seconds=150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:50:15.527360+03:00 RUNNING outputs/block_A elapsed_seconds=180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:50:45.527981+03:00 RUNNING outputs/block_A elapsed_seconds=210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:51:15.529364+03:00 RUNNING outputs/block_A elapsed_seconds=240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:51:45.529812+03:00 RUNNING outputs/block_A elapsed_seconds=270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:52:15.530551+03:00 RUNNING outputs/block_A elapsed_seconds=300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:52:45.532116+03:00 RUNNING outputs/block_A elapsed_seconds=330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:53:15.532792+03:00 RUNNING outputs/block_A elapsed_seconds=360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:53:45.534330+03:00 RUNNING outputs/block_A elapsed_seconds=390 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:54:15.534812+03:00 RUNNING outputs/block_A elapsed_seconds=420 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:54:45.535459+03:00 RUNNING outputs/block_A elapsed_seconds=450 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:55:15.536046+03:00 RUNNING outputs/block_A elapsed_seconds=480 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:55:45.536568+03:00 RUNNING outputs/block_A elapsed_seconds=510 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:56:15.538072+03:00 RUNNING outputs/block_A elapsed_seconds=540 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:56:45.538782+03:00 RUNNING outputs/block_A elapsed_seconds=570 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:57:15.539292+03:00 RUNNING outputs/block_A elapsed_seconds=600 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:57:45.539625+03:00 RUNNING outputs/block_A elapsed_seconds=630 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:58:15.540015+03:00 RUNNING outputs/block_A elapsed_seconds=660 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:58:45.540461+03:00 RUNNING outputs/block_A elapsed_seconds=690 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:59:15.542077+03:00 RUNNING outputs/block_A elapsed_seconds=720 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T16:59:45.542508+03:00 RUNNING outputs/block_A elapsed_seconds=750 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:00:15.542907+03:00 RUNNING outputs/block_A elapsed_seconds=780 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:00:45.544797+03:00 RUNNING outputs/block_A elapsed_seconds=810 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:01:15.545372+03:00 RUNNING outputs/block_A elapsed_seconds=840 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:01:45.545803+03:00 RUNNING outputs/block_A elapsed_seconds=870 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:02:15.547219+03:00 RUNNING outputs/block_A elapsed_seconds=900 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:02:45.548904+03:00 RUNNING outputs/block_A elapsed_seconds=930 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:03:15.549370+03:00 RUNNING outputs/block_A elapsed_seconds=960 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:03:45.549803+03:00 RUNNING outputs/block_A elapsed_seconds=990 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:04:15.550338+03:00 RUNNING outputs/block_A elapsed_seconds=1020 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:04:45.550754+03:00 RUNNING outputs/block_A elapsed_seconds=1050 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:05:15.551221+03:00 RUNNING outputs/block_A elapsed_seconds=1080 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:05:45.551621+03:00 RUNNING outputs/block_A elapsed_seconds=1110 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:06:15.552251+03:00 RUNNING outputs/block_A elapsed_seconds=1140 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:06:45.553886+03:00 RUNNING outputs/block_A elapsed_seconds=1170 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:07:15.554560+03:00 RUNNING outputs/block_A elapsed_seconds=1200 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:07:45.555032+03:00 RUNNING outputs/block_A elapsed_seconds=1230 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:08:15.555390+03:00 RUNNING outputs/block_A elapsed_seconds=1260 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:08:45.555770+03:00 RUNNING outputs/block_A elapsed_seconds=1290 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:09:15.556142+03:00 RUNNING outputs/block_A elapsed_seconds=1320 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:09:45.556531+03:00 RUNNING outputs/block_A elapsed_seconds=1350 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:10:15.556953+03:00 RUNNING outputs/block_A elapsed_seconds=1380 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:10:45.557312+03:00 RUNNING outputs/block_A elapsed_seconds=1410 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:11:15.557657+03:00 RUNNING outputs/block_A elapsed_seconds=1440 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:11:45.558009+03:00 RUNNING outputs/block_A elapsed_seconds=1470 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:12:15.559536+03:00 RUNNING outputs/block_A elapsed_seconds=1500 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:12:45.561265+03:00 RUNNING outputs/block_A elapsed_seconds=1530 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:13:15.561683+03:00 RUNNING outputs/block_A elapsed_seconds=1560 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:13:45.562077+03:00 RUNNING outputs/block_A elapsed_seconds=1590 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:14:15.562646+03:00 RUNNING outputs/block_A elapsed_seconds=1620 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:14:45.563110+03:00 RUNNING outputs/block_A elapsed_seconds=1650 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:15:15.563676+03:00 RUNNING outputs/block_A elapsed_seconds=1680 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:15:45.564141+03:00 RUNNING outputs/block_A elapsed_seconds=1710 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:16:15.564551+03:00 RUNNING outputs/block_A elapsed_seconds=1740 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:16:45.564929+03:00 RUNNING outputs/block_A elapsed_seconds=1770 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:17:15.565319+03:00 RUNNING outputs/block_A elapsed_seconds=1800 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:17:45.565693+03:00 RUNNING outputs/block_A elapsed_seconds=1830 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:18:15.566052+03:00 RUNNING outputs/block_A elapsed_seconds=1860 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:18:45.566410+03:00 RUNNING outputs/block_A elapsed_seconds=1890 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:19:15.566798+03:00 RUNNING outputs/block_A elapsed_seconds=1920 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:19:45.567186+03:00 RUNNING outputs/block_A elapsed_seconds=1950 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:20:15.567563+03:00 RUNNING outputs/block_A elapsed_seconds=1980 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:20:45.568228+03:00 RUNNING outputs/block_A elapsed_seconds=2010 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:21:15.568714+03:00 RUNNING outputs/block_A elapsed_seconds=2040 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:21:45.569082+03:00 RUNNING outputs/block_A elapsed_seconds=2070 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:22:15.569473+03:00 RUNNING outputs/block_A elapsed_seconds=2100 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:22:45.569864+03:00 RUNNING outputs/block_A elapsed_seconds=2130 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:23:15.570349+03:00 RUNNING outputs/block_A elapsed_seconds=2160 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:23:45.570804+03:00 RUNNING outputs/block_A elapsed_seconds=2190 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:24:15.571178+03:00 RUNNING outputs/block_A elapsed_seconds=2220 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:24:45.571578+03:00 RUNNING outputs/block_A elapsed_seconds=2250 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:25:15.571940+03:00 RUNNING outputs/block_A elapsed_seconds=2280 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:25:45.572345+03:00 RUNNING outputs/block_A elapsed_seconds=2310 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:26:15.572763+03:00 RUNNING outputs/block_A elapsed_seconds=2340 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:26:45.573148+03:00 RUNNING outputs/block_A elapsed_seconds=2370 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:27:15.573536+03:00 RUNNING outputs/block_A elapsed_seconds=2400 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:27:45.573920+03:00 RUNNING outputs/block_A elapsed_seconds=2430 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:28:15.574586+03:00 RUNNING outputs/block_A elapsed_seconds=2460 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:28:45.576744+03:00 RUNNING outputs/block_A elapsed_seconds=2490 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:29:15.577229+03:00 RUNNING outputs/block_A elapsed_seconds=2520 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:29:45.577916+03:00 RUNNING outputs/block_A elapsed_seconds=2550 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:30:15.578593+03:00 RUNNING outputs/block_A elapsed_seconds=2580 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:30:45.578969+03:00 RUNNING outputs/block_A elapsed_seconds=2610 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:31:15.579468+03:00 RUNNING outputs/block_A elapsed_seconds=2640 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:31:45.580116+03:00 RUNNING outputs/block_A elapsed_seconds=2670 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:32:15.580631+03:00 RUNNING outputs/block_A elapsed_seconds=2700 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:32:45.581274+03:00 RUNNING outputs/block_A elapsed_seconds=2730 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:33:15.581733+03:00 RUNNING outputs/block_A elapsed_seconds=2760 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:33:45.582400+03:00 RUNNING outputs/block_A elapsed_seconds=2790 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:34:15.582878+03:00 RUNNING outputs/block_A elapsed_seconds=2820 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:34:45.583514+03:00 RUNNING outputs/block_A elapsed_seconds=2850 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:35:15.584004+03:00 RUNNING outputs/block_A elapsed_seconds=2880 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:35:45.584436+03:00 RUNNING outputs/block_A elapsed_seconds=2910 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:36:15.585026+03:00 RUNNING outputs/block_A elapsed_seconds=2940 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:36:45.585397+03:00 RUNNING outputs/block_A elapsed_seconds=2970 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:37:15.586008+03:00 RUNNING outputs/block_A elapsed_seconds=3000 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:37:45.586531+03:00 RUNNING outputs/block_A elapsed_seconds=3030 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:38:15.587131+03:00 RUNNING outputs/block_A elapsed_seconds=3060 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:38:45.587629+03:00 RUNNING outputs/block_A elapsed_seconds=3090 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:39:15.588265+03:00 RUNNING outputs/block_A elapsed_seconds=3120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:39:45.588763+03:00 RUNNING outputs/block_A elapsed_seconds=3150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:40:15.589456+03:00 RUNNING outputs/block_A elapsed_seconds=3180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:40:45.589920+03:00 RUNNING outputs/block_A elapsed_seconds=3210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:41:15.590536+03:00 RUNNING outputs/block_A elapsed_seconds=3240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:41:45.591055+03:00 RUNNING outputs/block_A elapsed_seconds=3270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:42:15.591456+03:00 RUNNING outputs/block_A elapsed_seconds=3300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:42:45.591822+03:00 RUNNING outputs/block_A elapsed_seconds=3330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:43:15.592270+03:00 RUNNING outputs/block_A elapsed_seconds=3360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:43:45.592632+03:00 RUNNING outputs/block_A elapsed_seconds=3390 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:44:15.593041+03:00 RUNNING outputs/block_A elapsed_seconds=3420 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:44:45.593431+03:00 RUNNING outputs/block_A elapsed_seconds=3450 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:45:15.593846+03:00 RUNNING outputs/block_A elapsed_seconds=3480 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:45:45.594269+03:00 RUNNING outputs/block_A elapsed_seconds=3510 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:46:15.594630+03:00 RUNNING outputs/block_A elapsed_seconds=3540 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:46:45.594988+03:00 RUNNING outputs/block_A elapsed_seconds=3570 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:47:15.595580+03:00 RUNNING outputs/block_A elapsed_seconds=3600 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:47:45.596038+03:00 RUNNING outputs/block_A elapsed_seconds=3630 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:48:15.596398+03:00 RUNNING outputs/block_A elapsed_seconds=3660 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:48:45.597001+03:00 RUNNING outputs/block_A elapsed_seconds=3690 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:49:15.597493+03:00 RUNNING outputs/block_A elapsed_seconds=3720 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:49:45.598160+03:00 RUNNING outputs/block_A elapsed_seconds=3750 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:50:15.598652+03:00 RUNNING outputs/block_A elapsed_seconds=3780 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:50:45.599031+03:00 RUNNING outputs/block_A elapsed_seconds=3810 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:51:15.599407+03:00 RUNNING outputs/block_A elapsed_seconds=3840 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:51:45.600046+03:00 RUNNING outputs/block_A elapsed_seconds=3870 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:52:15.600597+03:00 RUNNING outputs/block_A elapsed_seconds=3900 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:52:45.600989+03:00 RUNNING outputs/block_A elapsed_seconds=3930 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:53:15.601574+03:00 RUNNING outputs/block_A elapsed_seconds=3960 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:53:45.602045+03:00 RUNNING outputs/block_A elapsed_seconds=3990 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:54:15.602632+03:00 RUNNING outputs/block_A elapsed_seconds=4020 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:54:45.603129+03:00 RUNNING outputs/block_A elapsed_seconds=4050 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:55:15.603503+03:00 RUNNING outputs/block_A elapsed_seconds=4080 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:55:45.603864+03:00 RUNNING outputs/block_A elapsed_seconds=4110 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:56:15.604229+03:00 RUNNING outputs/block_A elapsed_seconds=4140 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:56:45.604641+03:00 RUNNING outputs/block_A elapsed_seconds=4170 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:57:15.605044+03:00 RUNNING outputs/block_A elapsed_seconds=4200 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:57:45.605647+03:00 RUNNING outputs/block_A elapsed_seconds=4230 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:58:15.606112+03:00 RUNNING outputs/block_A elapsed_seconds=4260 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:58:45.606690+03:00 RUNNING outputs/block_A elapsed_seconds=4290 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:59:15.607179+03:00 RUNNING outputs/block_A elapsed_seconds=4320 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T17:59:45.633993+03:00 RUNNING outputs/block_A elapsed_seconds=4350 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:00:15.634501+03:00 RUNNING outputs/block_A elapsed_seconds=4380 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:00:45.635115+03:00 RUNNING outputs/block_A elapsed_seconds=4410 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:01:15.635661+03:00 RUNNING outputs/block_A elapsed_seconds=4440 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:01:45.636095+03:00 RUNNING outputs/block_A elapsed_seconds=4470 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:02:15.636498+03:00 RUNNING outputs/block_A elapsed_seconds=4500 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:02:45.637044+03:00 RUNNING outputs/block_A elapsed_seconds=4530 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:03:15.637509+03:00 RUNNING outputs/block_A elapsed_seconds=4560 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:03:45.638109+03:00 RUNNING outputs/block_A elapsed_seconds=4590 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:04:15.639100+03:00 RUNNING outputs/block_A elapsed_seconds=4620 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:04:45.639810+03:00 RUNNING outputs/block_A elapsed_seconds=4650 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:05:15.640530+03:00 RUNNING outputs/block_A elapsed_seconds=4680 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:05:45.641018+03:00 RUNNING outputs/block_A elapsed_seconds=4710 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:06:15.641399+03:00 RUNNING outputs/block_A elapsed_seconds=4740 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:06:45.641796+03:00 RUNNING outputs/block_A elapsed_seconds=4770 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:07:15.642209+03:00 RUNNING outputs/block_A elapsed_seconds=4800 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:07:45.642598+03:00 RUNNING outputs/block_A elapsed_seconds=4830 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:08:15.643000+03:00 RUNNING outputs/block_A elapsed_seconds=4860 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:08:45.643367+03:00 RUNNING outputs/block_A elapsed_seconds=4890 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:09:15.643750+03:00 RUNNING outputs/block_A elapsed_seconds=4920 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:09:45.644118+03:00 RUNNING outputs/block_A elapsed_seconds=4950 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:10:15.644617+03:00 RUNNING outputs/block_A elapsed_seconds=4980 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:10:45.645001+03:00 RUNNING outputs/block_A elapsed_seconds=5010 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:11:15.645704+03:00 RUNNING outputs/block_A elapsed_seconds=5040 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:11:45.646750+03:00 RUNNING outputs/block_A elapsed_seconds=5070 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:12:15.647110+03:00 RUNNING outputs/block_A elapsed_seconds=5100 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:12:45.647509+03:00 RUNNING outputs/block_A elapsed_seconds=5130 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:13:15.647880+03:00 RUNNING outputs/block_A elapsed_seconds=5160 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:13:45.648242+03:00 RUNNING outputs/block_A elapsed_seconds=5190 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:14:15.648625+03:00 RUNNING outputs/block_A elapsed_seconds=5220 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:14:45.648984+03:00 RUNNING outputs/block_A elapsed_seconds=5250 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:15:15.649779+03:00 RUNNING outputs/block_A elapsed_seconds=5280 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:15:45.650369+03:00 RUNNING outputs/block_A elapsed_seconds=5310 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:16:15.650744+03:00 RUNNING outputs/block_A elapsed_seconds=5340 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:16:45.651217+03:00 RUNNING outputs/block_A elapsed_seconds=5370 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:17:15.651581+03:00 RUNNING outputs/block_A elapsed_seconds=5400 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:17:45.651966+03:00 RUNNING outputs/block_A elapsed_seconds=5430 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:18:15.652339+03:00 RUNNING outputs/block_A elapsed_seconds=5460 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:18:45.652716+03:00 RUNNING outputs/block_A elapsed_seconds=5490 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:19:15.653082+03:00 RUNNING outputs/block_A elapsed_seconds=5520 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:19:45.653702+03:00 RUNNING outputs/block_A elapsed_seconds=5550 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:20:15.654122+03:00 RUNNING outputs/block_A elapsed_seconds=5580 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:20:45.654642+03:00 RUNNING outputs/block_A elapsed_seconds=5610 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:21:15.655072+03:00 RUNNING outputs/block_A elapsed_seconds=5640 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:21:45.655729+03:00 RUNNING outputs/block_A elapsed_seconds=5670 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:22:15.656334+03:00 RUNNING outputs/block_A elapsed_seconds=5700 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:22:45.656890+03:00 RUNNING outputs/block_A elapsed_seconds=5730 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:23:15.657292+03:00 RUNNING outputs/block_A elapsed_seconds=5760 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:23:45.657630+03:00 RUNNING outputs/block_A elapsed_seconds=5790 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:24:15.657984+03:00 RUNNING outputs/block_A elapsed_seconds=5820 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:24:45.658343+03:00 RUNNING outputs/block_A elapsed_seconds=5850 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:25:15.658824+03:00 RUNNING outputs/block_A elapsed_seconds=5880 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:25:45.659193+03:00 RUNNING outputs/block_A elapsed_seconds=5910 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:26:15.659572+03:00 RUNNING outputs/block_A elapsed_seconds=5940 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:26:45.660354+03:00 RUNNING outputs/block_A elapsed_seconds=5970 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:27:15.661048+03:00 RUNNING outputs/block_A elapsed_seconds=6000 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:27:45.661547+03:00 RUNNING outputs/block_A elapsed_seconds=6030 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:28:15.661934+03:00 RUNNING outputs/block_A elapsed_seconds=6060 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:28:45.662335+03:00 RUNNING outputs/block_A elapsed_seconds=6090 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:29:15.662960+03:00 RUNNING outputs/block_A elapsed_seconds=6120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:29:45.663446+03:00 RUNNING outputs/block_A elapsed_seconds=6150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:30:15.663817+03:00 RUNNING outputs/block_A elapsed_seconds=6180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:30:45.664179+03:00 RUNNING outputs/block_A elapsed_seconds=6210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:31:15.664574+03:00 RUNNING outputs/block_A elapsed_seconds=6240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:31:45.664973+03:00 RUNNING outputs/block_A elapsed_seconds=6270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:32:15.665341+03:00 RUNNING outputs/block_A elapsed_seconds=6300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:32:45.665998+03:00 RUNNING outputs/block_A elapsed_seconds=6330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:33:15.666468+03:00 RUNNING outputs/block_A elapsed_seconds=6360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:33:45.666836+03:00 RUNNING outputs/block_A elapsed_seconds=6390 persisted_response_lines=0/100
+{
+  "arm": "A",
+  "users": 100,
+  "invalid_outputs": 1,
+  "arm_D_profile_unavailable_users": null,
+  "protocol_hash": "e126569ce481716d7039c495e2c7fedbbbe552e308b819b84c4be87b0eb5fe8d",
+  "cutoff": "2021-06-01",
+  "generation": {
+    "do_sample": false,
+    "seed": 0,
+    "summary_max_new_tokens": 120,
+    "rank_max_new_tokens": 60
+  },
+  "wall_seconds_whole_arm": 6385.3,
+  "hardware": {
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "processor": "",
+    "python": "3.14.4"
+  },
+  "backend": "hf",
+  "model": "Qwen/Qwen3-1.7B",
+  "requested_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "resolved_commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.float32",
+  "torch": "2.11.0+cpu",
+  "transformers": "4.57.6"
+}
+HW3_PROGRESS 2026-11-24T18:34:12.447681+03:00 FINISH outputs/block_A exit_code=0
+HW3_PROGRESS 2026-11-24T18:34:12.491173+03:00 START outputs/block_C expected_users=100
+HW3_PROGRESS 2026-11-24T18:34:12.499267+03:00 RUNNING outputs/block_C model_pid=123800
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.88s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+HW3_PROGRESS 2026-11-24T18:34:42.501516+03:00 RUNNING outputs/block_C elapsed_seconds=30 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:35:12.502206+03:00 RUNNING outputs/block_C elapsed_seconds=60 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:35:42.503924+03:00 RUNNING outputs/block_C elapsed_seconds=90 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:36:12.505873+03:00 RUNNING outputs/block_C elapsed_seconds=120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:36:42.506295+03:00 RUNNING outputs/block_C elapsed_seconds=150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:37:12.506681+03:00 RUNNING outputs/block_C elapsed_seconds=180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:37:42.507464+03:00 RUNNING outputs/block_C elapsed_seconds=210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:38:12.508154+03:00 RUNNING outputs/block_C elapsed_seconds=240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:38:42.508851+03:00 RUNNING outputs/block_C elapsed_seconds=270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:39:12.509319+03:00 RUNNING outputs/block_C elapsed_seconds=300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:39:42.511088+03:00 RUNNING outputs/block_C elapsed_seconds=330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:40:12.511613+03:00 RUNNING outputs/block_C elapsed_seconds=360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:40:42.512229+03:00 RUNNING outputs/block_C elapsed_seconds=390 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:41:12.512891+03:00 RUNNING outputs/block_C elapsed_seconds=420 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:41:42.513336+03:00 RUNNING outputs/block_C elapsed_seconds=450 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:42:12.514990+03:00 RUNNING outputs/block_C elapsed_seconds=480 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:42:42.542076+03:00 RUNNING outputs/block_C elapsed_seconds=510 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:43:12.542513+03:00 RUNNING outputs/block_C elapsed_seconds=540 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:43:42.542855+03:00 RUNNING outputs/block_C elapsed_seconds=570 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:44:12.544576+03:00 RUNNING outputs/block_C elapsed_seconds=600 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:44:42.544954+03:00 RUNNING outputs/block_C elapsed_seconds=630 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:45:12.545509+03:00 RUNNING outputs/block_C elapsed_seconds=660 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:45:42.546135+03:00 RUNNING outputs/block_C elapsed_seconds=690 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:46:12.546814+03:00 RUNNING outputs/block_C elapsed_seconds=720 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:46:42.547235+03:00 RUNNING outputs/block_C elapsed_seconds=750 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:47:12.547667+03:00 RUNNING outputs/block_C elapsed_seconds=780 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:47:42.548403+03:00 RUNNING outputs/block_C elapsed_seconds=810 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:48:12.548945+03:00 RUNNING outputs/block_C elapsed_seconds=840 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:48:42.549383+03:00 RUNNING outputs/block_C elapsed_seconds=870 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:49:12.550048+03:00 RUNNING outputs/block_C elapsed_seconds=900 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:49:42.550830+03:00 RUNNING outputs/block_C elapsed_seconds=930 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:50:12.552528+03:00 RUNNING outputs/block_C elapsed_seconds=960 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:50:42.553104+03:00 RUNNING outputs/block_C elapsed_seconds=990 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:51:12.553811+03:00 RUNNING outputs/block_C elapsed_seconds=1020 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:51:42.555651+03:00 RUNNING outputs/block_C elapsed_seconds=1050 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:52:12.556044+03:00 RUNNING outputs/block_C elapsed_seconds=1080 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:52:42.556393+03:00 RUNNING outputs/block_C elapsed_seconds=1110 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:53:12.558714+03:00 RUNNING outputs/block_C elapsed_seconds=1140 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:53:42.559254+03:00 RUNNING outputs/block_C elapsed_seconds=1170 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:54:12.559808+03:00 RUNNING outputs/block_C elapsed_seconds=1200 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:54:42.560408+03:00 RUNNING outputs/block_C elapsed_seconds=1230 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:55:12.561113+03:00 RUNNING outputs/block_C elapsed_seconds=1260 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:55:42.588046+03:00 RUNNING outputs/block_C elapsed_seconds=1290 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:56:12.588696+03:00 RUNNING outputs/block_C elapsed_seconds=1320 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:56:42.615746+03:00 RUNNING outputs/block_C elapsed_seconds=1350 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:57:12.616251+03:00 RUNNING outputs/block_C elapsed_seconds=1380 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:57:42.618033+03:00 RUNNING outputs/block_C elapsed_seconds=1410 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:58:12.620217+03:00 RUNNING outputs/block_C elapsed_seconds=1440 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:58:42.620615+03:00 RUNNING outputs/block_C elapsed_seconds=1470 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:59:12.620995+03:00 RUNNING outputs/block_C elapsed_seconds=1500 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T18:59:42.621433+03:00 RUNNING outputs/block_C elapsed_seconds=1530 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:00:12.648031+03:00 RUNNING outputs/block_C elapsed_seconds=1560 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:00:42.648591+03:00 RUNNING outputs/block_C elapsed_seconds=1590 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:01:12.649230+03:00 RUNNING outputs/block_C elapsed_seconds=1620 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:01:42.651142+03:00 RUNNING outputs/block_C elapsed_seconds=1650 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:02:12.652805+03:00 RUNNING outputs/block_C elapsed_seconds=1680 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:02:42.653410+03:00 RUNNING outputs/block_C elapsed_seconds=1710 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:03:12.653860+03:00 RUNNING outputs/block_C elapsed_seconds=1740 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:03:42.654235+03:00 RUNNING outputs/block_C elapsed_seconds=1770 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:04:12.654681+03:00 RUNNING outputs/block_C elapsed_seconds=1800 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:04:42.655093+03:00 RUNNING outputs/block_C elapsed_seconds=1830 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:05:12.657260+03:00 RUNNING outputs/block_C elapsed_seconds=1860 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:05:42.657778+03:00 RUNNING outputs/block_C elapsed_seconds=1890 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:06:12.658242+03:00 RUNNING outputs/block_C elapsed_seconds=1920 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:06:42.658633+03:00 RUNNING outputs/block_C elapsed_seconds=1950 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:07:12.660442+03:00 RUNNING outputs/block_C elapsed_seconds=1980 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:07:42.660921+03:00 RUNNING outputs/block_C elapsed_seconds=2010 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:08:12.661505+03:00 RUNNING outputs/block_C elapsed_seconds=2040 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:08:42.663234+03:00 RUNNING outputs/block_C elapsed_seconds=2070 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:09:12.663655+03:00 RUNNING outputs/block_C elapsed_seconds=2100 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:09:42.665813+03:00 RUNNING outputs/block_C elapsed_seconds=2130 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:10:12.667665+03:00 RUNNING outputs/block_C elapsed_seconds=2160 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:10:42.668067+03:00 RUNNING outputs/block_C elapsed_seconds=2190 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:11:12.668704+03:00 RUNNING outputs/block_C elapsed_seconds=2220 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:11:42.695709+03:00 RUNNING outputs/block_C elapsed_seconds=2250 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:12:12.696207+03:00 RUNNING outputs/block_C elapsed_seconds=2280 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:12:42.696900+03:00 RUNNING outputs/block_C elapsed_seconds=2310 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:13:12.697503+03:00 RUNNING outputs/block_C elapsed_seconds=2340 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:13:42.698101+03:00 RUNNING outputs/block_C elapsed_seconds=2370 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:14:12.724916+03:00 RUNNING outputs/block_C elapsed_seconds=2400 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:14:42.725317+03:00 RUNNING outputs/block_C elapsed_seconds=2430 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:15:12.725771+03:00 RUNNING outputs/block_C elapsed_seconds=2460 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:15:42.726154+03:00 RUNNING outputs/block_C elapsed_seconds=2490 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:16:12.726525+03:00 RUNNING outputs/block_C elapsed_seconds=2520 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:16:42.727813+03:00 RUNNING outputs/block_C elapsed_seconds=2550 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:17:12.728715+03:00 RUNNING outputs/block_C elapsed_seconds=2580 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:17:42.730946+03:00 RUNNING outputs/block_C elapsed_seconds=2610 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:18:12.757754+03:00 RUNNING outputs/block_C elapsed_seconds=2640 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:18:42.758277+03:00 RUNNING outputs/block_C elapsed_seconds=2670 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:19:12.759014+03:00 RUNNING outputs/block_C elapsed_seconds=2700 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:19:42.759510+03:00 RUNNING outputs/block_C elapsed_seconds=2730 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:20:12.760097+03:00 RUNNING outputs/block_C elapsed_seconds=2760 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:20:42.760990+03:00 RUNNING outputs/block_C elapsed_seconds=2790 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:21:12.761507+03:00 RUNNING outputs/block_C elapsed_seconds=2820 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:21:42.761908+03:00 RUNNING outputs/block_C elapsed_seconds=2850 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:22:12.788569+03:00 RUNNING outputs/block_C elapsed_seconds=2880 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:22:42.789004+03:00 RUNNING outputs/block_C elapsed_seconds=2910 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:23:12.789565+03:00 RUNNING outputs/block_C elapsed_seconds=2940 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:23:42.790261+03:00 RUNNING outputs/block_C elapsed_seconds=2970 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:24:12.790890+03:00 RUNNING outputs/block_C elapsed_seconds=3000 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:24:42.791352+03:00 RUNNING outputs/block_C elapsed_seconds=3030 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:25:12.791732+03:00 RUNNING outputs/block_C elapsed_seconds=3060 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:25:42.792314+03:00 RUNNING outputs/block_C elapsed_seconds=3090 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:26:12.792780+03:00 RUNNING outputs/block_C elapsed_seconds=3120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:26:42.793192+03:00 RUNNING outputs/block_C elapsed_seconds=3150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:27:12.793805+03:00 RUNNING outputs/block_C elapsed_seconds=3180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:27:42.820460+03:00 RUNNING outputs/block_C elapsed_seconds=3210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:28:12.822039+03:00 RUNNING outputs/block_C elapsed_seconds=3240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:28:42.822579+03:00 RUNNING outputs/block_C elapsed_seconds=3270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:29:12.823357+03:00 RUNNING outputs/block_C elapsed_seconds=3300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:29:42.824015+03:00 RUNNING outputs/block_C elapsed_seconds=3330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:30:12.824784+03:00 RUNNING outputs/block_C elapsed_seconds=3360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:30:42.827931+03:00 RUNNING outputs/block_C elapsed_seconds=3390 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:31:12.828534+03:00 RUNNING outputs/block_C elapsed_seconds=3420 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:31:42.829067+03:00 RUNNING outputs/block_C elapsed_seconds=3450 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:32:12.829441+03:00 RUNNING outputs/block_C elapsed_seconds=3480 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:32:42.829925+03:00 RUNNING outputs/block_C elapsed_seconds=3510 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:33:12.831973+03:00 RUNNING outputs/block_C elapsed_seconds=3540 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:33:42.832320+03:00 RUNNING outputs/block_C elapsed_seconds=3570 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:34:12.832901+03:00 RUNNING outputs/block_C elapsed_seconds=3600 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:34:42.833374+03:00 RUNNING outputs/block_C elapsed_seconds=3630 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:35:12.834028+03:00 RUNNING outputs/block_C elapsed_seconds=3660 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:35:42.834759+03:00 RUNNING outputs/block_C elapsed_seconds=3690 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:36:12.835525+03:00 RUNNING outputs/block_C elapsed_seconds=3720 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:36:42.836024+03:00 RUNNING outputs/block_C elapsed_seconds=3750 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:37:12.836517+03:00 RUNNING outputs/block_C elapsed_seconds=3780 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:37:42.837205+03:00 RUNNING outputs/block_C elapsed_seconds=3810 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:38:12.839628+03:00 RUNNING outputs/block_C elapsed_seconds=3840 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:38:42.840377+03:00 RUNNING outputs/block_C elapsed_seconds=3870 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:39:12.841834+03:00 RUNNING outputs/block_C elapsed_seconds=3900 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:39:42.842278+03:00 RUNNING outputs/block_C elapsed_seconds=3930 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:40:12.842817+03:00 RUNNING outputs/block_C elapsed_seconds=3960 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:40:42.843276+03:00 RUNNING outputs/block_C elapsed_seconds=3990 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:41:12.843698+03:00 RUNNING outputs/block_C elapsed_seconds=4020 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:41:42.844281+03:00 RUNNING outputs/block_C elapsed_seconds=4050 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:42:12.844728+03:00 RUNNING outputs/block_C elapsed_seconds=4080 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:42:42.845092+03:00 RUNNING outputs/block_C elapsed_seconds=4110 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:43:12.845659+03:00 RUNNING outputs/block_C elapsed_seconds=4140 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:43:42.846132+03:00 RUNNING outputs/block_C elapsed_seconds=4170 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:44:12.846530+03:00 RUNNING outputs/block_C elapsed_seconds=4200 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:44:42.847226+03:00 RUNNING outputs/block_C elapsed_seconds=4230 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:45:12.848939+03:00 RUNNING outputs/block_C elapsed_seconds=4260 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:45:42.849380+03:00 RUNNING outputs/block_C elapsed_seconds=4290 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:46:12.849771+03:00 RUNNING outputs/block_C elapsed_seconds=4320 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:46:42.850175+03:00 RUNNING outputs/block_C elapsed_seconds=4350 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:47:12.850736+03:00 RUNNING outputs/block_C elapsed_seconds=4380 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:47:42.851362+03:00 RUNNING outputs/block_C elapsed_seconds=4410 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:48:12.851800+03:00 RUNNING outputs/block_C elapsed_seconds=4440 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:48:42.852180+03:00 RUNNING outputs/block_C elapsed_seconds=4470 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:49:12.852704+03:00 RUNNING outputs/block_C elapsed_seconds=4500 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:49:42.853097+03:00 RUNNING outputs/block_C elapsed_seconds=4530 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:50:12.853471+03:00 RUNNING outputs/block_C elapsed_seconds=4560 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:50:42.853990+03:00 RUNNING outputs/block_C elapsed_seconds=4590 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:51:12.854613+03:00 RUNNING outputs/block_C elapsed_seconds=4620 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:51:42.855071+03:00 RUNNING outputs/block_C elapsed_seconds=4650 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:52:12.855437+03:00 RUNNING outputs/block_C elapsed_seconds=4680 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:52:42.855847+03:00 RUNNING outputs/block_C elapsed_seconds=4710 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:53:12.856248+03:00 RUNNING outputs/block_C elapsed_seconds=4740 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:53:42.856897+03:00 RUNNING outputs/block_C elapsed_seconds=4770 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:54:12.857439+03:00 RUNNING outputs/block_C elapsed_seconds=4800 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:54:42.858044+03:00 RUNNING outputs/block_C elapsed_seconds=4830 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:55:12.858757+03:00 RUNNING outputs/block_C elapsed_seconds=4860 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:55:42.859210+03:00 RUNNING outputs/block_C elapsed_seconds=4890 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:56:12.859594+03:00 RUNNING outputs/block_C elapsed_seconds=4920 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:56:42.859984+03:00 RUNNING outputs/block_C elapsed_seconds=4950 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:57:12.860384+03:00 RUNNING outputs/block_C elapsed_seconds=4980 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:57:42.861234+03:00 RUNNING outputs/block_C elapsed_seconds=5010 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:58:12.861882+03:00 RUNNING outputs/block_C elapsed_seconds=5040 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:58:42.862315+03:00 RUNNING outputs/block_C elapsed_seconds=5070 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:59:12.862714+03:00 RUNNING outputs/block_C elapsed_seconds=5100 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T19:59:42.863322+03:00 RUNNING outputs/block_C elapsed_seconds=5130 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:00:12.890743+03:00 RUNNING outputs/block_C elapsed_seconds=5160 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:00:42.892775+03:00 RUNNING outputs/block_C elapsed_seconds=5190 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:01:12.893240+03:00 RUNNING outputs/block_C elapsed_seconds=5220 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:01:42.893773+03:00 RUNNING outputs/block_C elapsed_seconds=5250 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:02:12.894199+03:00 RUNNING outputs/block_C elapsed_seconds=5280 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:02:42.894621+03:00 RUNNING outputs/block_C elapsed_seconds=5310 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:03:12.895234+03:00 RUNNING outputs/block_C elapsed_seconds=5340 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:03:42.895977+03:00 RUNNING outputs/block_C elapsed_seconds=5370 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:04:12.896688+03:00 RUNNING outputs/block_C elapsed_seconds=5400 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:04:42.897237+03:00 RUNNING outputs/block_C elapsed_seconds=5430 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:05:12.897846+03:00 RUNNING outputs/block_C elapsed_seconds=5460 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:05:42.898316+03:00 RUNNING outputs/block_C elapsed_seconds=5490 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:06:12.898923+03:00 RUNNING outputs/block_C elapsed_seconds=5520 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:06:42.899570+03:00 RUNNING outputs/block_C elapsed_seconds=5550 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:07:12.900283+03:00 RUNNING outputs/block_C elapsed_seconds=5580 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:07:42.900667+03:00 RUNNING outputs/block_C elapsed_seconds=5610 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:08:12.901225+03:00 RUNNING outputs/block_C elapsed_seconds=5640 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:08:42.902047+03:00 RUNNING outputs/block_C elapsed_seconds=5670 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:09:12.902583+03:00 RUNNING outputs/block_C elapsed_seconds=5700 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:09:42.903121+03:00 RUNNING outputs/block_C elapsed_seconds=5730 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:10:12.904912+03:00 RUNNING outputs/block_C elapsed_seconds=5760 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:10:42.905350+03:00 RUNNING outputs/block_C elapsed_seconds=5790 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:11:12.905910+03:00 RUNNING outputs/block_C elapsed_seconds=5820 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:11:42.906640+03:00 RUNNING outputs/block_C elapsed_seconds=5850 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:12:12.907125+03:00 RUNNING outputs/block_C elapsed_seconds=5880 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:12:42.907508+03:00 RUNNING outputs/block_C elapsed_seconds=5910 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:13:12.907958+03:00 RUNNING outputs/block_C elapsed_seconds=5940 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:13:42.908477+03:00 RUNNING outputs/block_C elapsed_seconds=5970 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:14:12.909994+03:00 RUNNING outputs/block_C elapsed_seconds=6000 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:14:42.910382+03:00 RUNNING outputs/block_C elapsed_seconds=6030 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:15:12.911002+03:00 RUNNING outputs/block_C elapsed_seconds=6060 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:15:42.911494+03:00 RUNNING outputs/block_C elapsed_seconds=6090 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:16:12.911958+03:00 RUNNING outputs/block_C elapsed_seconds=6120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:16:42.912556+03:00 RUNNING outputs/block_C elapsed_seconds=6150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:17:12.932280+03:00 RUNNING outputs/block_C elapsed_seconds=6180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:17:42.932628+03:00 RUNNING outputs/block_C elapsed_seconds=6210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:18:12.933161+03:00 RUNNING outputs/block_C elapsed_seconds=6240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:18:42.933827+03:00 RUNNING outputs/block_C elapsed_seconds=6270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:19:12.934300+03:00 RUNNING outputs/block_C elapsed_seconds=6300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:19:42.934900+03:00 RUNNING outputs/block_C elapsed_seconds=6330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:20:12.935548+03:00 RUNNING outputs/block_C elapsed_seconds=6360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:20:42.936048+03:00 RUNNING outputs/block_C elapsed_seconds=6390 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:21:12.936433+03:00 RUNNING outputs/block_C elapsed_seconds=6420 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:21:42.936793+03:00 RUNNING outputs/block_C elapsed_seconds=6450 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:22:12.937251+03:00 RUNNING outputs/block_C elapsed_seconds=6480 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:22:42.937799+03:00 RUNNING outputs/block_C elapsed_seconds=6510 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:23:12.938545+03:00 RUNNING outputs/block_C elapsed_seconds=6540 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:23:42.939171+03:00 RUNNING outputs/block_C elapsed_seconds=6570 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:24:12.939601+03:00 RUNNING outputs/block_C elapsed_seconds=6600 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:24:42.940135+03:00 RUNNING outputs/block_C elapsed_seconds=6630 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:25:12.940812+03:00 RUNNING outputs/block_C elapsed_seconds=6660 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:25:42.941283+03:00 RUNNING outputs/block_C elapsed_seconds=6690 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:26:12.941635+03:00 RUNNING outputs/block_C elapsed_seconds=6720 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:26:42.942214+03:00 RUNNING outputs/block_C elapsed_seconds=6750 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:27:12.942785+03:00 RUNNING outputs/block_C elapsed_seconds=6780 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:27:42.943473+03:00 RUNNING outputs/block_C elapsed_seconds=6810 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:28:12.943979+03:00 RUNNING outputs/block_C elapsed_seconds=6840 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:28:42.944583+03:00 RUNNING outputs/block_C elapsed_seconds=6870 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:29:12.945031+03:00 RUNNING outputs/block_C elapsed_seconds=6900 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:29:42.945395+03:00 RUNNING outputs/block_C elapsed_seconds=6930 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:30:12.946060+03:00 RUNNING outputs/block_C elapsed_seconds=6960 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:30:42.946809+03:00 RUNNING outputs/block_C elapsed_seconds=6990 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:31:12.947255+03:00 RUNNING outputs/block_C elapsed_seconds=7020 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:31:42.947892+03:00 RUNNING outputs/block_C elapsed_seconds=7050 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:32:12.948494+03:00 RUNNING outputs/block_C elapsed_seconds=7080 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:32:42.948935+03:00 RUNNING outputs/block_C elapsed_seconds=7110 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:33:12.949306+03:00 RUNNING outputs/block_C elapsed_seconds=7140 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:33:42.949945+03:00 RUNNING outputs/block_C elapsed_seconds=7170 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:34:12.950657+03:00 RUNNING outputs/block_C elapsed_seconds=7200 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:34:42.951398+03:00 RUNNING outputs/block_C elapsed_seconds=7230 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:35:12.951804+03:00 RUNNING outputs/block_C elapsed_seconds=7260 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:35:42.952337+03:00 RUNNING outputs/block_C elapsed_seconds=7290 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:36:12.952839+03:00 RUNNING outputs/block_C elapsed_seconds=7320 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:36:42.953551+03:00 RUNNING outputs/block_C elapsed_seconds=7350 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:37:12.954154+03:00 RUNNING outputs/block_C elapsed_seconds=7380 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:37:42.954843+03:00 RUNNING outputs/block_C elapsed_seconds=7410 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:38:12.955303+03:00 RUNNING outputs/block_C elapsed_seconds=7440 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:38:42.955846+03:00 RUNNING outputs/block_C elapsed_seconds=7470 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:39:12.956497+03:00 RUNNING outputs/block_C elapsed_seconds=7500 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:39:42.956885+03:00 RUNNING outputs/block_C elapsed_seconds=7530 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:40:12.957552+03:00 RUNNING outputs/block_C elapsed_seconds=7560 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:40:42.958286+03:00 RUNNING outputs/block_C elapsed_seconds=7590 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:41:12.959048+03:00 RUNNING outputs/block_C elapsed_seconds=7620 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:41:42.959525+03:00 RUNNING outputs/block_C elapsed_seconds=7650 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:42:12.959962+03:00 RUNNING outputs/block_C elapsed_seconds=7680 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:42:42.960685+03:00 RUNNING outputs/block_C elapsed_seconds=7710 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:43:12.961202+03:00 RUNNING outputs/block_C elapsed_seconds=7740 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:43:42.961597+03:00 RUNNING outputs/block_C elapsed_seconds=7770 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:44:12.962296+03:00 RUNNING outputs/block_C elapsed_seconds=7800 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:44:42.962836+03:00 RUNNING outputs/block_C elapsed_seconds=7830 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:45:12.963240+03:00 RUNNING outputs/block_C elapsed_seconds=7860 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:45:42.963637+03:00 RUNNING outputs/block_C elapsed_seconds=7890 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:46:12.964085+03:00 RUNNING outputs/block_C elapsed_seconds=7920 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:46:42.964463+03:00 RUNNING outputs/block_C elapsed_seconds=7950 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:47:12.965058+03:00 RUNNING outputs/block_C elapsed_seconds=7980 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:47:42.965664+03:00 RUNNING outputs/block_C elapsed_seconds=8010 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:48:12.966073+03:00 RUNNING outputs/block_C elapsed_seconds=8040 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:48:42.966636+03:00 RUNNING outputs/block_C elapsed_seconds=8070 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:49:12.967219+03:00 RUNNING outputs/block_C elapsed_seconds=8100 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:49:42.967654+03:00 RUNNING outputs/block_C elapsed_seconds=8130 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:50:12.968370+03:00 RUNNING outputs/block_C elapsed_seconds=8160 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:50:42.969067+03:00 RUNNING outputs/block_C elapsed_seconds=8190 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:51:12.969545+03:00 RUNNING outputs/block_C elapsed_seconds=8220 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:51:42.969935+03:00 RUNNING outputs/block_C elapsed_seconds=8250 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:52:12.970490+03:00 RUNNING outputs/block_C elapsed_seconds=8280 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:52:42.971030+03:00 RUNNING outputs/block_C elapsed_seconds=8310 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:53:12.971498+03:00 RUNNING outputs/block_C elapsed_seconds=8340 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:53:42.971975+03:00 RUNNING outputs/block_C elapsed_seconds=8370 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:54:12.972760+03:00 RUNNING outputs/block_C elapsed_seconds=8400 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:54:42.973508+03:00 RUNNING outputs/block_C elapsed_seconds=8430 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:55:12.974011+03:00 RUNNING outputs/block_C elapsed_seconds=8460 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:55:42.974709+03:00 RUNNING outputs/block_C elapsed_seconds=8490 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:56:12.975525+03:00 RUNNING outputs/block_C elapsed_seconds=8520 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:56:42.976001+03:00 RUNNING outputs/block_C elapsed_seconds=8550 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:57:12.976502+03:00 RUNNING outputs/block_C elapsed_seconds=8580 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:57:42.976902+03:00 RUNNING outputs/block_C elapsed_seconds=8610 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:58:12.977527+03:00 RUNNING outputs/block_C elapsed_seconds=8640 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:58:42.978003+03:00 RUNNING outputs/block_C elapsed_seconds=8670 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:59:12.978590+03:00 RUNNING outputs/block_C elapsed_seconds=8700 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T20:59:42.979190+03:00 RUNNING outputs/block_C elapsed_seconds=8730 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:00:12.979820+03:00 RUNNING outputs/block_C elapsed_seconds=8760 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:00:42.980241+03:00 RUNNING outputs/block_C elapsed_seconds=8790 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:01:12.980848+03:00 RUNNING outputs/block_C elapsed_seconds=8820 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:01:42.981317+03:00 RUNNING outputs/block_C elapsed_seconds=8850 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:02:12.981718+03:00 RUNNING outputs/block_C elapsed_seconds=8880 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:02:42.982175+03:00 RUNNING outputs/block_C elapsed_seconds=8910 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:03:12.982851+03:00 RUNNING outputs/block_C elapsed_seconds=8940 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:03:42.983622+03:00 RUNNING outputs/block_C elapsed_seconds=8970 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:04:12.984127+03:00 RUNNING outputs/block_C elapsed_seconds=9000 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:04:42.984835+03:00 RUNNING outputs/block_C elapsed_seconds=9030 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:05:12.985430+03:00 RUNNING outputs/block_C elapsed_seconds=9060 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:05:42.986135+03:00 RUNNING outputs/block_C elapsed_seconds=9090 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:06:12.986623+03:00 RUNNING outputs/block_C elapsed_seconds=9120 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:06:42.987230+03:00 RUNNING outputs/block_C elapsed_seconds=9150 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:07:12.987877+03:00 RUNNING outputs/block_C elapsed_seconds=9180 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:07:42.988577+03:00 RUNNING outputs/block_C elapsed_seconds=9210 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:08:12.989149+03:00 RUNNING outputs/block_C elapsed_seconds=9240 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:08:42.989572+03:00 RUNNING outputs/block_C elapsed_seconds=9270 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:09:12.989924+03:00 RUNNING outputs/block_C elapsed_seconds=9300 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:09:42.990276+03:00 RUNNING outputs/block_C elapsed_seconds=9330 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:10:12.990910+03:00 RUNNING outputs/block_C elapsed_seconds=9360 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:10:42.991634+03:00 RUNNING outputs/block_C elapsed_seconds=9390 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:11:12.992130+03:00 RUNNING outputs/block_C elapsed_seconds=9420 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:11:42.992535+03:00 RUNNING outputs/block_C elapsed_seconds=9450 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:12:12.993086+03:00 RUNNING outputs/block_C elapsed_seconds=9480 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:12:42.993810+03:00 RUNNING outputs/block_C elapsed_seconds=9510 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:13:12.994233+03:00 RUNNING outputs/block_C elapsed_seconds=9540 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:13:42.994614+03:00 RUNNING outputs/block_C elapsed_seconds=9570 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:14:12.995231+03:00 RUNNING outputs/block_C elapsed_seconds=9600 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:14:42.995979+03:00 RUNNING outputs/block_C elapsed_seconds=9630 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:15:12.996575+03:00 RUNNING outputs/block_C elapsed_seconds=9660 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:15:42.996996+03:00 RUNNING outputs/block_C elapsed_seconds=9690 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:16:12.997649+03:00 RUNNING outputs/block_C elapsed_seconds=9720 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:16:42.998090+03:00 RUNNING outputs/block_C elapsed_seconds=9750 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:17:12.998484+03:00 RUNNING outputs/block_C elapsed_seconds=9780 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:17:42.999140+03:00 RUNNING outputs/block_C elapsed_seconds=9810 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:18:12.999619+03:00 RUNNING outputs/block_C elapsed_seconds=9840 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:18:43.000227+03:00 RUNNING outputs/block_C elapsed_seconds=9870 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:19:13.002762+03:00 RUNNING outputs/block_C elapsed_seconds=9900 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:19:43.003189+03:00 RUNNING outputs/block_C elapsed_seconds=9930 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:20:13.003577+03:00 RUNNING outputs/block_C elapsed_seconds=9960 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:20:43.004111+03:00 RUNNING outputs/block_C elapsed_seconds=9990 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:21:13.004739+03:00 RUNNING outputs/block_C elapsed_seconds=10020 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:21:43.005384+03:00 RUNNING outputs/block_C elapsed_seconds=10050 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:22:13.006052+03:00 RUNNING outputs/block_C elapsed_seconds=10080 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:22:43.006805+03:00 RUNNING outputs/block_C elapsed_seconds=10110 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:23:13.007439+03:00 RUNNING outputs/block_C elapsed_seconds=10140 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:23:43.007937+03:00 RUNNING outputs/block_C elapsed_seconds=10170 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:24:13.008450+03:00 RUNNING outputs/block_C elapsed_seconds=10200 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:24:43.009122+03:00 RUNNING outputs/block_C elapsed_seconds=10230 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:25:13.009655+03:00 RUNNING outputs/block_C elapsed_seconds=10260 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:25:43.010244+03:00 RUNNING outputs/block_C elapsed_seconds=10290 persisted_response_lines=0/100
+HW3_PROGRESS 2026-11-24T21:26:13.010677+03:00 RUNNING outputs/block_C elapsed_seconds=10320 persisted_response_lines=0/100
+{
+  "arm": "C",
+  "users": 100,
+  "invalid_outputs": 0,
+  "arm_D_profile_unavailable_users": null,
+  "protocol_hash": "e126569ce481716d7039c495e2c7fedbbbe552e308b819b84c4be87b0eb5fe8d",
+  "cutoff": "2021-06-01",
+  "generation": {
+    "do_sample": false,
+    "seed": 0,
+    "summary_max_new_tokens": 120,
+    "rank_max_new_tokens": 60
+  },
+  "wall_seconds_whole_arm": 10314.4,
+  "hardware": {
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "processor": "",
+    "python": "3.14.4"
+  },
+  "backend": "hf",
+  "model": "Qwen/Qwen3-1.7B",
+  "requested_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "resolved_commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.float32",
+  "torch": "2.11.0+cpu",
+  "transformers": "4.57.6"
+}
+HW3_PROGRESS 2026-11-24T21:26:29.635316+03:00 FINISH outputs/block_C exit_code=0
+HW3_PROGRESS 2026-11-24T21:26:29.635508+03:00 COMPLETE both block runs finished sequentially

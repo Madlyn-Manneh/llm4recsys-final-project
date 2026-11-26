@@ -1,0 +1,230 @@
+{
+  "protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "methods": {
+    "cbf": {
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "empty_truth_users": 176,
+      "ndcg_at_10": 0.030466939236571653,
+      "ndcg_at_10_nonempty": 0.2538911603047638
+    },
+    "custom": {
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "empty_truth_users": 176,
+      "ndcg_at_10": 0.030614440156381453,
+      "ndcg_at_10_nonempty": 0.2551203346365121
+    },
+    "latest_buy": {
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "empty_truth_users": 176,
+      "ndcg_at_10": 0.047355460909287696,
+      "ndcg_at_10_nonempty": 0.3946288409107308
+    },
+    "latest_buy_or_sell": {
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "empty_truth_users": 176,
+      "ndcg_at_10": 0.04840065705598689,
+      "ndcg_at_10_nonempty": 0.40333880879989076
+    },
+    "popularity": {
+      "users": 200,
+      "nonempty_truth_users": 24,
+      "empty_truth_users": 176,
+      "ndcg_at_10": 0.03422547732486048,
+      "ndcg_at_10_nonempty": 0.285212311040504
+    }
+  },
+  "custom_failures": [
+    {
+      "user_id": "956E17732E5CBE2ADBFF",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "55F5F212E8755BD7E6A6",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "1DEC54DA40D00EADE5C2",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "7A49933DF36A6581F05A",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "6BAA2D5FBCCEAB57C473",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "94A16DE0F59F24BB77C2",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "AD0D12E898599A4A386D",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "6FA5BF73C309CE8E9ED5",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "29C0592F254DB2430C00",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "0E72D1BF99E858EEE1AA",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "D63DFAE7E53493A5ADD5",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "0C758932172B6FCDFD87",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "972F29378E5CA46859D4",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "5087D23F907F90F3DDD1",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "D55495B39FE52F57F966",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "41B818F03A1E1673E78E",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "8A220D47B1644E4FD349",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "D169F8F0FA1A122ED442",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "04671739FA21EB112C07",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "688CAFDBC409602876B0",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "5180B50A10AAD1C7D0F8",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "0F275A69F2B1B6FE8F04",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "CD334A40C83713CCBA40",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "BB13CF54D30F93075EFF",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "7C47A9688FCAF09968BA",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "A558F4F32433ECFF9217",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "D69BC7F3B5CBB4945982",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "0941743EB21E7203E198",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "C74B98A995DEF6B76396",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "42DD1D76D74555926931",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "3D572B4F6A4E9682A51F",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "1511017B5B27FAA78FD9",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "CCC31AAC91FBFD8D36F7",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "D1DF5066D6AC0F030750",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "E85E009E538F05FD9C73",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "5FE6E83FC71E59A8FF81",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "571ECC99E54EE2B04CA0",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "441192A29AB375DD6C0C",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "597FB1D8B276ECE017C9",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "485DBB6BD5C905BDA1C2",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "40AEFC373A627B62F035",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "B077B5799B31AC88C565",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "147103A29F329FBCF97F",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "A6E12D78674F0A731C4F",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "A89930E3D8B8076E5456",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    },
+    {
+      "user_id": "08FA063AC3EFF075A471",
+      "error": "Ranker must return ten unique IDs from its candidate list"
+    }
+  ],
+  "excluded_rows": {
+    "reconstructed_initial_position_rows": 38019
+  },
+  "note": "Offline purchase relevance, not profitability or asset suitability."
+}

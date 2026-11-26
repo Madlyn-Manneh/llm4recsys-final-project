@@ -1,0 +1,5 @@
+HW3_PROGRESS 2026-11-22T19:26:55.591484+03:00 START outputs/arm_A_101_200 expected_users=100
+HW3_PROGRESS 2026-11-22T19:26:55.592007+03:00 RUNNING outputs/arm_A_101_200 model_pid=74581
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/usr/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-f8wcn4_g'}
+  warnings.warn(

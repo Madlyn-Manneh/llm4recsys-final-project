@@ -1,0 +1,161 @@
+{
+  "label": "benchmark-method selection on fresh block 301\u2013400; not used for HW3 conclusions",
+  "users": 100,
+  "starter_positions": [
+    301,
+    400
+  ],
+  "nonempty_truth_users": 13,
+  "plan_sha256": "8364b5f311bdf8a842734eabd6ca5805c10be9623ce01b4a94c64bf26b5d43d4",
+  "original_protocol_hash": "6030d7f4a7b175bce50b0e2a6f90dd6eb2a64df5fbc69827b5ac5f1ab64a3764",
+  "all_eligible_protocol_hash": "2c853ad4321226a168b57c29e31220934fcb407442b1be0764fc08d65ace976a",
+  "eligible_assets": 767,
+  "checks": {
+    "same_users_order": true,
+    "first50_same_order": true,
+    "baselines_identical": true,
+    "all_eligible": true
+  },
+  "rules": {
+    "B1": "unchanged repeat_first V2 using pre-cutoff Buy counts",
+    "B2": "previously BOUGHT eligible assets only; most recent pre-cutoff Buy-or-Sell date; ties: higher Buy count, then A order, then CBF order; remaining slots in A order"
+  },
+  "source_model_fallbacks": 1,
+  "methods": {
+    "Latest buy or sell": {
+      "ndcg_at_10_all": 0.04625005862431168,
+      "ndcg_at_10_nonempty": 0.35576968172547446,
+      "nonempty_truth_users": 13,
+      "fallbacks": 0,
+      "seconds_per_user": null
+    },
+    "Latest buy": {
+      "ndcg_at_10_all": 0.04844675168523063,
+      "ndcg_at_10_nonempty": 0.37266732065562025,
+      "nonempty_truth_users": 13,
+      "fallbacks": 0,
+      "seconds_per_user": null
+    },
+    "Popularity": {
+      "ndcg_at_10_all": 0.044911713662132584,
+      "ndcg_at_10_nonempty": 0.345474720477943,
+      "nonempty_truth_users": 13,
+      "fallbacks": 0,
+      "seconds_per_user": null
+    },
+    "CBF": {
+      "ndcg_at_10_all": 0.03387411012077117,
+      "ndcg_at_10_nonempty": 0.26057007785208597,
+      "nonempty_truth_users": 13,
+      "fallbacks": 0,
+      "seconds_per_user": null
+    },
+    "A": {
+      "ndcg_at_10_all": 0.03387411012077117,
+      "ndcg_at_10_nonempty": 0.26057007785208597,
+      "nonempty_truth_users": 13,
+      "fallbacks": 1,
+      "seconds_per_user": 69.954
+    },
+    "B1": {
+      "ndcg_at_10_all": 0.047823639375634615,
+      "ndcg_at_10_nonempty": 0.3678741490433432,
+      "nonempty_truth_users": 13,
+      "fallbacks": 0,
+      "seconds_per_user": null
+    },
+    "B2": {
+      "ndcg_at_10_all": 0.043095409856454395,
+      "ndcg_at_10_nonempty": 0.33150315274195685,
+      "nonempty_truth_users": 13,
+      "fallbacks": 0,
+      "seconds_per_user": null
+    }
+  },
+  "pairs": {
+    "B2 - B1": {
+      "mean_difference_all_100": -0.004728229519180223,
+      "bootstrap_95_ci": [
+        -0.02159900124356101,
+        0.009179930622382749
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 4,
+        "ties": 5,
+        "losses": 4,
+        "sign_test_p": 1.0
+      }
+    },
+    "B1 - Latest buy or sell": {
+      "mean_difference_all_100": 0.001573580751322935,
+      "bootstrap_95_ci": [
+        -0.014243498359745387,
+        0.019795794294178624
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 4,
+        "ties": 4,
+        "losses": 5,
+        "sign_test_p": 1.0
+      }
+    },
+    "B2 - Latest buy or sell": {
+      "mean_difference_all_100": -0.0031546487678572877,
+      "bootstrap_95_ci": [
+        -0.009463946303571863,
+        0.0
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 0,
+        "ties": 12,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "B1 - A": {
+      "mean_difference_all_100": 0.013949529254863448,
+      "bootstrap_95_ci": [
+        -0.004055002169756984,
+        0.039057557503378436
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 5,
+        "ties": 6,
+        "losses": 2,
+        "sign_test_p": 0.453125
+      }
+    }
+  },
+  "statistical_conventions": {
+    "bootstrap": "10000 paired resamples of all 100 users, Python random.Random(0) reset for each pair; percentile CI with linear interpolation",
+    "wins_ties_losses": "nonempty users only; exact score equality for ties",
+    "sign_test": "exact two-sided binomial p=0.5 over non-tied users",
+    "empty_truth_policy": "zero in primary mean"
+  },
+  "selection": {
+    "selected_variant": "B1",
+    "criterion": "higher all-100 mean nDCG@10; tie \u2192 B1",
+    "B1_ndcg_at_10": 0.047823639375634615,
+    "B2_ndcg_at_10": 0.043095409856454395,
+    "exact_tie": false
+  },
+  "source_sha256": {
+    "BENCH_PLAN_301_400.md": "8364b5f311bdf8a842734eabd6ca5805c10be9623ce01b4a94c64bf26b5d43d4",
+    "outputs/block3_A/responses.jsonl": "d74c43651504d7ce158f820e27b077970c23e37b0700478ef0a4e05aba59e6d5",
+    "outputs/block3_A/run_meta.json": "513d409159303a4449548f4fa272561f5bac0bd27314772e4729d0df410a5db2",
+    "outputs/block3_A/run_provenance.json": "b0f3be63354290bedb7e5badd2b72fccf5eb804ee799decef2b3a435739237ed",
+    "outputs/block_301_400/protocol.json": "025c4f34d5d406fb400d66d521b7ce2fdad3be68a9b4929088fad13b19f0c073",
+    "outputs/block_301_400/contexts.jsonl": "4dea22ef4caaade750536a0cee7fae69f0486081729e9e308458b6d36b0f7d0e",
+    "outputs/all_cand_block3_100/protocol.json": "0873fd2a455adb475c79353744d151da3d51d350b3034c7303336fb9ac94c5f2",
+    "outputs/all_cand_block3_100/contexts.jsonl": "ce7a6ebd5ccd07ad093e1a10991c86de12e17bf2cbf02f9e7732f2dbc4c1b052",
+    "scripts/hw3_repeat_first.py": "e1401a71475dcd50c0db56f01284f0086e76a6d12f1e0d9846c1a088a067c437",
+    "starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24"
+  },
+  "derived_response_sha256": {
+    "A": "91b4fcfd8870a4f634d689f1fbf2e8cd6a7ef74a2eb2e22ac4f2a7a12dda5ef7",
+    "B1": "e826b8c297bf38888790579e740cd5f6790ca33a54cac1762501b16ec21c3920",
+    "B2": "5a2ff8ec0886932b499b1e319ec87568682b66ade2dc6ffec6b8745eb6f9ac03"
+  },
+  "analysis_script_sha256": "4c9616a7e835db09dad2292a9fa2a2e54b0b03bfe5549b54e1f941ae0c6b7922",
+  "protected_existing_files_checked_unchanged": 448
+}

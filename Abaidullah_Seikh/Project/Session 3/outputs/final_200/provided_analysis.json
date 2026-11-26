@@ -1,0 +1,404 @@
+{
+  "label": "development results",
+  "users": 200,
+  "nonempty_truth_users": 24,
+  "protocol_hash": "d46b45deaf2c2f955c52fa020082971947d5ac8e27073a90d1c5384f648af697",
+  "provided_own_metrics_match": true,
+  "pairs": {
+    "P - CBF": {
+      "mean_difference_all_200": 0.00014750091980979984,
+      "bootstrap_95_ci": [
+        -0.001963946303571863,
+        0.0024064490630012624
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 1,
+        "ties": 22,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "P - A": {
+      "mean_difference_all_200": 0.00044406605281835485,
+      "bootstrap_95_ci": [
+        -0.00026400050467840884,
+        0.0013815817058396432
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 21,
+        "losses": 1,
+        "sign_test_p": 1.0
+      }
+    },
+    "P - C": {
+      "mean_difference_all_200": 0.0023853745697584314,
+      "bootstrap_95_ci": [
+        -0.0037416826492292178,
+        0.009452756322000232
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 3,
+        "ties": 18,
+        "losses": 3,
+        "sign_test_p": 1.0
+      }
+    },
+    "P - C+R": {
+      "mean_difference_all_200": -0.008011899331707203,
+      "bootstrap_95_ci": [
+        -0.016926569075418108,
+        -5.212286140076636e-05
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 2,
+        "ties": 14,
+        "losses": 8,
+        "sign_test_p": 0.109375
+      }
+    },
+    "P - Latest buy or sell": {
+      "mean_difference_all_200": -0.01778621689960543,
+      "bootstrap_95_ci": [
+        -0.03676757250205194,
+        -0.0008381420698875757
+      ],
+      "nonempty_wins_ties_losses": {
+        "wins": 6,
+        "ties": 5,
+        "losses": 13,
+        "sign_test_p": 0.1670684814453125
+      }
+    }
+  },
+  "statistical_conventions": {
+    "bootstrap": "10000 paired resamples of all 200 users; Python random.Random(0) reset for each pair; percentile CI with linear interpolation",
+    "sign_test": "exact two-sided binomial p=0.5 over non-tied users",
+    "wins_ties_losses": "24 nonempty users; exact score equality for ties"
+  },
+  "P_hit_users": 14,
+  "P_total_hits_top10": 17,
+  "P_copying": {
+    "same_order": 48,
+    "same_set_including_same_order": 50,
+    "same_set_different_order": 2,
+    "mean_overlap_out_of_10": 5.565
+  },
+  "P_invalid": {
+    "count": 46,
+    "positions": [
+      9,
+      13,
+      21,
+      23,
+      31,
+      39,
+      44,
+      45,
+      48,
+      49,
+      56,
+      58,
+      61,
+      69,
+      70,
+      71,
+      72,
+      75,
+      79,
+      91,
+      94,
+      95,
+      100,
+      107,
+      117,
+      123,
+      127,
+      129,
+      130,
+      132,
+      135,
+      136,
+      140,
+      141,
+      148,
+      151,
+      159,
+      162,
+      164,
+      169,
+      176,
+      180,
+      186,
+      194,
+      198,
+      200
+    ],
+    "nonempty_truth_by_position": [
+      {
+        "position": 9,
+        "nonempty_truth": false
+      },
+      {
+        "position": 13,
+        "nonempty_truth": false
+      },
+      {
+        "position": 21,
+        "nonempty_truth": false
+      },
+      {
+        "position": 23,
+        "nonempty_truth": false
+      },
+      {
+        "position": 31,
+        "nonempty_truth": true
+      },
+      {
+        "position": 39,
+        "nonempty_truth": true
+      },
+      {
+        "position": 44,
+        "nonempty_truth": false
+      },
+      {
+        "position": 45,
+        "nonempty_truth": true
+      },
+      {
+        "position": 48,
+        "nonempty_truth": true
+      },
+      {
+        "position": 49,
+        "nonempty_truth": true
+      },
+      {
+        "position": 56,
+        "nonempty_truth": true
+      },
+      {
+        "position": 58,
+        "nonempty_truth": false
+      },
+      {
+        "position": 61,
+        "nonempty_truth": false
+      },
+      {
+        "position": 69,
+        "nonempty_truth": true
+      },
+      {
+        "position": 70,
+        "nonempty_truth": false
+      },
+      {
+        "position": 71,
+        "nonempty_truth": false
+      },
+      {
+        "position": 72,
+        "nonempty_truth": true
+      },
+      {
+        "position": 75,
+        "nonempty_truth": false
+      },
+      {
+        "position": 79,
+        "nonempty_truth": false
+      },
+      {
+        "position": 91,
+        "nonempty_truth": false
+      },
+      {
+        "position": 94,
+        "nonempty_truth": true
+      },
+      {
+        "position": 95,
+        "nonempty_truth": false
+      },
+      {
+        "position": 100,
+        "nonempty_truth": false
+      },
+      {
+        "position": 107,
+        "nonempty_truth": false
+      },
+      {
+        "position": 117,
+        "nonempty_truth": true
+      },
+      {
+        "position": 123,
+        "nonempty_truth": false
+      },
+      {
+        "position": 127,
+        "nonempty_truth": true
+      },
+      {
+        "position": 129,
+        "nonempty_truth": false
+      },
+      {
+        "position": 130,
+        "nonempty_truth": false
+      },
+      {
+        "position": 132,
+        "nonempty_truth": false
+      },
+      {
+        "position": 135,
+        "nonempty_truth": true
+      },
+      {
+        "position": 136,
+        "nonempty_truth": false
+      },
+      {
+        "position": 140,
+        "nonempty_truth": true
+      },
+      {
+        "position": 141,
+        "nonempty_truth": false
+      },
+      {
+        "position": 148,
+        "nonempty_truth": true
+      },
+      {
+        "position": 151,
+        "nonempty_truth": false
+      },
+      {
+        "position": 159,
+        "nonempty_truth": false
+      },
+      {
+        "position": 162,
+        "nonempty_truth": false
+      },
+      {
+        "position": 164,
+        "nonempty_truth": true
+      },
+      {
+        "position": 169,
+        "nonempty_truth": false
+      },
+      {
+        "position": 176,
+        "nonempty_truth": true
+      },
+      {
+        "position": 180,
+        "nonempty_truth": false
+      },
+      {
+        "position": 186,
+        "nonempty_truth": false
+      },
+      {
+        "position": 194,
+        "nonempty_truth": true
+      },
+      {
+        "position": 198,
+        "nonempty_truth": true
+      },
+      {
+        "position": 200,
+        "nonempty_truth": false
+      }
+    ]
+  },
+  "P_wall_seconds": 46877.564474,
+  "P_seconds_per_user": 234.38782236999998,
+  "P_device": "cpu",
+  "timing_scope": "A is combined HW2-first100 and HW3-second100 generation-loop time /200; C is generation-loop time /200; C+R and A+R show the source model component only, rule overhead unmeasured. P is full command-wall time including loading/preparation/scoring. These timing scopes differ.",
+  "methods": {
+    "Latest buy or sell": {
+      "ndcg_at_10_all": 0.04840065705598689,
+      "ndcg_at_10_nonempty": 0.40333880879989076,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "Latest buy": {
+      "ndcg_at_10_all": 0.047355460909287696,
+      "ndcg_at_10_nonempty": 0.3946288409107308,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "Popularity": {
+      "ndcg_at_10_all": 0.03422547732486048,
+      "ndcg_at_10_nonempty": 0.285212311040504,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "CBF": {
+      "ndcg_at_10_all": 0.030466939236571653,
+      "ndcg_at_10_nonempty": 0.2538911603047638,
+      "fallbacks": 0,
+      "seconds_per_user": null,
+      "rule_overhead_unmeasured": false
+    },
+    "A": {
+      "ndcg_at_10_all": 0.0301703741035631,
+      "ndcg_at_10_nonempty": 0.2514197841963592,
+      "fallbacks": 1,
+      "seconds_per_user": 68.066,
+      "rule_overhead_unmeasured": false
+    },
+    "C": {
+      "ndcg_at_10_all": 0.028229065586623022,
+      "ndcg_at_10_nonempty": 0.23524221322185854,
+      "fallbacks": 0,
+      "seconds_per_user": 104.8285,
+      "rule_overhead_unmeasured": false
+    },
+    "C+R": {
+      "ndcg_at_10_all": 0.03862633948808866,
+      "ndcg_at_10_nonempty": 0.3218861624007388,
+      "fallbacks": 0,
+      "seconds_per_user": 104.8285,
+      "rule_overhead_unmeasured": true
+    },
+    "A+R": {
+      "ndcg_at_10_all": 0.0363745644939332,
+      "ndcg_at_10_nonempty": 0.3031213707827766,
+      "fallbacks": 1,
+      "seconds_per_user": 68.066,
+      "rule_overhead_unmeasured": true
+    },
+    "P": {
+      "ndcg_at_10_all": 0.030614440156381453,
+      "ndcg_at_10_nonempty": 0.2551203346365121,
+      "fallbacks": 46,
+      "seconds_per_user": 234.38782236999998,
+      "rule_overhead_unmeasured": false
+    }
+  },
+  "source_sha256": {
+    "outputs/provided_llm_200/final_responses.jsonl": "1c96b4011042a8b8d1e53a63c9cee8cae1130bed2930571f48c26d3b9f63e83c",
+    "outputs/provided_llm_200/predictions.csv": "b97a21aedc97322597abef3d9a16bbb70be6a6485be1ebb273129822d898a443",
+    "outputs/provided_llm_200/metrics.json": "822317d64dd7efe6a31e3bdb1e5e4ce6eeb6950a197a8fd95ee94c0214f3ddcd",
+    "outputs/provided_llm_200/run_manifest.json": "478a2303c7f190f85ca2df28dfbb91a7ba2ffe7dd72cff8d1b0d8f8ce6672edd",
+    "outputs/provided_llm_200/run_provenance.json": "c7dafbbe909a10695955e96ca0ce931d22a4806adf763ba98f1e3823e874ce75",
+    "outputs/final_200/repeat_first.json": "c0f69705ff03269f1cccd6ba0a7f2c1c9a15bae8c2c0c817bb5ffa8a5fc0c5d1",
+    "scripts/hw3_repeat_first.py": "e1401a71475dcd50c0db56f01284f0086e76a6d12f1e0d9846c1a088a067c437"
+  },
+  "analysis_script_sha256": "ce8d073b57854e405661fc9e5fb9cbf9cfd71f5fc57748de545be32836c53a53",
+  "protected_existing_files_checked_unchanged": 281
+}
